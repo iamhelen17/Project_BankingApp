@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.bagonationalbank.app.dao.CustomerCrudDAO"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.bagonationalbank.app.model.Customer"/>
+    <fullyQualifiedTypeName name="com.bagonationalbank.app.model.Transactions"/>
+    <fullyQualifiedTypeName name="com.bagonationalbank.app.service.BankingOperations"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+    <fullyQualifiedTypeName name="com.bagonationalbank.app.main.ConsoleMenuMain"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="com.bagonationalbank.app.model.Account"/>
+    <fullyQualifiedTypeName name="com.bagonationalbank.app.service.BankingOperationsService"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="com.bagonationalbank.app.dao.dbutil.PostgresqlConnection"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.utils.Log"/>
+    <fullyQualifiedTypeName name="com.bagonationalbank.app.dao.impl.BankingOperationsDAOImpl"/>
+    <fullyQualifiedTypeName name="com.bagonationalbank.app.dao.BankingOperationsDAO"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.bagonationalbank.app.exception.BusinessException"/>
+</qualifiedTypeNameHistroy>

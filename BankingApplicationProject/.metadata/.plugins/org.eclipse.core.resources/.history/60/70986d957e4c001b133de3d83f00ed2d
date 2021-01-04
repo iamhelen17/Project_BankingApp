@@ -1,0 +1,9 @@
+package com.bagonationalbank.app.model;
+
+public class UserName {
+
+	private int userNameId;
+	private String UserName;
+	private Customer customer;
+	private Employee employee;
+}

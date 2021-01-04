@@ -1,0 +1,21 @@
+package com.bagonationalbank.app.model;
+
+import java.util.ArrayList;
+import java.util.Date;
+
+public class Employee {
+
+	private int id;  //id number of employee
+	private String firstName;
+	private String lastName;
+	private String gender;
+	private Date dob;
+	private String address;
+	private String phoneNumber;
+	private String email;
+	private Date dateHired;
+	private UserName UserName;
+	private Pin pin;
+	private ArrayList<Customer> customers;
+	private ArrayList<Account> accounts; //list of customer accounts
+}

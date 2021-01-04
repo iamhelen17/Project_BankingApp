@@ -1,0 +1,21 @@
+package com.bagonationalbank.app.dao;
+
+import java.util.List;
+
+import com.bagonationalbank.app.model.Account;
+import com.bagonationalbank.app.model.Customer;
+import com.bagonationalbank.app.model.Transactions;
+
+public interface BankingOperationsDAO {
+
+	public String createNewAccount();
+	public Customer logIn(Customer customer);
+	public double viewBalance();
+	public double withdrawFunds();
+	public double depositFunds();
+	public double transferFunds();
+	public List<Customer> getAllCustomers();
+	public List<Account> getAllAccounts();
+	public List<Transactions> getAllTransactions();
+	
+}

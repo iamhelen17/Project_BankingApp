@@ -1,0 +1,17 @@
+package com.bagonationalbank.app.model;
+
+import java.util.ArrayList;
+import java.util.Date;
+
+public class Account {
+
+	private int accountId;
+	private String type;  //checking or saving
+	private double balance;
+	private Date openedDate;
+	private Date closedDate;
+	private String status;
+	private String approvedBy;
+	private Customer customer;
+	private ArrayList<Transactions> transactions;  //account transactions
+}

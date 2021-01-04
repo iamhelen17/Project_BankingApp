@@ -1,0 +1,5 @@
+package com.bagonationalbank.app.service;
+
+public interface BankingOperations {
+
+}

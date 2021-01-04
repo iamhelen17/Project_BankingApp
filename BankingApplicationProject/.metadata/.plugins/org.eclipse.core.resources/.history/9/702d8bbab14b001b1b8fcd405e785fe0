@@ -1,0 +1,8 @@
+package com.bagonationalbank.app.dao;
+
+import com.bagonationalbank.app.model.Customer;
+
+public interface CustomerCrudDAO {
+
+	public int createCustomer(Customer customer);
+}

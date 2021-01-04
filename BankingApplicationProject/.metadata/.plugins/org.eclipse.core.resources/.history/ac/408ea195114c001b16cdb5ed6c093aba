@@ -1,0 +1,8 @@
+package com.bagonationalbank.app.dao.impl;
+
+import com.bagonationalbank.app.dao.BankingOperationsDAO;
+import com.bagonationalbank.app.service.BankingOperationsService;
+
+public class BankingOperationsDAOImpl implements BankingOperationsDAO{
+
+}

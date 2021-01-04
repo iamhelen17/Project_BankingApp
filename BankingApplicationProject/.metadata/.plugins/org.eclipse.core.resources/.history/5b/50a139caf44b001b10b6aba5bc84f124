@@ -1,0 +1,36 @@
+package com.bagonationalbank.app.main;
+
+import java.util.Scanner;
+
+import org.apache.log4j.Logger;
+
+import com.bagonationalbank.app.service.BankingOperationsService;
+import com.bagonationalbank.app.service.impl.BankingOperationsServiceImpl;
+
+public class ConsoleMenuMain {
+	
+	private static Logger log = Logger.getLogger(ConsoleMenuMain.class);
+	
+
+	public static void main (String[] args) {
+			
+		ConsoleMenu console = new ConsoleMenu();
+		int choice = console.startMenu();
+		
+		console.startMenu();
+		
+		
+		
+		
+		
+	}
+		
+		
+		
+}
+
+
+//System.out.println("Welcome "); //add customer name
+
+//Scanner sc = new Scanner(System.in);
+//BankingOperationsService  bankingOperationsService = new BankingOperationsServiceImpl();

@@ -1,0 +1,13 @@
+package com.bagonationalbank.app.model;
+
+import java.util.ArrayList;
+
+public class Account {
+
+	private int id;
+	private String type;  //checking or saving
+	private double balance;
+	private String uuid; //account id
+	private Customer customer;
+	private ArrayList<Transaction> transactions;  //account transactions
+}

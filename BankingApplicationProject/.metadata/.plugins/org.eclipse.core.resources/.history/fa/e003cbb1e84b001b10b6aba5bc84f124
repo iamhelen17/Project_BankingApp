@@ -1,0 +1,31 @@
+package com.bagonationalbank.app.main;
+
+import java.util.Scanner;
+
+import org.apache.log4j.Logger;
+
+import com.bagonationalbank.app.service.BankingOperationsService;
+import com.bagonationalbank.app.service.impl.BankingOperationsServiceImpl;
+
+public class ConsoleMenuMain {
+	
+	private static Logger log = Logger.getLogger(ConsoleMenuMain.class);
+	
+
+	public static void main (String[] args) {
+			
+		Scanner sc = new Scanner(System.in);
+		BankingOperationsService  bankingOperationsService = new BankingOperationsServiceImpl();
+		log.info("*********************************************************");
+		log.info("   Welcome To Bago National Bank's Online Banking App");
+		log.info("*********************************************************");
+		
+		
+	}
+		
+		
+		
+}
+
+
+//System.out.println("Welcome "); //add customer name

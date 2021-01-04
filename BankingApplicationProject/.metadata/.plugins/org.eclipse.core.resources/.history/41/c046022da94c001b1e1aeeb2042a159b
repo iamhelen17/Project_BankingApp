@@ -1,0 +1,142 @@
+package com.bagonationalbank.app.main;
+
+import java.util.Scanner;
+
+import org.apache.log4j.Logger;
+
+import com.bagonationalbank.app.model.Account;
+import com.bagonationalbank.app.model.Customer;
+import com.bagonationalbank.app.model.Pin;
+import com.bagonationalbank.app.model.Username;
+import com.bagonationalbank.app.service.BankingOperationsService;
+import com.bagonationalbank.app.service.impl.BankingOperationsServiceImpl;
+
+public class ConsoleMenu {
+
+	private static Logger log = Logger.getLogger(ConsoleMenuMain.class);
+	Scanner sc = new Scanner(System.in);
+	
+	public int startMenu() {
+		
+		
+		int choice = 0;
+		
+		do {
+			log.info("");
+			log.info("****************************************************");
+			log.info(" Welcome To Bago National Bank's Online Banking App ");
+			log.info("****************************************************");
+			log.info("\nBANKING MENU");
+			log.info("----------------------------");
+			log.info("1) Returning Customer");
+			log.info("2) New Customer");
+			log.info("3) Employee");
+			log.info("4) EXIT");
+			log.info("Please enter an appropriate choice between 1-4");
+			
+			try {
+				choice = Integer.parseInt(sc.nextLine());
+			} catch (NumberFormatException e) {
+				
+			}
+			
+			switch (choice) {
+			case 1:
+				return choice;
+			case 2:
+				log.info("2-under construction");
+				return choice;
+			case 3:
+				log.info("3-under construction");
+				return choice;
+			case 4:
+				log.info("Thank You for using our Banking App... Have a good one!!!");
+				return choice;
+			default:
+				log.info("INVALID MENU OPTION.... Kindly retry!!!!!");
+				break;
+			
+			}
+			
+		} while (true);
+	}
+	
+	
+	public Pin logInMenu(int user) {
+		if (user == 1) {
+			log.info("");
+			log.info("Returning Customer");
+			log.info("-----------------------------------");
+		} 
+		else if (user == 2) {
+			log.info("Welcome Employee");
+		}
+		
+		String usernameInput = null;
+		String pinInput = null;
+		
+		log.info("Please Enter your Username");
+		usernameInput = sc.nextLine();
+		
+		log.info("\nPlease Enter your Pin");
+		pinInput = sc.nextLine();
+		
+		Username username = new Username(usernameInput);
+		Pin pin = new Pin(pinInput, username);
+		
+		return pin;
+		
+	}
+	
+	public String getCustomerMenu () {
+		String menu = null;
+		log.info("\nLogin Successful!!!"); 
+		//log.info("Welcome "+logIn.getFirstName()+ " " +logIn.getLastName());
+		
+	
+		log.info("");
+		log.info("Transaction Options");
+		log.info("1) View Acount Balance");
+		log.info("2) Deposit Funds");
+		log.info("3) Withdraw Funds");
+		log.info("4) Transfer Funds");
+		log.info("5) EXIT");
+		log.info("Please enter an appropriate choice between 1-5");
+		
+		return menu;
+	}
+	
+	
+	public int getAccountType() {
+		int choice = 0;
+		
+		log.info("Select Account Type");
+		log.info("1) Checking");
+		log.info("2) Savings");
+		
+		return choice;
+		
+	}
+	
+	public void depositFunds( Account accounts, double amount) {
+		log.info("Please enter Account Number : ");  //get account number
+		
+		//search accounts
+		log.info("Please Enter Deposit Amount : ");   //amount
+		double balance = 0;
+		if (amount != 0) {
+			balance = balance + amount;
+		} else {
+			log.info("Cannot deposit a negative amount");
+		}
+		
+	}
+	
+	public void withdrawFunds( Account accounts, double amount) {
+		log.info("Please Enter Deposit Amount : ");
+		
+		
+		
+	}
+	
+}

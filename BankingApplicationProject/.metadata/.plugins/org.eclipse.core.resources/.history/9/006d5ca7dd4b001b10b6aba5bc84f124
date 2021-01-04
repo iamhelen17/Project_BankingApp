@@ -1,0 +1,13 @@
+#Setting log level for the Bank app
+log4j.rootLogger = TRACE,console,bankFile
+
+#Configuration for Console
+log4j.appender.console = org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout = org.apache.log4j.PatternLayout
+log4j.appender.console.layout.ConversionPattern = %m%n
+
+#Configuration for File
+log.appender.bankFile = org.apache.log4j.RollingFileAppender
+log.appender.bankFile.File = bankLogs.log
+log.appender.bankFile.layout = org.apache.log4j.PatternLayout
+log.appender.bankFile.layout.ConversionPattern = %-7p | %t | %d{dd-MMM-yyy EEEE z HH:mm:ss} | (%F:%L) | %c - %m%n

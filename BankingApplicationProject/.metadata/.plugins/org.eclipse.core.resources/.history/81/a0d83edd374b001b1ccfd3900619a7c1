@@ -1,0 +1,6 @@
+package com.bagonationalbank.app.model;
+
+public class Transaction {
+
+	
+}

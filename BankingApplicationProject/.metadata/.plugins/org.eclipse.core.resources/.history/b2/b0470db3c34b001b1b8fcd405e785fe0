@@ -1,0 +1,22 @@
+package com.bagonationalbank.app.dao.impl;
+
+import java.util.List;
+
+import com.bagonationalbank.app.dao.CustomerCrudDAO;
+import com.bagonationalbank.app.model.Customer;
+
+public class CustomerCrudDAOImpl implements CustomerCrudDAO {
+
+	@Override
+	public int createCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Customer> getAllCustomers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

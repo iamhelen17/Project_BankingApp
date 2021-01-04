@@ -1,0 +1,117 @@
+package com.bagonationalbank.app.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import com.bagonationalbank.app.dao.BankingOperationsDAO;
+import com.bagonationalbank.app.dao.dbutil.PostgresqlConnection;
+import com.bagonationalbank.app.exception.BusinessException;
+import com.bagonationalbank.app.main.ConsoleMenuMain;
+import com.bagonationalbank.app.model.Account;
+import com.bagonationalbank.app.model.Customer;
+import com.bagonationalbank.app.model.Transactions;
+import com.bagonationalbank.app.service.BankingOperationsService;
+import com.bagonationalbank.app.service.impl.Pin;
+
+public class BankingOperationsDAOImpl implements BankingOperationsDAO{
+	
+	private static Logger log = Logger.getLogger(BankingOperationsDAOImpl.class);
+	
+	
+	@Override
+	public String createNewAccount() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer logIn(Pin customerCredentials) {
+		Customer customerLogIn = null;
+		
+		try (Connection connection = PostgresqlConnection.getConnection()) {
+			String sql = "select u.username, u.customer.id, p.pin, c.first_name, c.last_name "
+					+ "from bagonationalbank.username u "
+					+ "join bagonationalbank.pin p on u.username_id = p.username_id "
+					+ "join bagonationalbank.username u on u.customer_id = customer_id where u.username = ? and p.pin = ?";
+			
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			
+			preparedStatement.setString(1, customerCredentials.getUsername().getUsername());
+			preparedStatement.setString(2, customerCredentials.getPin());
+			
+			
+			ResultSet resultSet = preparedStatement.executeQuery();
+			log.info("Query Executed");
+			
+			if (resultSet.next()) {
+				customerLogIn = new Customer();
+				customerLogIn.setCustomerId(resultSet.getInt("customer_id"));
+			
+				
+			} else {
+				throw new BusinessException("No Customer found with username: "+customerCredentials.getUsername().getUsername()+ " pin: "+customerCredentials.getPin());
+			}
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			log.info(e);    //Take off this line when app is live
+			throw new BusinessException("Internal error occurred. Contact Admin!!!");
+		}
+				
+				
+		return customerLogIn;
+	}
+
+	@Override
+	public double viewBalance() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double withdrawFunds() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double depositFunds() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double transferFunds() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Customer> getAllCustomers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> getAllAccounts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Transactions> getAllTransactions() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer logIn(com.bagonationalbank.app.model.Pin pin) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

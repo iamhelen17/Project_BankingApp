@@ -1,0 +1,149 @@
+package com.bagonationalbank.app.model;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Date;
+
+public class Customer {
+
+	private int id;  //id number of customer
+	private String firstName;
+	private String lastName;
+	private String gender;
+	private Date dob;
+	private String address;
+	private String phoneNumber;
+	private String email;
+	private Date dateJoined;
+	private String userName;
+	private byte pinHash[]; //MD5 hash of the customer's pin
+	private ArrayList<Account> accounts; //list of customer accounts
+	
+	public Customer() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Customer(int id, String firstName, String lastName, String gender, Date dob, String address,
+			String phoneNumber, String email, Date dateJoined, String userName, byte[] pinHash,
+			ArrayList<Account> accounts) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.gender = gender;
+		this.dob = dob;
+		this.address = address;
+		this.phoneNumber = phoneNumber;
+		this.email = email;
+		this.dateJoined = dateJoined;
+		this.userName = userName;
+		this.pinHash = pinHash;
+		this.accounts = accounts;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	public Date getDob() {
+		return dob;
+	}
+
+	public void setDob(Date dob) {
+		this.dob = dob;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public Date getDateJoined() {
+		return dateJoined;
+	}
+
+	public void setDateJoined(Date dateJoined) {
+		this.dateJoined = dateJoined;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public byte[] getPinHash() {
+		return pinHash;
+	}
+
+	public void setPinHash(byte[] pinHash) {
+		this.pinHash = pinHash;
+	}
+
+	public ArrayList<Account> getAccounts() {
+		return accounts;
+	}
+
+	public void setAccounts(ArrayList<Account> accounts) {
+		this.accounts = accounts;
+	}
+
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", gender=" + gender
+				+ ", dob=" + dob + ", address=" + address + ", phoneNumber=" + phoneNumber + ", email=" + email
+				+ ", dateJoined=" + dateJoined + ", userName=" + userName + ", pinHash=" + Arrays.toString(pinHash)
+				+ ", accounts=" + accounts + "]";
+	}
+	
+	
+}

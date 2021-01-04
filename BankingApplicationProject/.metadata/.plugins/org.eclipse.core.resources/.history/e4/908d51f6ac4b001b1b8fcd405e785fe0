@@ -1,0 +1,22 @@
+package com.bagonationalbank.app.model;
+
+import java.util.ArrayList;
+import java.util.Date;
+
+public class Customer {
+
+	private int id;  //id number of customer
+	private String firstName;
+	private String lastName;
+	private String gender;
+	private Date dob;
+	private String address;
+	private String phoneNumber;
+	private String email;
+	private Date dateJoined;
+	private String userName;
+	private byte pinHash[]; //MD5 hash of the customer's pin
+	private ArrayList<Account> accounts; //list of customer accounts
+	
+	
+}

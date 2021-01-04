@@ -1,0 +1,8 @@
+package com.bagonationalbank.app.model;
+
+public class Pin {
+
+	private int pin_id;
+	private byte pinHash[]; //MD5 hash of the customer's pin
+	private UserName UserName;
+}

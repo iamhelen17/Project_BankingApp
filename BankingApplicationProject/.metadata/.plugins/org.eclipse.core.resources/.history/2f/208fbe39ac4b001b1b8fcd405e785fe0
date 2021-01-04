@@ -1,0 +1,11 @@
+package com.bagonationalbank.app.model;
+
+import java.util.Date;
+
+public class Transaction {
+
+	private int id;
+	private Date transactionDate;   //date and time of transaction
+	private double amount;
+	private Account inAccount;  //account in which transaction was performed
+}

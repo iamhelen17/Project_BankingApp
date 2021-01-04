@@ -1,0 +1,61 @@
+package com.bagonationalbank.app.main;
+
+import java.util.Scanner;
+
+import org.apache.log4j.Logger;
+
+import com.bagonationalbank.app.exception.BusinessException;
+import com.bagonationalbank.app.model.Customer;
+import com.bagonationalbank.app.model.Pin;
+import com.bagonationalbank.app.service.BankingOperationsService;
+import com.bagonationalbank.app.service.impl.BankingOperationsServiceImpl;
+
+public class ConsoleMenuMain {
+	
+	private static Logger log = Logger.getLogger(ConsoleMenuMain.class);
+	
+
+	public static void main (String[] args) {
+			
+		BankingOperationsService bankingOperationsService = new BankingOperationsServiceImpl();
+		
+		ConsoleMenu console = new ConsoleMenu();
+		int choice = console.startMenu();
+
+		
+		if (choice == 1) {
+			Pin customerCredentials = console.logInMenu(1);
+			try {
+				Customer logIn = bankingOperationsService.logIn(customerCredentials);
+				if ()
+				log.info("Login Successful!!!"); // login succesful! print menu of options for customer.
+			} catch (BusinessException e) {
+				log.info(e.getMessage());;
+			}
+			
+			// if not successful then print invalid credentials please try again.
+		} else if (choice == 2) {
+			log.info("under construction");
+		} else if (choice == 3) {
+			//int employeeLogin = console.logInMenu(2);
+		} else if (choice == 4) {
+			log.info("error");
+		}
+		
+	
+		
+		
+		
+		
+		
+	}
+		
+		
+		
+}
+
+
+//System.out.println("Welcome "); //add customer name
+
+//Scanner sc = new Scanner(System.in);
+//BankingOperationsService  bankingOperationsService = new BankingOperationsServiceImpl();
