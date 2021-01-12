@@ -6,14 +6,14 @@ import java.util.Date;
 public class Account {
 
 	private int accountId;
-	private String type;  //checking or saving
+	private String accountType;  //checking or saving
 	private double balance;
 	private Date openedDate;
 	private Date closedDate;
 	private String status;
-	private String approvedBy;
+	private int approvedBy;
 	private Customer customer;
-	private ArrayList<Transactions> transactions;  //account transactions
+	private ArrayList<Transaction> transaction;  //account transactions
 	
 	public Account() {
 		// TODO Auto-generated constructor stub
@@ -27,24 +27,33 @@ public class Account {
 	public Account (int accountId, Customer customer) {
 		super();
 		this.accountId = accountId;
-		this.customer = customer;		//use constructor overriding
+		this.customer = customer;		//use constructor overriding look up
+	}
+	
+	public Account (int accountId, String accountType, double balance, Date openedDate, String status, Customer customer) {
+		super();
+		this.accountId = accountId;
+		this.accountType = accountType;
+		this.balance = balance;
+		this.openedDate = openedDate;
+		this.status = status;
+		this.customer = customer;
 	}
 	
 	
-	
 
-	public Account(int accountId, String type, double balance, Date openedDate, Date closedDate, String status,
-			String approvedBy, Customer customer, ArrayList<Transactions> transactions) {
+	public Account(int accountId, String accountType, double balance, Date openedDate, Date closedDate, String status,
+			int approvedBy, Customer customer, ArrayList<Transaction> transaction) {
 		super();
 		this.accountId = accountId;    //use constructor overriding
-		this.type = type;
+		this.accountType = accountType;
 		this.balance = balance;
 		this.openedDate = openedDate;
 		this.closedDate = closedDate;
 		this.status = status;
 		this.approvedBy = approvedBy;
 		this.customer = customer;
-		this.transactions = transactions;
+		this.transaction = transaction;
 	}
 
 	public int getAccountId() {
@@ -55,12 +64,12 @@ public class Account {
 		this.accountId = accountId;
 	}
 
-	public String getType() {
-		return type;
+	public String getAccountType() {
+		return accountType;
 	}
 
-	public void setType(String type) {
-		this.type = type;
+	public void setType(String accountType) {
+		this.accountType = accountType;
 	}
 
 	public double getBalance() {
@@ -95,11 +104,11 @@ public class Account {
 		this.status = status;
 	}
 
-	public String getApprovedBy() {
+	public int getApprovedBy() {
 		return approvedBy;
 	}
 
-	public void setApprovedBy(String approvedBy) {
+	public void setApprovedBy(int approvedBy) {
 		this.approvedBy = approvedBy;
 	}
 
@@ -111,19 +120,19 @@ public class Account {
 		this.customer = customer;
 	}
 
-	public ArrayList<Transactions> getTransactions() {
-		return transactions;
+	public ArrayList<Transaction> getTransactions() {
+		return transaction;
 	}
 
-	public void setTransactions(ArrayList<Transactions> transactions) {
-		this.transactions = transactions;
+	public void setTransactions(ArrayList<Transaction> transaction) {
+		this.transaction = transaction;
 	}
 
 	@Override
 	public String toString() {
-		return "Account [accountId=" + accountId + ", type=" + type + ", balance=" + balance + ", openedDate="
+		return "Account [accountId=" + accountId + ", accountType=" + accountType + ", balance=" + balance + ", openedDate="
 				+ openedDate + ", closedDate=" + closedDate + ", status=" + status + ", approvedBy=" + approvedBy
-				+ ", customer=" + customer + ", transactions=" + transactions + "]";
+				+ ", customer=" + customer + ", transaction=" + transaction + "]";
 	}
 	
 }

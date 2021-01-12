@@ -15,6 +15,11 @@ public class Username {
 		this.username = username;
 	}
 
+	public Username(String username, Customer customer) {
+		this.username = username;
+		this.customer = customer;
+	}
+
 	public Username(int usernameId, String username, Customer customer, Employee employee) {
 		super();
 		this.usernameId = usernameId;    //do constructor chaining???

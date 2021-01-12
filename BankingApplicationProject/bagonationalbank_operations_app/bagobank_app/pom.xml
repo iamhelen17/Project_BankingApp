@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.bagonationalbank</groupId>
-  <artifactId>bagonationalbank_operations_app</artifactId>
+  <groupId>com.bagobank</groupId>
+  <artifactId>bagobank_app</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>bagonationalbank_operations_app</name>
-  <description>This is a console-based banking application that simulates banking operations. Tech used Java8, PostgreSQL10, JUnit, log4j</description>
+  <name>bagobank_app</name>
+  <description>This is a console-based banking application that simulates banking operations. Tech used Java8, PostgresSQL10, JUnit, log4J</description>
   
   <properties>
   		<maven.compiler.target>1.8</maven.compiler.target>
