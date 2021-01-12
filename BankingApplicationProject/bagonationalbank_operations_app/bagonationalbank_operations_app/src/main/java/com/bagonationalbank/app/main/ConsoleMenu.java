@@ -83,6 +83,7 @@ public class ConsoleMenu {
 		log.info("\nWELCOME TO BAGO NATIONAL BANK!");
 		log.info("=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*");
 		boolean success = true;
+		boolean fail = false;
 	
 		String firstName;
 		do {
@@ -95,6 +96,7 @@ public class ConsoleMenu {
 		} while (!success);
 
 		String lastName;
+		success = true;
 		do {
 			log.info("\nPlease enter your Last Name: ");
 			lastName = sc.nextLine();
@@ -121,9 +123,9 @@ public class ConsoleMenu {
 			
 		String dob;	
 		Date dob2 = null;
-		SimpleDateFormat dateFormat = new SimpleDateFormat("mm/dd/yyyy");
-		dateFormat = new SimpleDateFormat("mm/dd/yyyy");
+		SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
 		dateFormat.setLenient(false);
+		success = true;
 		
 		do {
 			log.info("Please enter your date of birth (MM/DD/YYYY): ");
@@ -149,65 +151,136 @@ public class ConsoleMenu {
 		
 
 		String address1;
+		success = true;
 		do {
 			log.info("Please enter your address 1: ");  //alphanumeric
 			address1 = sc.nextLine();
-		} while (bankingOperationsService.isValidString(address1, 5, 45, true, false) == false);
+			success = bankingOperationsService.isValidString(address1, 5, 45, true, false);
+			fail = bankingOperationsService.isValidNumber(address1, 5, 45, true);
+			
+			if (!success || fail) {
+				success = false;
+				log.info("\nInvalid Address1! Please Retry.");
+			}
+			
+		} while (!success);
 
+		success = true;
+		fail = false;
 		String address2;
 		do {
 			log.info("Please enter your address 2: ");
 			address2 = sc.nextLine();
-		} while (bankingOperationsService.isValidString(address2, 5, 45, false, false) == false);
+			success = bankingOperationsService.isValidString(address2, 5, 45, false, false);
+			fail = bankingOperationsService.isValidNumber(address2, 5, 45, false);
+			
+			if (!success || fail) {
+				success = false;
+				log.info("\nInvalid Address2! Please Retry.");
+			}
+			
+		} while (!success);
 
 		String city;
+		success = true;
 		do {
 			log.info("Please enter your city: ");
 			city = sc.nextLine();
-		} while (bankingOperationsService.isValidString(city, 3, 20, true, true) == false);
+			success = bankingOperationsService.isValidString(city, 3, 20, true, true);
+			
+			if (!success) {
+				log.info("\nInvalid City! Please Retry.");
+			}
+			
+		} while (!success);
 
 		
 		String state;
+		success = true;
 		do {
 			log.info("Please enter your state (Use abbreviated State Name e.g. use AZ for Arizona): ");
 			state = sc.nextLine().toUpperCase();
-		} while (bankingOperationsService.isValidString(state, 2, 2, true, true) == false);
+			success = bankingOperationsService.isValidString(state, 2, 2, true, true);
+			
+			if (!success) {
+				log.info("\nInvalid State! Please Retry.");
+			}
+			
+		} while (!success);
 
 		
 		String zip5;
+		success = true;
 		do {
 			log.info("Please enter your zip 5: ");
 			zip5 = sc.nextLine();
-		} while (bankingOperationsService.isValidNumber(zip5, 5, 5, true) == false);
+			success = bankingOperationsService.isValidNumber(zip5, 5, 5, true);
+			
+			if (!success) {
+				log.info("\nInvalid Zip5! Please Retry.");
+			}
+			
+		} while (!success);
 
 		
 		String zip4;
+		success = true;
 		do {
-			log.info("Please enter your zip 4 (write null if you don't have one): ");                 //rewrite message
+			log.info("Please enter your zip 4 (press enter if you don't have zip4): ");      
 			zip4 = sc.nextLine();
-		} while (bankingOperationsService.isValidNumber(zip4, 4, 4, false) == false);
+			success = bankingOperationsService.isValidNumber(zip4, 4, 4, false);
+			
+			if (!success) {
+				log.info("\nInvalid Zip4! Please Retry.");
+			}
+		} while (!success);
 
 		String phone1;
+		success = true;
 		do {
 			log.info("Please enter your primary phone number (10 digits, no dashes): ");           
 			phone1 = sc.nextLine();
-		} while (bankingOperationsService.isValidNumber(phone1, 10, 10, true) == false);
+			success = bankingOperationsService.isValidNumber(phone1, 10, 10, true);
+			
+			if (!success) {
+				log.info("\nInvalid Phone1! Please Retry.");
+			}
+			
+		} while (!success);
 
 		
 		String phone2;
+		success = true;
 		do {
-			log.info("Please enter your secondary phone number (10 digits, no dashes- write null if you don't have one): ");
+			log.info("Please enter your secondary phone number (10 digits, no dashes. Press enter if you don't have Phone2): "); 
 			phone2 = sc.nextLine();
-		} while (bankingOperationsService.isValidNumber(phone2, 10, 10, false) == false);
+			success = bankingOperationsService.isValidNumber(phone2, 10, 10, false);
+			
+			if (!success) {
+				log.info("\nInvalid Phone2! Please Retry.");
+			}
+		} while (!success);
 	
-		log.info("Please enter your email address: ");
-		String email = sc.nextLine();
+		
+		String email;
+		success = true;
+		do {
+			log.info("Please enter your email address: ");
+			email = sc.nextLine();
+			success = bankingOperationsService.isValidEmail(email);
+			
+			if (!success) {
+				log.info("\nInvalid email! Please Retry.");
+			}
+			
+		} while (!success);
 		
 		String usernameStr;
+		success = true;
 		do {
 			success = true;
 			
-			log.info("Username Requirements");
+			log.info("\nUsername Requirements");
 			log.info("\nMust start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20");
 			log.info("\nPlease enter the username you'd like to use: ");   
 		
@@ -229,10 +302,11 @@ public class ConsoleMenu {
 		} while (!success);
 
 		String pinStr;
+		success = true;
 		do {
 			log.info("Pin Requirements");
 			log.info("\nMust start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20");
-			log.info("\nPlease enter the pin you'd like to use: ");                               //length do u use pin or password
+			log.info("\nPlease enter the pin you'd like to use: ");                              
 			pinStr = sc.nextLine();
 		} while (bankingOperationsService.isValidCredentials(pinStr, 7, 20, true) == false);
 

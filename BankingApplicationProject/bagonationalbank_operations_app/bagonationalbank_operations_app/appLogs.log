@@ -11029,3 +11029,400 @@ Please enter your Last Name:
 INFO    | main | 11-Jan-2021 Monday MST 20:52:21 | (ConsoleMenu.java:112) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
 INFO    | main | 11-Jan-2021 Monday MST 20:52:23 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
 INFO    | main | 11-Jan-2021 Monday MST 20:52:30 | (ConsoleMenu.java:153) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 11-Jan-2021 Monday MST 21:20:13 | (ConsoleMenu.java:848) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 11-Jan-2021 Monday MST 21:20:13 | (ConsoleMenu.java:849) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 11-Jan-2021 Monday MST 21:20:13 | (ConsoleMenu.java:850) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 11-Jan-2021 Monday MST 21:20:13 | (ConsoleMenu.java:851) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 11-Jan-2021 Monday MST 21:20:13 | (ConsoleMenu.java:852) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 11-Jan-2021 Monday MST 21:20:13 | (ConsoleMenu.java:853) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 11-Jan-2021 Monday MST 21:20:13 | (ConsoleMenu.java:854) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 11-Jan-2021 Monday MST 21:20:13 | (ConsoleMenu.java:855) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 11-Jan-2021 Monday MST 21:20:13 | (ConsoleMenu.java:856) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 11-Jan-2021 Monday MST 21:20:13 | (ConsoleMenu.java:857) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 11-Jan-2021 Monday MST 21:20:13 | (ConsoleMenu.java:858) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 11-Jan-2021 Monday MST 21:20:20 | (ConsoleMenu.java:83) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME TO BAGO NATIONAL BANK!
+INFO    | main | 11-Jan-2021 Monday MST 21:20:20 | (ConsoleMenu.java:84) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 11-Jan-2021 Monday MST 21:20:20 | (ConsoleMenu.java:89) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your First Name: 
+INFO    | main | 11-Jan-2021 Monday MST 21:20:23 | (ConsoleMenu.java:99) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your Last Name: 
+INFO    | main | 11-Jan-2021 Monday MST 21:20:23 | (ConsoleMenu.java:112) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 11-Jan-2021 Monday MST 21:20:25 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 11-Jan-2021 Monday MST 21:20:37 | (ConsoleMenu.java:141) | com.bagonationalbank.app.main.ConsoleMenuMain - Invalid date... Please try again!
+INFO    | main | 11-Jan-2021 Monday MST 21:20:37 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 11-Jan-2021 Monday MST 21:21:05 | (ConsoleMenu.java:153) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 11-Jan-2021 Monday MST 21:21:18 | (ConsoleMenu.java:158) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Last Name! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:21:18 | (ConsoleMenu.java:153) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 11-Jan-2021 Monday MST 21:21:24 | (ConsoleMenu.java:158) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Last Name! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:21:24 | (ConsoleMenu.java:153) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 11-Jan-2021 Monday MST 21:21:31 | (ConsoleMenu.java:165) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 2: 
+INFO    | main | 11-Jan-2021 Monday MST 21:22:08 | (ConsoleMenu.java:848) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 11-Jan-2021 Monday MST 21:22:08 | (ConsoleMenu.java:849) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 11-Jan-2021 Monday MST 21:22:08 | (ConsoleMenu.java:850) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 11-Jan-2021 Monday MST 21:22:08 | (ConsoleMenu.java:851) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 11-Jan-2021 Monday MST 21:22:08 | (ConsoleMenu.java:852) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 11-Jan-2021 Monday MST 21:22:08 | (ConsoleMenu.java:853) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 11-Jan-2021 Monday MST 21:22:08 | (ConsoleMenu.java:854) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 11-Jan-2021 Monday MST 21:22:08 | (ConsoleMenu.java:855) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 11-Jan-2021 Monday MST 21:22:08 | (ConsoleMenu.java:856) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 11-Jan-2021 Monday MST 21:22:08 | (ConsoleMenu.java:857) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 11-Jan-2021 Monday MST 21:22:08 | (ConsoleMenu.java:858) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 11-Jan-2021 Monday MST 21:22:10 | (ConsoleMenu.java:83) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME TO BAGO NATIONAL BANK!
+INFO    | main | 11-Jan-2021 Monday MST 21:22:10 | (ConsoleMenu.java:84) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 11-Jan-2021 Monday MST 21:22:10 | (ConsoleMenu.java:89) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your First Name: 
+INFO    | main | 11-Jan-2021 Monday MST 21:22:12 | (ConsoleMenu.java:99) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your Last Name: 
+INFO    | main | 11-Jan-2021 Monday MST 21:22:13 | (ConsoleMenu.java:112) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 11-Jan-2021 Monday MST 21:22:15 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 11-Jan-2021 Monday MST 21:22:19 | (ConsoleMenu.java:153) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 11-Jan-2021 Monday MST 21:22:24 | (ConsoleMenu.java:165) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 2: 
+INFO    | main | 11-Jan-2021 Monday MST 21:36:32 | (ConsoleMenu.java:898) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 11-Jan-2021 Monday MST 21:36:32 | (ConsoleMenu.java:899) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 11-Jan-2021 Monday MST 21:36:32 | (ConsoleMenu.java:900) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 11-Jan-2021 Monday MST 21:36:32 | (ConsoleMenu.java:901) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 11-Jan-2021 Monday MST 21:36:32 | (ConsoleMenu.java:902) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 11-Jan-2021 Monday MST 21:36:32 | (ConsoleMenu.java:903) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 11-Jan-2021 Monday MST 21:36:32 | (ConsoleMenu.java:904) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 11-Jan-2021 Monday MST 21:36:32 | (ConsoleMenu.java:905) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 11-Jan-2021 Monday MST 21:36:32 | (ConsoleMenu.java:906) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 11-Jan-2021 Monday MST 21:36:32 | (ConsoleMenu.java:907) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 11-Jan-2021 Monday MST 21:36:32 | (ConsoleMenu.java:908) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 11-Jan-2021 Monday MST 21:36:38 | (ConsoleMenu.java:83) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME TO BAGO NATIONAL BANK!
+INFO    | main | 11-Jan-2021 Monday MST 21:36:38 | (ConsoleMenu.java:84) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 11-Jan-2021 Monday MST 21:36:38 | (ConsoleMenu.java:89) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your First Name: 
+INFO    | main | 11-Jan-2021 Monday MST 21:36:40 | (ConsoleMenu.java:99) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your Last Name: 
+INFO    | main | 11-Jan-2021 Monday MST 21:36:41 | (ConsoleMenu.java:112) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 11-Jan-2021 Monday MST 21:36:45 | (ConsoleMenu.java:112) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 11-Jan-2021 Monday MST 21:36:56 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 11-Jan-2021 Monday MST 21:37:05 | (ConsoleMenu.java:153) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 11-Jan-2021 Monday MST 21:38:11 | (ConsoleMenu.java:158) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Address1! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:38:11 | (ConsoleMenu.java:153) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 11-Jan-2021 Monday MST 21:38:16 | (ConsoleMenu.java:165) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 2: 
+INFO    | main | 11-Jan-2021 Monday MST 21:38:25 | (ConsoleMenu.java:177) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your city: 
+INFO    | main | 11-Jan-2021 Monday MST 21:38:38 | (ConsoleMenu.java:182) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid City! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:38:38 | (ConsoleMenu.java:177) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your city: 
+INFO    | main | 11-Jan-2021 Monday MST 21:38:43 | (ConsoleMenu.java:182) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid City! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:38:43 | (ConsoleMenu.java:177) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your city: 
+INFO    | main | 11-Jan-2021 Monday MST 21:38:48 | (ConsoleMenu.java:182) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid City! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:38:48 | (ConsoleMenu.java:177) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your city: 
+INFO    | main | 11-Jan-2021 Monday MST 21:38:51 | (ConsoleMenu.java:182) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid City! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:38:51 | (ConsoleMenu.java:177) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your city: 
+INFO    | main | 11-Jan-2021 Monday MST 21:39:22 | (ConsoleMenu.java:182) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid City! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:39:22 | (ConsoleMenu.java:177) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your city: 
+INFO    | main | 11-Jan-2021 Monday MST 21:39:25 | (ConsoleMenu.java:182) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid City! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:39:25 | (ConsoleMenu.java:177) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your city: 
+INFO    | main | 11-Jan-2021 Monday MST 21:39:30 | (ConsoleMenu.java:190) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your state (Use abbreviated State Name e.g. use AZ for Arizona): 
+INFO    | main | 11-Jan-2021 Monday MST 21:39:36 | (ConsoleMenu.java:195) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid State! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:39:36 | (ConsoleMenu.java:190) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your state (Use abbreviated State Name e.g. use AZ for Arizona): 
+INFO    | main | 11-Jan-2021 Monday MST 21:39:39 | (ConsoleMenu.java:195) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid State! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:39:39 | (ConsoleMenu.java:190) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your state (Use abbreviated State Name e.g. use AZ for Arizona): 
+INFO    | main | 11-Jan-2021 Monday MST 21:39:43 | (ConsoleMenu.java:195) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid State! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:39:43 | (ConsoleMenu.java:190) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your state (Use abbreviated State Name e.g. use AZ for Arizona): 
+INFO    | main | 11-Jan-2021 Monday MST 21:39:47 | (ConsoleMenu.java:195) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid State! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:39:47 | (ConsoleMenu.java:190) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your state (Use abbreviated State Name e.g. use AZ for Arizona): 
+INFO    | main | 11-Jan-2021 Monday MST 21:39:50 | (ConsoleMenu.java:195) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid State! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:39:50 | (ConsoleMenu.java:190) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your state (Use abbreviated State Name e.g. use AZ for Arizona): 
+INFO    | main | 11-Jan-2021 Monday MST 21:40:08 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:40:12 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:40:12 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:40:16 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:40:16 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:40:18 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:40:18 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:40:24 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:40:24 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:40:30 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:40:30 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:40:34 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:40:34 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:40:38 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:40:38 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:40:40 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:40:40 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:40:42 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:40:42 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:40:43 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:40:43 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:40:46 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:40:46 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:40:50 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:40:50 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:40:54 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:40:54 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:40:58 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:40:58 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:41:45 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:41:45 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:41:48 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:41:48 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:41:53 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:41:53 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:42:00 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:42:00 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:42:04 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:42:04 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 21:42:10 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 21:42:10 | (ConsoleMenu.java:203) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 22:24:02 | (ConsoleMenu.java:898) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 11-Jan-2021 Monday MST 22:24:02 | (ConsoleMenu.java:899) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 11-Jan-2021 Monday MST 22:24:02 | (ConsoleMenu.java:900) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 11-Jan-2021 Monday MST 22:24:02 | (ConsoleMenu.java:901) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 11-Jan-2021 Monday MST 22:24:02 | (ConsoleMenu.java:902) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 11-Jan-2021 Monday MST 22:24:02 | (ConsoleMenu.java:903) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 11-Jan-2021 Monday MST 22:24:02 | (ConsoleMenu.java:904) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 11-Jan-2021 Monday MST 22:24:02 | (ConsoleMenu.java:905) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 11-Jan-2021 Monday MST 22:24:02 | (ConsoleMenu.java:906) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 11-Jan-2021 Monday MST 22:24:02 | (ConsoleMenu.java:907) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 11-Jan-2021 Monday MST 22:24:02 | (ConsoleMenu.java:908) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 11-Jan-2021 Monday MST 22:24:04 | (ConsoleMenu.java:83) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME TO BAGO NATIONAL BANK!
+INFO    | main | 11-Jan-2021 Monday MST 22:24:04 | (ConsoleMenu.java:84) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 11-Jan-2021 Monday MST 22:24:04 | (ConsoleMenu.java:89) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your First Name: 
+INFO    | main | 11-Jan-2021 Monday MST 22:24:05 | (ConsoleMenu.java:99) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your Last Name: 
+INFO    | main | 11-Jan-2021 Monday MST 22:24:06 | (ConsoleMenu.java:112) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 11-Jan-2021 Monday MST 22:24:07 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 11-Jan-2021 Monday MST 22:24:10 | (ConsoleMenu.java:134) | com.bagonationalbank.app.main.ConsoleMenuMain - Bad date format
+INFO    | main | 11-Jan-2021 Monday MST 22:24:10 | (ConsoleMenu.java:141) | com.bagonationalbank.app.main.ConsoleMenuMain - Invalid date... Please try again!
+INFO    | main | 11-Jan-2021 Monday MST 22:24:10 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 11-Jan-2021 Monday MST 22:24:21 | (ConsoleMenu.java:134) | com.bagonationalbank.app.main.ConsoleMenuMain - Bad date format
+INFO    | main | 11-Jan-2021 Monday MST 22:24:21 | (ConsoleMenu.java:141) | com.bagonationalbank.app.main.ConsoleMenuMain - Invalid date... Please try again!
+INFO    | main | 11-Jan-2021 Monday MST 22:24:21 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 11-Jan-2021 Monday MST 22:24:34 | (ConsoleMenu.java:141) | com.bagonationalbank.app.main.ConsoleMenuMain - Invalid date... Please try again!
+INFO    | main | 11-Jan-2021 Monday MST 22:24:34 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 11-Jan-2021 Monday MST 22:24:43 | (ConsoleMenu.java:141) | com.bagonationalbank.app.main.ConsoleMenuMain - Invalid date... Please try again!
+INFO    | main | 11-Jan-2021 Monday MST 22:24:43 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 11-Jan-2021 Monday MST 22:24:49 | (ConsoleMenu.java:141) | com.bagonationalbank.app.main.ConsoleMenuMain - Invalid date... Please try again!
+INFO    | main | 11-Jan-2021 Monday MST 22:24:49 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 11-Jan-2021 Monday MST 22:25:05 | (ConsoleMenu.java:141) | com.bagonationalbank.app.main.ConsoleMenuMain - Invalid date... Please try again!
+INFO    | main | 11-Jan-2021 Monday MST 22:25:05 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 11-Jan-2021 Monday MST 22:25:10 | (ConsoleMenu.java:153) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 11-Jan-2021 Monday MST 22:27:27 | (ConsoleMenu.java:910) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 11-Jan-2021 Monday MST 22:27:27 | (ConsoleMenu.java:911) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 11-Jan-2021 Monday MST 22:27:27 | (ConsoleMenu.java:912) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 11-Jan-2021 Monday MST 22:27:27 | (ConsoleMenu.java:913) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 11-Jan-2021 Monday MST 22:27:27 | (ConsoleMenu.java:914) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 11-Jan-2021 Monday MST 22:27:27 | (ConsoleMenu.java:915) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 11-Jan-2021 Monday MST 22:27:27 | (ConsoleMenu.java:916) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 11-Jan-2021 Monday MST 22:27:27 | (ConsoleMenu.java:917) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 11-Jan-2021 Monday MST 22:27:27 | (ConsoleMenu.java:918) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 11-Jan-2021 Monday MST 22:27:27 | (ConsoleMenu.java:919) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 11-Jan-2021 Monday MST 22:27:27 | (ConsoleMenu.java:920) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 11-Jan-2021 Monday MST 22:27:32 | (ConsoleMenu.java:83) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME TO BAGO NATIONAL BANK!
+INFO    | main | 11-Jan-2021 Monday MST 22:27:32 | (ConsoleMenu.java:84) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 11-Jan-2021 Monday MST 22:27:32 | (ConsoleMenu.java:89) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your First Name: 
+INFO    | main | 11-Jan-2021 Monday MST 22:27:34 | (ConsoleMenu.java:100) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your Last Name: 
+INFO    | main | 11-Jan-2021 Monday MST 22:27:34 | (ConsoleMenu.java:113) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 11-Jan-2021 Monday MST 22:27:39 | (ConsoleMenu.java:130) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 11-Jan-2021 Monday MST 22:27:43 | (ConsoleMenu.java:142) | com.bagonationalbank.app.main.ConsoleMenuMain - Invalid date... Please try again!
+INFO    | main | 11-Jan-2021 Monday MST 22:27:43 | (ConsoleMenu.java:130) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 11-Jan-2021 Monday MST 22:27:48 | (ConsoleMenu.java:155) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 11-Jan-2021 Monday MST 22:27:56 | (ConsoleMenu.java:168) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 2: 
+INFO    | main | 11-Jan-2021 Monday MST 22:32:26 | (ConsoleMenu.java:913) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 11-Jan-2021 Monday MST 22:32:26 | (ConsoleMenu.java:914) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 11-Jan-2021 Monday MST 22:32:26 | (ConsoleMenu.java:915) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 11-Jan-2021 Monday MST 22:32:26 | (ConsoleMenu.java:916) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 11-Jan-2021 Monday MST 22:32:26 | (ConsoleMenu.java:917) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 11-Jan-2021 Monday MST 22:32:26 | (ConsoleMenu.java:918) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 11-Jan-2021 Monday MST 22:32:26 | (ConsoleMenu.java:919) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 11-Jan-2021 Monday MST 22:32:26 | (ConsoleMenu.java:920) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 11-Jan-2021 Monday MST 22:32:26 | (ConsoleMenu.java:921) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 11-Jan-2021 Monday MST 22:32:26 | (ConsoleMenu.java:922) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 11-Jan-2021 Monday MST 22:32:26 | (ConsoleMenu.java:923) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 11-Jan-2021 Monday MST 22:32:27 | (ConsoleMenu.java:83) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME TO BAGO NATIONAL BANK!
+INFO    | main | 11-Jan-2021 Monday MST 22:32:27 | (ConsoleMenu.java:84) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 11-Jan-2021 Monday MST 22:32:27 | (ConsoleMenu.java:90) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your First Name: 
+INFO    | main | 11-Jan-2021 Monday MST 22:32:28 | (ConsoleMenu.java:101) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your Last Name: 
+INFO    | main | 11-Jan-2021 Monday MST 22:32:28 | (ConsoleMenu.java:114) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 11-Jan-2021 Monday MST 22:32:29 | (ConsoleMenu.java:131) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 11-Jan-2021 Monday MST 22:32:32 | (ConsoleMenu.java:156) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 11-Jan-2021 Monday MST 22:32:35 | (ConsoleMenu.java:163) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Address1! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 22:32:35 | (ConsoleMenu.java:156) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 11-Jan-2021 Monday MST 22:32:47 | (ConsoleMenu.java:171) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 2: 
+INFO    | main | 11-Jan-2021 Monday MST 22:33:30 | (ConsoleMenu.java:184) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your city: 
+INFO    | main | 11-Jan-2021 Monday MST 22:33:37 | (ConsoleMenu.java:198) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your state (Use abbreviated State Name e.g. use AZ for Arizona): 
+INFO    | main | 11-Jan-2021 Monday MST 22:34:08 | (ConsoleMenu.java:212) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 22:34:11 | (ConsoleMenu.java:217) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 22:34:11 | (ConsoleMenu.java:212) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 22:34:13 | (ConsoleMenu.java:217) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 22:34:13 | (ConsoleMenu.java:212) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 22:34:15 | (ConsoleMenu.java:217) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 22:34:15 | (ConsoleMenu.java:212) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 22:35:00 | (ConsoleMenu.java:217) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 22:35:00 | (ConsoleMenu.java:212) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 22:35:31 | (ConsoleMenu.java:916) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 11-Jan-2021 Monday MST 22:35:31 | (ConsoleMenu.java:917) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 11-Jan-2021 Monday MST 22:35:31 | (ConsoleMenu.java:918) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 11-Jan-2021 Monday MST 22:35:31 | (ConsoleMenu.java:919) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 11-Jan-2021 Monday MST 22:35:31 | (ConsoleMenu.java:920) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 11-Jan-2021 Monday MST 22:35:31 | (ConsoleMenu.java:921) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 11-Jan-2021 Monday MST 22:35:31 | (ConsoleMenu.java:922) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 11-Jan-2021 Monday MST 22:35:31 | (ConsoleMenu.java:923) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 11-Jan-2021 Monday MST 22:35:31 | (ConsoleMenu.java:924) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 11-Jan-2021 Monday MST 22:35:31 | (ConsoleMenu.java:925) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 11-Jan-2021 Monday MST 22:35:31 | (ConsoleMenu.java:926) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 11-Jan-2021 Monday MST 22:35:33 | (ConsoleMenu.java:83) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME TO BAGO NATIONAL BANK!
+INFO    | main | 11-Jan-2021 Monday MST 22:35:33 | (ConsoleMenu.java:84) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 11-Jan-2021 Monday MST 22:35:33 | (ConsoleMenu.java:90) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your First Name: 
+INFO    | main | 11-Jan-2021 Monday MST 22:35:34 | (ConsoleMenu.java:101) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your Last Name: 
+INFO    | main | 11-Jan-2021 Monday MST 22:35:34 | (ConsoleMenu.java:114) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 11-Jan-2021 Monday MST 22:35:35 | (ConsoleMenu.java:131) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 11-Jan-2021 Monday MST 22:35:38 | (ConsoleMenu.java:156) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 11-Jan-2021 Monday MST 22:35:40 | (ConsoleMenu.java:163) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Address1! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 22:35:40 | (ConsoleMenu.java:156) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 11-Jan-2021 Monday MST 22:35:42 | (ConsoleMenu.java:172) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 2: 
+INFO    | main | 11-Jan-2021 Monday MST 22:35:44 | (ConsoleMenu.java:187) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your city: 
+INFO    | main | 11-Jan-2021 Monday MST 22:35:45 | (ConsoleMenu.java:201) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your state (Use abbreviated State Name e.g. use AZ for Arizona): 
+INFO    | main | 11-Jan-2021 Monday MST 22:35:47 | (ConsoleMenu.java:215) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 11-Jan-2021 Monday MST 22:35:49 | (ConsoleMenu.java:229) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 4 (write null if you don't have one): 
+INFO    | main | 11-Jan-2021 Monday MST 22:35:58 | (ConsoleMenu.java:234) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip4! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 22:35:58 | (ConsoleMenu.java:229) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 4 (write null if you don't have one): 
+INFO    | main | 11-Jan-2021 Monday MST 22:36:00 | (ConsoleMenu.java:241) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your primary phone number (10 digits, no dashes): 
+INFO    | main | 11-Jan-2021 Monday MST 22:36:06 | (ConsoleMenu.java:246) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Phone1! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 22:36:06 | (ConsoleMenu.java:241) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your primary phone number (10 digits, no dashes): 
+INFO    | main | 11-Jan-2021 Monday MST 22:36:09 | (ConsoleMenu.java:246) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Phone1! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 22:36:09 | (ConsoleMenu.java:241) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your primary phone number (10 digits, no dashes): 
+INFO    | main | 11-Jan-2021 Monday MST 22:36:13 | (ConsoleMenu.java:255) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your secondary phone number (10 digits, no dashes- write null if you don't have one): 
+INFO    | main | 11-Jan-2021 Monday MST 22:36:15 | (ConsoleMenu.java:260) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Phone2! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 22:36:15 | (ConsoleMenu.java:255) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your secondary phone number (10 digits, no dashes- write null if you don't have one): 
+INFO    | main | 11-Jan-2021 Monday MST 22:36:17 | (ConsoleMenu.java:260) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Phone2! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 22:36:17 | (ConsoleMenu.java:255) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your secondary phone number (10 digits, no dashes- write null if you don't have one): 
+INFO    | main | 11-Jan-2021 Monday MST 22:36:21 | (ConsoleMenu.java:268) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your email address: 
+INFO    | main | 11-Jan-2021 Monday MST 22:36:34 | (ConsoleMenu.java:273) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Phone2! Please Retry.
+INFO    | main | 11-Jan-2021 Monday MST 22:36:34 | (ConsoleMenu.java:268) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your email address: 
+INFO    | main | 11-Jan-2021 Monday MST 22:36:53 | (ConsoleMenu.java:283) | com.bagonationalbank.app.main.ConsoleMenuMain - Username Requirements
+INFO    | main | 11-Jan-2021 Monday MST 22:36:53 | (ConsoleMenu.java:284) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Must start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20
+INFO    | main | 11-Jan-2021 Monday MST 22:36:53 | (ConsoleMenu.java:285) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the username you'd like to use: 
+INFO    | main | 11-Jan-2021 Monday MST 22:39:43 | (ConsoleMenu.java:290) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Username not valid. Please follow the username requirements.
+INFO    | main | 11-Jan-2021 Monday MST 22:39:43 | (ConsoleMenu.java:283) | com.bagonationalbank.app.main.ConsoleMenuMain - Username Requirements
+INFO    | main | 11-Jan-2021 Monday MST 22:39:43 | (ConsoleMenu.java:284) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Must start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20
+INFO    | main | 11-Jan-2021 Monday MST 22:39:43 | (ConsoleMenu.java:285) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the username you'd like to use: 
+INFO    | main | 11-Jan-2021 Monday MST 22:39:54 | (ConsoleMenu.java:290) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Username not valid. Please follow the username requirements.
+INFO    | main | 11-Jan-2021 Monday MST 22:39:54 | (ConsoleMenu.java:283) | com.bagonationalbank.app.main.ConsoleMenuMain - Username Requirements
+INFO    | main | 11-Jan-2021 Monday MST 22:39:54 | (ConsoleMenu.java:284) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Must start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20
+INFO    | main | 11-Jan-2021 Monday MST 22:39:54 | (ConsoleMenu.java:285) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the username you'd like to use: 
+INFO    | main | 11-Jan-2021 Monday MST 22:40:52 | (ConsoleMenu.java:290) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Username not valid. Please follow the username requirements.
+INFO    | main | 11-Jan-2021 Monday MST 22:40:52 | (ConsoleMenu.java:283) | com.bagonationalbank.app.main.ConsoleMenuMain - Username Requirements
+INFO    | main | 11-Jan-2021 Monday MST 22:40:52 | (ConsoleMenu.java:284) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Must start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20
+INFO    | main | 11-Jan-2021 Monday MST 22:40:52 | (ConsoleMenu.java:285) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the username you'd like to use: 
+INFO    | main | 11-Jan-2021 Monday MST 22:41:06 | (ConsoleMenu.java:290) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Username not valid. Please follow the username requirements.
+INFO    | main | 11-Jan-2021 Monday MST 22:41:06 | (ConsoleMenu.java:283) | com.bagonationalbank.app.main.ConsoleMenuMain - Username Requirements
+INFO    | main | 11-Jan-2021 Monday MST 22:41:06 | (ConsoleMenu.java:284) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Must start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20
+INFO    | main | 11-Jan-2021 Monday MST 22:41:06 | (ConsoleMenu.java:285) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the username you'd like to use: 
+INFO    | main | 11-Jan-2021 Monday MST 22:42:03 | (ConsoleMenu.java:307) | com.bagonationalbank.app.main.ConsoleMenuMain - Pin Requirements
+INFO    | main | 11-Jan-2021 Monday MST 22:42:03 | (ConsoleMenu.java:308) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Must start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20
+INFO    | main | 11-Jan-2021 Monday MST 22:42:03 | (ConsoleMenu.java:309) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the pin you'd like to use: 
+INFO    | main | 11-Jan-2021 Monday MST 22:42:51 | (ConsoleMenu.java:307) | com.bagonationalbank.app.main.ConsoleMenuMain - Pin Requirements
+INFO    | main | 11-Jan-2021 Monday MST 22:42:51 | (ConsoleMenu.java:308) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Must start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20
+INFO    | main | 11-Jan-2021 Monday MST 22:42:51 | (ConsoleMenu.java:309) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the pin you'd like to use: 
+INFO    | main | 11-Jan-2021 Monday MST 22:42:55 | (ConsoleMenu.java:307) | com.bagonationalbank.app.main.ConsoleMenuMain - Pin Requirements
+INFO    | main | 11-Jan-2021 Monday MST 22:42:55 | (ConsoleMenu.java:308) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Must start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20
+INFO    | main | 11-Jan-2021 Monday MST 22:42:55 | (ConsoleMenu.java:309) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the pin you'd like to use: 
+INFO    | main | 11-Jan-2021 Monday MST 22:43:00 | (ConsoleMenu.java:307) | com.bagonationalbank.app.main.ConsoleMenuMain - Pin Requirements
+INFO    | main | 11-Jan-2021 Monday MST 22:43:00 | (ConsoleMenu.java:308) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Must start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20
+INFO    | main | 11-Jan-2021 Monday MST 22:43:00 | (ConsoleMenu.java:309) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the pin you'd like to use: 
+INFO    | main | 11-Jan-2021 Monday MST 22:43:13 | (ConsoleMenu.java:307) | com.bagonationalbank.app.main.ConsoleMenuMain - Pin Requirements
+INFO    | main | 11-Jan-2021 Monday MST 22:43:13 | (ConsoleMenu.java:308) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Must start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20
+INFO    | main | 11-Jan-2021 Monday MST 22:43:13 | (ConsoleMenu.java:309) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the pin you'd like to use: 
+INFO    | main | 11-Jan-2021 Monday MST 22:43:25 | (ConsoleMenu.java:320) | com.bagonationalbank.app.main.ConsoleMenuMain - Registration successful!
+INFO    | main | 11-Jan-2021 Monday MST 22:43:25 | (ConsoleMenu.java:35) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Let's get an account set up for you!
+INFO    | main | 11-Jan-2021 Monday MST 22:43:25 | (ConsoleMenu.java:36) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 11-Jan-2021 Monday MST 22:43:25 | (ConsoleMenu.java:38) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Would you like to open a: 
+INFO    | main | 11-Jan-2021 Monday MST 22:43:25 | (ConsoleMenu.java:39) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Checking account
+INFO    | main | 11-Jan-2021 Monday MST 22:43:25 | (ConsoleMenu.java:40) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Savings account
+INFO    | main | 11-Jan-2021 Monday MST 22:43:25 | (ConsoleMenu.java:41) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT

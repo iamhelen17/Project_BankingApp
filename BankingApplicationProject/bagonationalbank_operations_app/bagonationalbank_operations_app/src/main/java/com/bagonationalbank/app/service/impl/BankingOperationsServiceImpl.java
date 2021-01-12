@@ -1,9 +1,5 @@
 package com.bagonationalbank.app.service.impl;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -87,7 +83,7 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 			return false;
 		}
 		
-		if (num == null || (num.length() >= minCharacters  && num.length() <=  maxCharacters && num.matches("[0-9]{10}") )) {
+		if (num == null || (num.length() >= minCharacters  && num.length() <=  maxCharacters && num.matches("[0-9]{1,10}") )) {
 			valid = true;
 		} 
 		return valid;
@@ -222,6 +218,7 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 		} else {
 			throw new BusinessException("Customer ID cannot be null.");    //check print statement
 		}
+
 		return accounts;
 	}
 
