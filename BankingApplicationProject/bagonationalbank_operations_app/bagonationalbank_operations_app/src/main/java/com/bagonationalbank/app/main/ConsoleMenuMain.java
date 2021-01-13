@@ -35,7 +35,6 @@ public class ConsoleMenuMain {
 					Customer customer = bankingOperationsService.customerLogin(customerCredentials);
 					if (customer != null) {
 						console.getWelcomeMessage(customer.getFirstName(), customer.getLastName());
-						//console.getAccountsByCustomerId(login);
 						do {
 							customerMenuChoice = console.getMenuCustomer(customer);
 							switch (customerMenuChoice) {
