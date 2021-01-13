@@ -177,12 +177,15 @@ public class ConsoleMenu {
 		success = true;
 		fail = false;
 		do {
-			log.info("Please enter your address 2: ");
+			log.info("Please enter your address 2 (press enter if you don't have address2): ");
 			address2 = sc.nextLine();
 			success = bankingOperationsService.isValidString(address2, 5, 45, false, false);
 			fail = bankingOperationsService.isValidNumber(address2, 5, 45, false);
 			
-			if (!success || fail) {
+			if (address2 == null || address2.equals("")) {
+				success = true;
+			} else if (!success || fail) {
+				log.info(success + " " + fail);
 				success = false;
 				log.info("\nInvalid Address2! Please Retry.");
 			}

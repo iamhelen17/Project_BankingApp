@@ -296,8 +296,12 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 	public boolean isValidNumber(String num, int minCharacters, int maxCharacters, boolean required) {
 		boolean valid = false;
 		
-		if (required && num == null) {
+		if (required && ((num == null) || num.equals(""))) {
 			return false;
+		}
+		
+		if (!required && ((num == null) || num.equals(""))) {
+			return true;
 		}
 		
 		if (num == null || (num.length() >= minCharacters  && num.length() <=  maxCharacters && num.matches("[0-9]{1,10}") )) {
@@ -310,15 +314,19 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 	public boolean isValidString(String str, int minCharacters, int maxCharacters, boolean required, boolean allAlpha) {
 		boolean valid = false;
 		
-		if (required && str == null) {
+		if (required && ((str == null) || str.equals(""))) {
 			return false;
+		}
+
+		if (!required && ((str == null) || str.equals(""))) {
+			return true;
 		}
 		
 		if (allAlpha && !str.matches("^[a-zA-Z]+$")) {
 			return false;
 		}
 		
-		if (str == null || (str.length() >= minCharacters  && str.length() <=  maxCharacters)) {
+		if (str.length() >= minCharacters  && str.length() <=  maxCharacters) {
 			valid = true;
 		} 
 		return valid;

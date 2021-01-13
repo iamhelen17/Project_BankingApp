@@ -1,44 +1,54 @@
 -------------------------------------------------------------------------------
 Test set: com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 9, Errors: 1, Skipped: 0, Time elapsed: 0.084 s <<< FAILURE! - in com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest
-testIsValidGender  Time elapsed: 0.017 s  <<< ERROR!
-java.lang.NullPointerException
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidGender(BankingOperationsServiceImplTest.java:42)
+Tests run: 12, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 0.297 s <<< FAILURE! - in com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest
+testDepositFundsForGet  Time elapsed: 0.22 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testDepositFundsForGet(BankingOperationsServiceImplTest.java:110)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testDepositFundsForGet(BankingOperationsServiceImplTest.java:110)
 
-testIsValidNumber  Time elapsed: 0.003 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidNumber(BankingOperationsServiceImplTest.java:36)
+testIsValidEmailForFalse  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidEmailForFalse(BankingOperationsServiceImplTest.java:82)
 
-testIsValidString  Time elapsed: 0.001 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidString(BankingOperationsServiceImplTest.java:31)
+testIsValidDateForSave  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidDateForSave(BankingOperationsServiceImplTest.java:88)
 
-testGetCustomerByAccountId  Time elapsed: 0 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGetCustomerByAccountId(BankingOperationsServiceImplTest.java:67)
+testIsValidDateForTrue  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidDateForTrue(BankingOperationsServiceImplTest.java:95)
 
-testGetCustomersByCustomerName  Time elapsed: 0.001 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGetCustomersByCustomerName(BankingOperationsServiceImplTest.java:72)
+testDepositFundsReturnsSingleValues  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testDepositFundsReturnsSingleValues(BankingOperationsServiceImplTest.java:102)
 
-testGetTransactionsByAccountId  Time elapsed: 0.001 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGetTransactionsByAccountId(BankingOperationsServiceImplTest.java:77)
+testTransaferFundsForGet  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testTransaferFundsForGet(BankingOperationsServiceImplTest.java:118)
 
-testGetAccountByAccountId  Time elapsed: 0.001 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGetAccountByAccountId(BankingOperationsServiceImplTest.java:57)
+testGenericFirst  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGenericFirst(BankingOperationsServiceImplTest.java:44)
 
-testGetAllAccounts  Time elapsed: 0.001 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGetAllAccounts(BankingOperationsServiceImplTest.java:62)
+testIsValidGenderForFalse  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidGenderForFalse(BankingOperationsServiceImplTest.java:63)
 
-testWithdrawFunds  Time elapsed: 0 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testWithdrawFunds(BankingOperationsServiceImplTest.java:82)
+testIsValidEmailForSave  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidEmailForSave(BankingOperationsServiceImplTest.java:69)
 
-testDepositFunds  Time elapsed: 0 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testDepositFunds(BankingOperationsServiceImplTest.java:52)
+testIsValidEmailForTrue  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidEmailForTrue(BankingOperationsServiceImplTest.java:76)
+
+testIsValidGenderForSave  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidGenderForSave(BankingOperationsServiceImplTest.java:51)
+
+testIsValidGenderForTrue  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidGenderForTrue(BankingOperationsServiceImplTest.java:57)
 

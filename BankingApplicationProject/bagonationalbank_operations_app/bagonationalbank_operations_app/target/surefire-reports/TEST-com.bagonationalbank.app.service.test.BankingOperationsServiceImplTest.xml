@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.084" tests="10" errors="1" skipped="0" failures="9">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.297" tests="12" errors="12" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\model\AppData\Local\Temp\surefire3751505133606947711\surefirebooter2927613420386679500.jar C:\Users\model\AppData\Local\Temp\surefire3751505133606947711 2021-01-12T01-50-13_631-jvmRun1 surefire1995502676841064856tmp surefire_04877947165443251275tmp"/>
+    <property name="sun.java.command" value="C:\Users\model\AppData\Local\Temp\surefire5159482051362773992\surefirebooter6251090926674236054.jar C:\Users\model\AppData\Local\Temp\surefire5159482051362773992 2021-01-13T11-23-07_502-jvmRun1 surefire7679147258165290650tmp surefire_01239171503266165944tmp"/>
     <property name="surefire.test.class.path" value="C:\Data\GitHub\Project_BankingApp\BankingApplicationProject\bagonationalbank_operations_app\bagonationalbank_operations_app\target\test-classes;C:\Data\GitHub\Project_BankingApp\BankingApplicationProject\bagonationalbank_operations_app\bagonationalbank_operations_app\target\classes;C:\Users\model\.m2\repository\org\postgresql\postgresql\42.2.5\postgresql-42.2.5.jar;C:\Users\model\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\model\.m2\repository\org\mockito\mockito-all\1.10.19\mockito-all-1.10.19.jar;C:\Users\model\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\model\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\model\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\model\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\model\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\model\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\model"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\model\AppData\Local\Temp\surefire3751505133606947711\surefirebooter2927613420386679500.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\model\AppData\Local\Temp\surefire5159482051362773992\surefirebooter6251090926674236054.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,54 +61,66 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testIsValidGender" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.017">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidGender(BankingOperationsServiceImplTest.java:42)
+  <testcase name="testDepositFundsForGet" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.22">
+    <error message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testDepositFundsForGet(BankingOperationsServiceImplTest.java:110)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testDepositFundsForGet(BankingOperationsServiceImplTest.java:110)
 </error>
   </testcase>
-  <testcase name="testIsValidNumber" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.003">
-    <failure message="Not yet implemented" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidNumber(BankingOperationsServiceImplTest.java:36)
-</failure>
+  <testcase name="testIsValidEmailForFalse" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0">
+    <error message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidEmailForFalse(BankingOperationsServiceImplTest.java:82)
+</error>
   </testcase>
-  <testcase name="testIsValidString" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.001">
-    <failure message="Not yet implemented" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidString(BankingOperationsServiceImplTest.java:31)
-</failure>
+  <testcase name="testIsValidDateForSave" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.002">
+    <error message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidDateForSave(BankingOperationsServiceImplTest.java:88)
+</error>
   </testcase>
-  <testcase name="testGetCustomerByAccountId" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0">
-    <failure message="Not yet implemented" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGetCustomerByAccountId(BankingOperationsServiceImplTest.java:67)
-</failure>
+  <testcase name="testIsValidDateForTrue" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.002">
+    <error message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidDateForTrue(BankingOperationsServiceImplTest.java:95)
+</error>
   </testcase>
-  <testcase name="testGetCustomersByCustomerName" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.001">
-    <failure message="Not yet implemented" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGetCustomersByCustomerName(BankingOperationsServiceImplTest.java:72)
-</failure>
+  <testcase name="testDepositFundsReturnsSingleValues" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.002">
+    <error message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testDepositFundsReturnsSingleValues(BankingOperationsServiceImplTest.java:102)
+</error>
   </testcase>
-  <testcase name="testGetTransactionsByAccountId" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.001">
-    <failure message="Not yet implemented" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGetTransactionsByAccountId(BankingOperationsServiceImplTest.java:77)
-</failure>
+  <testcase name="testTransaferFundsForGet" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.002">
+    <error message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testTransaferFundsForGet(BankingOperationsServiceImplTest.java:118)
+</error>
   </testcase>
-  <testcase name="testGetAccountByAccountId" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.001">
-    <failure message="Not yet implemented" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGetAccountByAccountId(BankingOperationsServiceImplTest.java:57)
-</failure>
+  <testcase name="testGenericFirst" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.001">
+    <error message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGenericFirst(BankingOperationsServiceImplTest.java:44)
+</error>
   </testcase>
-  <testcase name="testGetAllAccounts" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.001">
-    <failure message="Not yet implemented" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGetAllAccounts(BankingOperationsServiceImplTest.java:62)
-</failure>
+  <testcase name="testIsValidGenderForFalse" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.002">
+    <error message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidGenderForFalse(BankingOperationsServiceImplTest.java:63)
+</error>
   </testcase>
-  <testcase name="testWithdrawFunds" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0">
-    <failure message="Not yet implemented" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testWithdrawFunds(BankingOperationsServiceImplTest.java:82)
-</failure>
+  <testcase name="testIsValidEmailForSave" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.002">
+    <error message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidEmailForSave(BankingOperationsServiceImplTest.java:69)
+</error>
   </testcase>
-  <testcase name="testDepositFunds" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0">
-    <failure message="Not yet implemented" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Not yet implemented
-	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testDepositFunds(BankingOperationsServiceImplTest.java:52)
-</failure>
+  <testcase name="testIsValidEmailForTrue" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.001">
+    <error message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidEmailForTrue(BankingOperationsServiceImplTest.java:76)
+</error>
+  </testcase>
+  <testcase name="testIsValidGenderForSave" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.001">
+    <error message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidGenderForSave(BankingOperationsServiceImplTest.java:51)
+</error>
+  </testcase>
+  <testcase name="testIsValidGenderForTrue" classname="com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest" time="0.001">
+    <error message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidGenderForTrue(BankingOperationsServiceImplTest.java:57)
+</error>
   </testcase>
 </testsuite>
