@@ -853,7 +853,7 @@ private Account account;
 			}				
 		} catch (ClassNotFoundException | SQLException e) {
 			log.info(e.getMessage());
-			throw new BusinessException("Internal error. Contact SYSADMIN! updateBalance");
+			throw new BusinessException("Internal error. Contact SYSADMIN!");
 		}
 	}
 

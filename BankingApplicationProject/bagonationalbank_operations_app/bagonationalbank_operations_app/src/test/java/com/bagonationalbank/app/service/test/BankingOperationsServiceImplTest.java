@@ -99,11 +99,7 @@ class BankingOperationsServiceImplTest {
 	public void testDepositFundsReturnsSingleValues() {
 		List mocklist = mock(List.class);
 		when(mocklist.size()).thenReturn(1);
-		
 		assertEquals(1, mocklist.size());
-		
-		log.info(mocklist.size());
-		log.info(mocklist);
 	}
 	
 	
@@ -111,10 +107,7 @@ class BankingOperationsServiceImplTest {
 	public void testDepositFundsForGet() {
 		List mocklist = mock(List.class);
 		when(mocklist.get(0)).thenReturn(100);
-		
 		assertEquals(100, mocklist.get(0));
-		
-		log.info(mocklist.get(0));
 	}
 	
 	
@@ -122,13 +115,6 @@ class BankingOperationsServiceImplTest {
 	public void testTransaferFundsForGet() {
 		List mocklist = mock(List.class);
 		when(mocklist.get(0)).thenReturn(200);
-		
 		assertEquals(200, mocklist.get(0));
-		
-		log.info(mocklist.get(1));
 	}
-	
-	
-	
-	
 }
