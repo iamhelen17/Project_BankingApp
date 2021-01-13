@@ -78,7 +78,9 @@ insert into bago_national_bank.username (username, customer_id, employee_id)
 values ('bodi23', 2, 1)
 ;
 
-
+insert into bago_national_bank.username (username, customer_id, employee_id)
+values ('jane7', 1, 1)
+;
 
 create table bago_national_bank.pin (
 	pin_id				serial			not null,
@@ -94,7 +96,9 @@ insert into bago_national_bank.pin (pin, username_id)
 values ('bd1', 1)
 ;
 
-
+insert into bago_national_bank.pin (pin, username_id)
+values ('jn7', 2)
+;
 
 create table bago_national_bank.transactions (
 	transaction_id			serial			not null,

@@ -19,8 +19,8 @@ public interface BankingOperationsService {
 	public Customer customerLogin(Pin customerCredentials) throws BusinessException;
 	
 	//Transactions
-	public void depositFunds(Account account, double amount) throws BusinessException;
-	public void withdrawFunds(Account account, double amount) throws BusinessException;	
+	public Transaction depositFunds(Account account, double amount) throws BusinessException;
+	public Transaction withdrawFunds(Account account, double amount) throws BusinessException;	
 	public void transferFunds(Account fromAccount, Account toAccount, double amount, String status) throws BusinessException;
 	public Account updatePendingTransaction(Transaction transaction, String status) throws BusinessException;
 	

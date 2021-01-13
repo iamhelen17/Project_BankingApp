@@ -58,27 +58,23 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 	}
 
 	@Override
-	public void depositFunds(Account account, double amount) throws BusinessException {
+	public Transaction depositFunds(Account account, double amount) throws BusinessException {
 		String transactionStatus = "confirmed";
 		Transaction transaction = null;
 
-		try {
-			if (bankingOperationsDAO.isAccount(account)) {				
-				if (amount > 0) {	
-					transaction = bankingOperationsDAO.updateBalance(account, amount, transactionStatus);
-					if (transaction != null) {
-						log.info("$" + String.format("%.2f", amount) + " was successfully deposited into account with Account ID: " + account.getAccountId() + ".");  
-					} else {
-						log.info("Deposit failed!");  
-					}
+		if (bankingOperationsDAO.isAccount(account)) {				
+			if (amount > 0) {	
+				transaction = bankingOperationsDAO.updateBalance(account, amount, transactionStatus);
+				if (transaction != null) {
+					return transaction;
 				} else {
-					log.info("You entered: $" + String.format("%.2f", amount) + ". Please enter an amount greater than 0!"); 
+					throw new BusinessException("Deposit failed!");  
 				}
 			} else {
-				log.info("Account ID: " + account.getAccountId() + " is INVALID!");
+				throw new BusinessException("You entered: $" + String.format("%.2f", amount) + ". Please enter an amount greater than 0!"); 
 			}
-		} catch (BusinessException e) {
-			log.info(e.getMessage());
+		} else {
+			throw new BusinessException("Account ID: " + account.getAccountId() + " is INVALID!");
 		}
 	}
 	
@@ -204,7 +200,7 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 	public List<Transaction> getTransactionsByAccountId(Account account, String status) throws BusinessException {
 		List<Transaction> transactionsListByAccountId = null;
 		
-		if (account != null && (status.equals("active") || status.equals("pending") || status.equals("rejected"))) {
+		if (account != null && (status.equals("confirmed") || status.equals("pending") || status.equals("rejected"))) {
 			transactionsListByAccountId  = bankingOperationsDAO.getTransactionsByAccountId(account, status);
 		} else {
 			throw new BusinessException("Account cannot be null.");  
@@ -217,7 +213,7 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 		List<Transaction> transactionsListByCustomerId = null;
 		
 		if (customer != null) {
-			if (status.equals("active") || status.equals("pending") || status.equals("rejected")) {
+			if (status.equals("confirmed") || status.equals("pending") || status.equals("rejected")) {
 				transactionsListByCustomerId  = bankingOperationsDAO.getTransactionsByCustomerId(customer, status);
 			} else {
 				throw new BusinessException("Invalid status."); 
@@ -422,31 +418,27 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 	}
 
 	@Override
-	public void withdrawFunds(Account account, double amount) throws BusinessException {
+	public Transaction withdrawFunds(Account account, double amount) throws BusinessException {
 		String transactionStatus = "confirmed";
 		Transaction transaction = null;
 		
-		try {
-			if (bankingOperationsDAO.isAccount(account)) {				
-				if (amount > 0) {	
-					if (bankingOperationsDAO.getAccountByAccountId(account).getBalance() >= amount) {
-						transaction = bankingOperationsDAO.updateBalance(account, -amount, transactionStatus);
-						if (transaction != null) {
-							log.info("$" + String.format("%.2f", amount) + " was successfully withdrawn from account with Account ID: " + account.getAccountId() + "."); 
-						} else {
-							log.info("Withdrawal failed!");  
-						}
+		if (bankingOperationsDAO.isAccount(account)) {				
+			if (amount > 0) {	
+				if (bankingOperationsDAO.getAccountByAccountId(account).getBalance() >= amount) {
+					transaction = bankingOperationsDAO.updateBalance(account, -amount, transactionStatus);
+					if (transaction != null) {
+						return transaction; 
 					} else {
-						log.info("Insufficient funds in your account!");
+						throw new BusinessException("Withdrawal failed!");  
 					}
 				} else {
-					log.info("You entered: $" + String.format("%.2f", amount) + ". Please enter an amount greater than 0!"); 
+					throw new BusinessException("Insufficient funds in your account!");
 				}
 			} else {
-				log.info("Account ID: " + account.getAccountId() + " is INVALID!");
+				throw new BusinessException("You entered: $" + String.format("%.2f", amount) + ". Please enter an amount greater than 0!"); 
 			}
-		} catch (BusinessException e) {
-			log.info(e.getMessage());
+		} else {
+			throw new BusinessException("Account ID: " + account.getAccountId() + " is INVALID!");
 		}
 	}
 }

@@ -323,32 +323,53 @@ public class ConsoleMenu {
 	}
 
 	public void depositFunds(Customer customer) {
-		int accountId = 0;
 		double amount = 0;
-
-		log.info("Please enter Account ID : ");  
+		int choice = 0;
+		Account account = null;
+		List<Account> accounts = null;
+		String status = "active";
+		Transaction transaction = null;
 		
 		try {
-			accountId = Integer.parseInt(sc.nextLine());
+			accounts = getAccountsByCustomerId(customer, status);
+		} catch (BusinessException e) {
+			log.info(e.getMessage());
+			return;
+		}
+
+		try {
+			log.info("\nPlease select the account that you want to deposit to: ");
+			choice = Integer.parseInt(sc.nextLine());
 		} catch (NumberFormatException e) {
 			log.info("Please enter a numeric value. You cannot enter special characters, symbols or white spaces.");
 			return;
 		}
 		
-		Account account = new Account (accountId, customer);
+		// Validate that the account they choose is actually a choice you gave them.
+		if (choice < 1 || choice > accounts.size()) {
+			log.info("Invalid option.");
+			return;
+		}
 
-		log.info("");
-		log.info("Please Enter Amount to Deposit: ");   
-
+		account = accounts.get(choice - 1);
+		
 		try {
+			log.info("\nPlease Enter Amount to Deposit: ");
 			amount = Double.parseDouble(sc.nextLine());
-		} catch (NumberFormatException e) {
-			log.info("Please enter a numeric value. You cannot enter special characters, symbols or white spaces.");
+		} catch (NumberFormatException e) {                     
+			log.info("Please enter a numeric value. You cannot enter special characters, symbols or white spaces."); 
 			return;
 		}
 		
 		try {
-			bankingOperationsService.depositFunds(account, amount);
+			transaction = bankingOperationsService.depositFunds(account, amount);
+
+			if (transaction != null) {
+				log.info("$" + String.format("%.2f", amount) + " was successfully deposited into account " + account.getAccountId() + ". Your new balance is $" + String.format("%.2f", transaction.getAccount().getBalance()) + ".");  
+			} else {
+				log.info("Deposit failed!");  
+				return;
+			}
 		} catch (BusinessException e) {
 			log.info(e.getMessage());
 		}
@@ -423,6 +444,7 @@ public class ConsoleMenu {
 
 	public List<Account> getAccountsByCustomerId (Customer customer, String status) throws BusinessException {
 		List<Account> accounts = null;
+		String accountType = null;
 		
 		try {
 			accounts = bankingOperationsService.getAccountsByCustomerId(customer, status);
@@ -435,14 +457,20 @@ public class ConsoleMenu {
 				
 				for (int i = 0, j = 1; i < accounts.size(); i++) {
 					account = accounts.get(i);
+
+					if (account.getAccountType().equals("savings")) {
+						accountType = "S";
+					} else if (account.getAccountType().equals("checking")) {
+						accountType = "C";
+					}
 					if (status.equals("active")) { 
-						log.info(j++ + ") Account ID: " + account.getAccountId() + " ** Account Type: " + account.getAccountType() + " ** Balance: $" + String.format("%.2f", account.getBalance()));
+						log.info(j++ + ") Account ID: " + account.getAccountId() + " ** Account Type: " + accountType + " ** Balance: $" + String.format("%.2f", account.getBalance()));
 					} else if (status.equals("pending")) {
-						log.info(j++ + ") Account ID: " + account.getAccountId() + " ** Account Type: " + account.getAccountType() + " ** Balance: $" + String.format("%.2f", account.getBalance()) + " ** Opened on: " + account.getOpenedDate());
+						log.info(j++ + ") Account ID: " + account.getAccountId() + " ** Account Type: " + accountType + " ** Balance: $" + String.format("%.2f", account.getBalance()) + " ** Opened on: " + account.getOpenedDate());
 					} else if (status.equals("closed")) {
-						log.info(j++ + ") Account ID: " + account.getAccountId() + " ** Account Type: " + account.getAccountType() + " ** Balance: $" + String.format("%.2f", account.getBalance()) + " ** Opened on: " + account.getOpenedDate() + " ** Closed on: " + account.getClosedDate());
+						log.info(j++ + ") Account ID: " + account.getAccountId() + " ** Account Type: " + accountType + " ** Balance: $" + String.format("%.2f", account.getBalance()) + " ** Opened on: " + account.getOpenedDate() + " ** Closed on: " + account.getClosedDate());
 					} else if (status.equals("rejected")) {
-						log.info(j++ + ") Account ID: " + account.getAccountId() + " ** Account Type: " + account.getAccountType() + " ** Balance: $" + String.format("%.2f", account.getBalance()) + " ** Rejected By: " + account.getApprovedBy());
+						log.info(j++ + ") Account ID: " + account.getAccountId() + " ** Account Type: " + accountType + " ** Balance: $" + String.format("%.2f", account.getBalance()) + " ** Rejected By: " + account.getApprovedBy());
 					} 
 				}
 			}
@@ -1075,35 +1103,55 @@ public class ConsoleMenu {
 	}
 
 	public void withdrawFunds(Customer customer) {
-		int accountId = 0;
 		double amount = 0;
-		
-		log.info("Please enter Account ID : ");  
+		int choice = 0;
+		Account account = null;
+		List<Account> accounts = null;
+		String status = "active";
+		Transaction transaction = null;
 		
 		try {
-			accountId = Integer.parseInt(sc.nextLine());
+			accounts = getAccountsByCustomerId(customer, status);
+		} catch (BusinessException e) {
+			log.info(e.getMessage());
+			return;
+		}
+
+		try {
+			log.info("\nPlease select the account that you want to withdraw from: ");
+			choice = Integer.parseInt(sc.nextLine());
 		} catch (NumberFormatException e) {
 			log.info("Please enter a numeric value. You cannot enter special characters, symbols or white spaces.");
 			return;
 		}
 		
-		Account account = new Account (accountId, customer);
-		
-		log.info("");
-		log.info("Please Enter Amount to Withdraw: ");   
+		// Validate that the account they choose is actually a choice you gave them.
+		if (choice < 1 || choice > accounts.size()) {
+			log.info("Invalid option.");
+			return;
+		}
+
+		account = accounts.get(choice - 1);
 		
 		try {
+			log.info("\nPlease Enter Amount to Withdraw: ");
 			amount = Double.parseDouble(sc.nextLine());
-		} catch (NumberFormatException e) {
-			log.info("Please enter a numeric value. You cannot enter special characters, symbols or white spaces.");
+		} catch (NumberFormatException e) {                     
+			log.info("Please enter a numeric value. You cannot enter special characters, symbols or white spaces."); 
 			return;
 		}
 		
 		try {
-			bankingOperationsService.withdrawFunds(account, amount);
+			transaction = bankingOperationsService.withdrawFunds(account, amount);
+
+			if (transaction != null) {
+				log.info("$" + String.format("%.2f", amount) + " was successfully withdrawn from account " + account.getAccountId() + ". Your new balance is $" + String.format("%.2f", transaction.getAccount().getBalance()) + ".");  
+			} else {
+				log.info("Withdrawal failed!");  
+				return;
+			}
 		} catch (BusinessException e) {
 			log.info(e.getMessage());
 		}
 	}
-
 }

@@ -832,6 +832,9 @@ private Account account;
 				preparedStatement.setInt(2, account.getAccountId());
 				
 				accountUpdate = preparedStatement.executeUpdate();
+				
+				// Update transaction with the latest account information.
+				transaction.setAccount(getAccountByAccountId(retrievedAccount));
 			}
 
 			if (transactionStatus.equals("confirmed")) {
