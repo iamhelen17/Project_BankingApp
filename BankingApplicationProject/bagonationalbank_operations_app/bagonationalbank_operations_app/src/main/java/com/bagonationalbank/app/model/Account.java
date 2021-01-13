@@ -6,14 +6,14 @@ import java.util.Date;
 public class Account {
 
 	private int accountId;
-	private String accountType;  //checking or saving
+	private String accountType;  
 	private double balance;
 	private Date openedDate;
 	private Date closedDate;
 	private String status;
 	private int approvedBy;
 	private Customer customer;
-	private ArrayList<Transaction> transaction;  //account transactions
+	
 	
 	public Account() {
 		// TODO Auto-generated constructor stub
@@ -27,7 +27,7 @@ public class Account {
 	public Account (int accountId, Customer customer) {
 		super();
 		this.accountId = accountId;
-		this.customer = customer;		//use constructor overriding look up
+		this.customer = customer;		
 	}
 	
 	public Account (int accountId, String accountType, double balance, Date openedDate, String status, Customer customer) {
@@ -43,9 +43,9 @@ public class Account {
 	
 
 	public Account(int accountId, String accountType, double balance, Date openedDate, Date closedDate, String status,
-			int approvedBy, Customer customer, ArrayList<Transaction> transaction) {
+			int approvedBy, Customer customer) {
 		super();
-		this.accountId = accountId;    //use constructor overriding
+		this.accountId = accountId;    
 		this.accountType = accountType;
 		this.balance = balance;
 		this.openedDate = openedDate;
@@ -53,7 +53,6 @@ public class Account {
 		this.status = status;
 		this.approvedBy = approvedBy;
 		this.customer = customer;
-		this.transaction = transaction;
 	}
 
 	public int getAccountId() {
@@ -120,19 +119,11 @@ public class Account {
 		this.customer = customer;
 	}
 
-	public ArrayList<Transaction> getTransactions() {
-		return transaction;
-	}
-
-	public void setTransactions(ArrayList<Transaction> transaction) {
-		this.transaction = transaction;
-	}
-
 	@Override
 	public String toString() {
-		return "Account [accountId=" + accountId + ", accountType=" + accountType + ", balance=" + balance + ", openedDate="
-				+ openedDate + ", closedDate=" + closedDate + ", status=" + status + ", approvedBy=" + approvedBy
-				+ ", customer=" + customer + ", transaction=" + transaction + "]";
+		return "Account [accountId=" + accountId + ", accountType=" + accountType + ", balance=" + balance
+				+ ", openedDate=" + openedDate + ", closedDate=" + closedDate + ", status=" + status + ", approvedBy="
+				+ approvedBy + ", customer=" + customer + "]";
 	}
 	
 }

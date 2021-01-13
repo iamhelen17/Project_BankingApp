@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Employee {
 
-	private int employeeId;  //id number of employee
+	private int employeeId;  
 	private String firstName;
 	private String lastName;
 	private String gender;
@@ -20,10 +20,6 @@ public class Employee {
 	private String phone2;
 	private String email;
 	private Date hiredDate;
-	//private Username username;
-	//private Pin pin;
-	private ArrayList<Customer> customers;
-	private ArrayList<Account> accounts; //list of customer accounts
 	
 	public Employee() {
 		// TODO Auto-generated constructor stub
@@ -31,7 +27,7 @@ public class Employee {
 
 	public Employee(int employeeId, String firstName, String lastName, String gender, Date dob, String address1,
 			String address2, String city, String state, String zip5, String zip4, String phone1, String phone2,
-			String email, Date hiredDate, ArrayList<Customer> customers, ArrayList<Account> accounts) {
+			String email, Date hiredDate) {
 		super();
 		this.employeeId = employeeId;
 		this.firstName = firstName;
@@ -48,8 +44,6 @@ public class Employee {
 		this.phone2 = phone2;
 		this.email = email;
 		this.hiredDate = hiredDate;
-		this.customers = customers;
-		this.accounts = accounts;
 	}
 
 	public int getEmployeeId() {
@@ -172,30 +166,11 @@ public class Employee {
 		this.hiredDate = hiredDate;
 	}
 
-	public ArrayList<Customer> getCustomers() {
-		return customers;
-	}
-
-	public void setCustomers(ArrayList<Customer> customers) {
-		this.customers = customers;
-	}
-
-	public ArrayList<Account> getAccounts() {
-		return accounts;
-	}
-
-	public void setAccounts(ArrayList<Account> accounts) {
-		this.accounts = accounts;
-	}
-
 	@Override
 	public String toString() {
 		return "Employee [employeeId=" + employeeId + ", firstName=" + firstName + ", lastName=" + lastName
 				+ ", gender=" + gender + ", dob=" + dob + ", address1=" + address1 + ", address2=" + address2
 				+ ", city=" + city + ", state=" + state + ", zip5=" + zip5 + ", zip4=" + zip4 + ", phone1=" + phone1
-				+ ", phone2=" + phone2 + ", email=" + email + ", hiredDate=" + hiredDate + ", customers=" + customers
-				+ ", accounts=" + accounts + "]";
+				+ ", phone2=" + phone2 + ", email=" + email + ", hiredDate=" + hiredDate + "]";
 	}
-	
-	
 }

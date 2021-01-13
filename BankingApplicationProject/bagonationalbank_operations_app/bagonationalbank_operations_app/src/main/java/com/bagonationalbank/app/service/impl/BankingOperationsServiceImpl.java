@@ -21,131 +21,17 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 	private BankingOperationsDAO bankingOperationsDAO = new BankingOperationsDAOImpl();
 
 	@Override
-	public String updatePendingAccount(Account account, String status) throws BusinessException {
-		String result = null;
-		
-		if (account != null && (status.equals("active") || status.equals("pending") || status.equals("rejected"))) {
-			result = bankingOperationsDAO.updatePendingAccount(account, status);
-		} else {
-			throw new BusinessException("Account cannot be null.");  //what about status?
-		}
-		return result;
-	}
-
-	@Override
-	public Account updatePendingTransaction(Transaction transaction, String status) throws BusinessException {
-		Account account = null;
-		
-		if (transaction != null && (status.equals("confirmed") || status.equals("pending") || status.equals("rejected"))) {
-			account = bankingOperationsDAO.updatePendingTransaction(transaction, status);
-		} else {
-			throw new BusinessException("Transaction cannot be null.");  //what about status?
-		}
-		return account;
-	}
-
-	@Override
 	public Account createNewAccount(Customer customer, double deposit, String accountType) throws BusinessException {
 		Account account = null;
 		
 		if (customer != null && deposit > 0 && (accountType.equals("savings") || accountType.equals("checking"))) {
 		account = bankingOperationsDAO.createNewAccount(customer, deposit, accountType);
 		} else {
-			throw new BusinessException("Transaction and Account Type cannot be null, and deposit needs to be greater than $0.00."); 
+			throw new BusinessException("Transaction and Account Type cannot be null, and deposit needs to be greater than $0.00, and account type must be savings or checking."); 
 		}
 		
 		return account;
 	}
-	
-	@Override
-	public boolean isValidString(String str, int minCharacters, int maxCharacters, boolean required, boolean allAlpha) {
-		boolean valid = false;
-		
-		if (required && str == null) {
-			return false;
-		}
-		
-		if (allAlpha && !str.matches("[a-zA-Z]{1,60}")) {
-			return false;
-		}
-		
-		if (str == null || (str.length() >= minCharacters  && str.length() <=  maxCharacters)) {
-			valid = true;
-		} 
-		return valid;
-	}
-	
-	@Override
-	public boolean isValidNumber(String num, int minCharacters, int maxCharacters, boolean required) {
-		boolean valid = false;
-		
-		if (required && num == null) {
-			return false;
-		}
-		
-		if (num == null || (num.length() >= minCharacters  && num.length() <=  maxCharacters && num.matches("[0-9]{1,10}") )) {
-			valid = true;
-		} 
-		return valid;
-	}
-	
-	@Override
-	public boolean isValidCredentials(String credentials, int minCharacters, int maxCharacters, boolean required) {
-		
-		boolean valid = false;
-		
-		if (required && credentials == null) {
-			return false;
-		}
-		
-		if (credentials == null || (credentials.length() >= minCharacters  && credentials.length() <=  maxCharacters && credentials.matches("^([a-zA-Z0-9_-]){7,20}$"))) {
-			valid = true;
-		} 
-		return valid;
-	}
-	
-	@Override
-	public boolean isUsername(Username username) throws BusinessException {
-		boolean valid = false;
-		
-		if (username.getUsername() != null) {
-			valid = bankingOperationsDAO.isUsername(username);
-		} 
-		return valid; 
-	}
-	
-	@Override
-	public boolean isValidGender(String gender){
-		boolean valid = false;
-		
-		if (gender != null && gender.matches("[M,F]{1}")) {
-			valid = true;
-		}
-		return valid;
-	}
-	
-	@Override
-	public boolean isValidEmail(String email) {
-		boolean valid = false;
-		
-		if (email != null && email.matches("^[A-Za-z0-9+_.-]+@(.+)$")) {
-			valid = true;
-		}
-		
-		return valid;
-	}
-	
-	@Override
-	public boolean isValidDate(String date) {
-		boolean valid = false;
-		
-		if (date != null && date.matches("[0-9]{2}/[0-9]{2}/[0-9]{4}")) {
-			valid = true;
-		}
-		return valid;
-	}
-	
-	
 	
 	@Override
 	public Customer createNewCustomer(Pin pin) throws BusinessException {
@@ -160,16 +46,28 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 	}
 
 	@Override
+	public Customer customerLogin(Pin customerCredentials) throws BusinessException {
+		Customer customer = null;
+		
+		if (customerCredentials.getUsername().getUsername() != null && customerCredentials.getPin() != null) { 
+			customer = bankingOperationsDAO.customerLogin(customerCredentials);
+		} else {
+			throw new BusinessException("Customer username and pin cannot be null."); 
+		}
+		return customer;
+	}
+
+	@Override
 	public void depositFunds(Account account, double amount) throws BusinessException {
-		String status = "confirmed";
+		String transactionStatus = "confirmed";
 		Transaction transaction = null;
 
 		try {
 			if (bankingOperationsDAO.isAccount(account)) {				
 				if (amount > 0) {	
-					transaction = bankingOperationsDAO.updateBalance(account, amount, status);
+					transaction = bankingOperationsDAO.updateBalance(account, amount, transactionStatus);
 					if (transaction != null) {
-						log.info("$"+String.format("%.2f", amount) + " was successfully deposited into account with Account ID: "+account.getAccountId()+".");  //checking or saving account
+						log.info("$" + String.format("%.2f", amount) + " was successfully deposited into account with Account ID: " + account.getAccountId() + ".");  
 					} else {
 						log.info("Deposit failed!");  
 					}
@@ -177,7 +75,7 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 					log.info("You entered: $" + String.format("%.2f", amount) + ". Please enter an amount greater than 0!"); 
 				}
 			} else {
-				log.info("Account ID: "+account.getAccountId() +" is INVALID!");
+				log.info("Account ID: " + account.getAccountId() + " is INVALID!");
 			}
 		} catch (BusinessException e) {
 			log.info(e.getMessage());
@@ -185,11 +83,11 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 	}
 	
 	@Override
-	public Employee employeeLogIn(Pin employeeCredentials) throws BusinessException {
+	public Employee employeeLogin(Pin employeeCredentials) throws BusinessException {
 		Employee employee = null;
 		
-		if (employeeCredentials.getUsername() != null && employeeCredentials.getPin() != null) { 
-			employee = bankingOperationsDAO.employeeLogIn(employeeCredentials);
+		if (employeeCredentials.getUsername().getUsername()  != null && employeeCredentials.getPin() != null) { 
+			employee = bankingOperationsDAO.employeeLogin(employeeCredentials);
 		} else {
 			throw new BusinessException("Employee username and pin cannot be null."); 
 		}
@@ -213,10 +111,15 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 	public List<Account> getAccountsByCustomerId(Customer customer, String status) throws BusinessException {
 		List<Account> accounts = null;
 		
-		if (customer != null && (status.equals("active") || status.equals("pending") || status.equals("rejected"))) {
-			accounts = bankingOperationsDAO.getAccountsByCustomerId(customer, status);
+		if (customer != null) {
+			if (status.equals("active") || status.equals("closed") || status.equals("pending") || status.equals("rejected")) {
+				accounts = bankingOperationsDAO.getAccountsByCustomerId(customer, status);
+			}
+			else {
+				throw new BusinessException("Invalid status.");
+			}
 		} else {
-			throw new BusinessException("Customer ID cannot be null.");    //check print statement
+			throw new BusinessException("Must pass a Customer."); 
 		}
 
 		return accounts;
@@ -226,10 +129,10 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 	public List<Account> getAllAccounts(String status) throws BusinessException {
 		List<Account> accounts = null;
 		
-		if (status.equals("active") || status.equals("pending") || status.equals("rejected")) {
+		if (status.equals("active") || status.equals("closed") || status.equals("pending") || status.equals("rejected")) {
 			accounts = bankingOperationsDAO.getAllAccounts(status);
 		} else {
-			throw new BusinessException("Status can be either active, pending or rejected.");  //account or status?
+			throw new BusinessException("Status can be either active, pending or rejected.");  
 		}
 		return accounts;
 	}
@@ -256,7 +159,7 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 		if (account != null) {
 			customer = bankingOperationsDAO.getCustomerByAccountId(account);
 		} else {
-			throw new BusinessException("Account ID cannot be null.");  
+			throw new BusinessException("Account cannot be null.");  
 		}
 		return customer;
 	}
@@ -268,7 +171,7 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 		if (customer != null) {
 			retrievedCustomer = bankingOperationsDAO.getCustomerByCustomerId(customer);
 		} else {
-			throw new BusinessException("Customer ID cannot be null.");  
+			throw new BusinessException("Customer cannot be null.");  
 		}
 		return retrievedCustomer;
 	}
@@ -292,7 +195,7 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 		if (transaction != null) {
 			customer = bankingOperationsDAO.getCustomerByTransactionId(transaction);
 		} else {
-			throw new BusinessException("Transaction ID cannot be null."); 
+			throw new BusinessException("Transaction cannot be null."); 
 		}
 		return customer;		
 	}
@@ -304,7 +207,7 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 		if (account != null && (status.equals("active") || status.equals("pending") || status.equals("rejected"))) {
 			transactionsListByAccountId  = bankingOperationsDAO.getTransactionsByAccountId(account, status);
 		} else {
-			throw new BusinessException("Account ID cannot be null.");  //what about status?
+			throw new BusinessException("Account cannot be null.");  
 		}
 		return transactionsListByAccountId;
 	}
@@ -313,42 +216,134 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 	public List<Transaction> getTransactionsByCustomerId(Customer customer, String status) throws BusinessException {
 		List<Transaction> transactionsListByCustomerId = null;
 		
-		if (customer != null && (status.equals("active") || status.equals("pending") || status.equals("rejected"))) {
-			transactionsListByCustomerId  = bankingOperationsDAO.getTransactionsByCustomerId(customer, status);
+		if (customer != null) {
+			if (status.equals("active") || status.equals("pending") || status.equals("rejected")) {
+				transactionsListByCustomerId  = bankingOperationsDAO.getTransactionsByCustomerId(customer, status);
+			} else {
+				throw new BusinessException("Invalid status."); 
+			}
 		} else {
-			throw new BusinessException("Customer ID cannot be null."); 
-		}
+			throw new BusinessException("Customer cannot be null."); 
+		}			
 		return transactionsListByCustomerId;
 	}
 
 	@Override
-	public Customer logIn(Pin customerCredentials) throws BusinessException {
-		Customer customer = null;
+	public boolean isAccount(Account account) throws BusinessException {
+		boolean valid = false;
 		
-		if (customerCredentials.getUsername() != null && customerCredentials.getPin() != null) { //check
-			customer = bankingOperationsDAO.logIn(customerCredentials);
+		if (account != null) {
+			valid = bankingOperationsDAO.isAccount(account);
 		} else {
-			throw new BusinessException("Customer username and pin cannot be null."); 
+			throw new BusinessException("Account cannot be null."); 
 		}
-		return customer;
+		return valid;
 	}
 
 	@Override
-	public void transferFunds(Account fromAccount, Account toAccount, double amount, String status) throws BusinessException {
-		Transaction fromTransaction = null;
-		Transaction toTransaction = null;
+	public boolean isUsername(Username username) throws BusinessException {
+		boolean valid = false;
 		
+		if (username.getUsername() != null) {
+			valid = bankingOperationsDAO.isUsername(username);
+		} 
+		return valid; 
+	}
+	
+	@Override
+	public boolean isValidCredentials(String credentials, int minCharacters, int maxCharacters, boolean required) {
+		
+		boolean valid = false;
+		
+		if (required && credentials == null) {
+			return false;
+		}
+		
+		if (credentials == null || (credentials.length() >= minCharacters  && credentials.length() <=  maxCharacters && credentials.matches("^([a-zA-Z0-9_-]){7,20}$"))) {
+			valid = true;
+		} 
+		return valid;
+	}
+
+	@Override
+	public boolean isValidDate(String date) {
+		boolean valid = false;
+		
+		if (date != null && date.matches("[0-9]{2}/[0-9]{2}/[0-9]{4}")) {
+			valid = true;
+		}
+		return valid;
+	}
+
+	@Override
+	public boolean isValidEmail(String email) {
+		boolean valid = false;
+		
+		if (email != null && email.matches("^[A-Za-z0-9+_.-]+@(.+)$")) {
+			valid = true;
+		}
+		
+		return valid;
+	}
+	
+	@Override
+	public boolean isValidGender(String gender){
+		boolean valid = false;
+		
+		if (gender != null && gender.matches("[M,F]{1}")) {
+			valid = true;
+		}
+		return valid;
+	}
+
+	@Override
+	public boolean isValidNumber(String num, int minCharacters, int maxCharacters, boolean required) {
+		boolean valid = false;
+		
+		if (required && num == null) {
+			return false;
+		}
+		
+		if (num == null || (num.length() >= minCharacters  && num.length() <=  maxCharacters && num.matches("[0-9]{1,10}") )) {
+			valid = true;
+		} 
+		return valid;
+	}
+	
+	@Override
+	public boolean isValidString(String str, int minCharacters, int maxCharacters, boolean required, boolean allAlpha) {
+		boolean valid = false;
+		
+		if (required && str == null) {
+			return false;
+		}
+		
+		if (allAlpha && !str.matches("^[a-zA-Z]+$")) {
+			return false;
+		}
+		
+		if (str == null || (str.length() >= minCharacters  && str.length() <=  maxCharacters)) {
+			valid = true;
+		} 
+		return valid;
+	}
+	
+	@Override
+	public void transferFunds(Account fromAccount, Account toAccount, double amount, String status) throws BusinessException {
 		boolean fromSuccess = false;
 		boolean toSuccess = false;
 		
+		Transaction fromTransaction = null;
+		Transaction toTransaction = null;
+		
 		try {
-			if (bankingOperationsDAO.isAccount(fromAccount)) {// && bankingOperationsDAO.isAccount(toAccount)) {	
+			if (bankingOperationsDAO.isAccount(fromAccount)) { 	
 				if (bankingOperationsDAO.isAccount(toAccount)) {	
 					if (amount > 0) {	
-						if (bankingOperationsDAO.getBalance(fromAccount).getBalance() >= amount) {
+						if (bankingOperationsDAO.getAccountByAccountId(fromAccount).getBalance() >= amount) {
 							fromTransaction = bankingOperationsDAO.updateBalance(fromAccount, -amount, status);
 							toTransaction = bankingOperationsDAO.updateBalance(toAccount, amount, status);
-														
+							// This is where we link the transactions.
 							fromSuccess = bankingOperationsDAO.setLinkedTransactionId(fromTransaction, toTransaction.getTransactionId());
 							toSuccess = bankingOperationsDAO.setLinkedTransactionId(toTransaction, fromTransaction.getTransactionId());
 							
@@ -395,17 +390,49 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 	}	
 
 	@Override
+	public String updatePendingAccount(Account account, String status, Employee employee) throws BusinessException {
+		String result = null;
+		
+		if (account != null) { 
+			if ((status.equals("active") || status.equals("closed") || status.equals("pending") || status.equals("rejected"))) {
+				result = bankingOperationsDAO.updatePendingAccount(account, status, employee);
+			} else {
+				throw new BusinessException("Invalid status.");
+			}
+		} else {
+			throw new BusinessException("Account cannot be null.");  
+		}
+		return result;
+	}
+
+	@Override
+	public Account updatePendingTransaction(Transaction transaction, String status) throws BusinessException {
+		Account account = null;
+		
+		if (transaction != null) {
+			if (status.equals("confirmed") || status.equals("pending") || status.equals("rejected")) {
+				account = bankingOperationsDAO.updatePendingTransaction(transaction, status);
+			} else {
+				throw new BusinessException("Invalid status.");
+			}
+		} else {
+			throw new BusinessException("Transaction cannot be null.");
+		}
+		return account;
+	}
+
+	@Override
 	public void withdrawFunds(Account account, double amount) throws BusinessException {
-		String status = "confirmed";
+		String transactionStatus = "confirmed";
 		Transaction transaction = null;
 		
 		try {
 			if (bankingOperationsDAO.isAccount(account)) {				
 				if (amount > 0) {	
-					if (bankingOperationsDAO.getBalance(account).getBalance() >= amount) {
-						transaction = bankingOperationsDAO.updateBalance(account, -amount, status);
+					if (bankingOperationsDAO.getAccountByAccountId(account).getBalance() >= amount) {
+						transaction = bankingOperationsDAO.updateBalance(account, -amount, transactionStatus);
 						if (transaction != null) {
-							log.info("$"+String.format("%.2f", amount) + " was successfully withdrawn from account with Account ID: "+account.getAccountId()+".");  //checking or saving account
+							log.info("$" + String.format("%.2f", amount) + " was successfully withdrawn from account with Account ID: " + account.getAccountId() + "."); 
 						} else {
 							log.info("Withdrawal failed!");  
 						}
@@ -416,25 +443,10 @@ public class BankingOperationsServiceImpl implements BankingOperationsService {
 					log.info("You entered: $" + String.format("%.2f", amount) + ". Please enter an amount greater than 0!"); 
 				}
 			} else {
-				log.info("Account ID: "+account.getAccountId() +" is INVALID!");
+				log.info("Account ID: " + account.getAccountId() + " is INVALID!");
 			}
 		} catch (BusinessException e) {
 			log.info(e.getMessage());
 		}
 	}
-
-	@Override
-	public boolean isAccount(Account account) throws BusinessException {
-		boolean valid = false;
-		
-		if (account != null) {
-		valid = bankingOperationsDAO.isAccount(account);
-		} else {
-			throw new BusinessException("Account cannot be null."); 
-		}
-		return valid;
-	}
-
-	
-
 }

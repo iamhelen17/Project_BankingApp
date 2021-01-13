@@ -3,7 +3,7 @@ package com.bagonationalbank.app.model;
 public class Pin {
 
 	private int pin_id;
-	private String pin; //MD5 hash of the customer's pin
+	private String pin; 
 	private Username username;
 	
 	public Pin() {

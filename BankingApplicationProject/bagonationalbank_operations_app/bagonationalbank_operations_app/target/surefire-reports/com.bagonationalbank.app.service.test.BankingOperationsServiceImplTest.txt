@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 9, Errors: 1, Skipped: 0, Time elapsed: 0.084 s <<< FAILURE! - in com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest
+testIsValidGender  Time elapsed: 0.017 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidGender(BankingOperationsServiceImplTest.java:42)
+
+testIsValidNumber  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidNumber(BankingOperationsServiceImplTest.java:36)
+
+testIsValidString  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testIsValidString(BankingOperationsServiceImplTest.java:31)
+
+testGetCustomerByAccountId  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGetCustomerByAccountId(BankingOperationsServiceImplTest.java:67)
+
+testGetCustomersByCustomerName  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGetCustomersByCustomerName(BankingOperationsServiceImplTest.java:72)
+
+testGetTransactionsByAccountId  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGetTransactionsByAccountId(BankingOperationsServiceImplTest.java:77)
+
+testGetAccountByAccountId  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGetAccountByAccountId(BankingOperationsServiceImplTest.java:57)
+
+testGetAllAccounts  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testGetAllAccounts(BankingOperationsServiceImplTest.java:62)
+
+testWithdrawFunds  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testWithdrawFunds(BankingOperationsServiceImplTest.java:82)
+
+testDepositFunds  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest.testDepositFunds(BankingOperationsServiceImplTest.java:52)
+

@@ -5,7 +5,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class Customer {
-	private int customerId;  //id number of customer
+	private int customerId;  
 	private String firstName;
 	private String lastName;
 	private String gender;
@@ -20,7 +20,6 @@ public class Customer {
 	private String phone2;
 	private String email;
 	private Date joinDate;
-	private ArrayList<Account> accounts; //list of customer accounts
 	
 	public Customer() {
 		// TODO Auto-generated constructor stub
@@ -29,10 +28,11 @@ public class Customer {
 	public Customer(int customerId) {
 		this.customerId = customerId;
 	}
+	
 
 	public Customer(int customerId, String firstName, String lastName, String gender, Date dob, String address1,
 			String address2, String city, String state, String zip5, String zip4, String phone1, String phone2,
-			String email, Date joinDate, ArrayList<Account> accounts) {
+			String email, Date joinDate) {
 		super();
 		this.customerId = customerId;
 		this.firstName = firstName;
@@ -49,7 +49,6 @@ public class Customer {
 		this.phone2 = phone2;
 		this.email = email;
 		this.joinDate = joinDate;
-		this.accounts = accounts;
 	}
 
 	public Customer(String firstName, String lastName, String gender, Date dob, String address1,
@@ -72,10 +71,6 @@ public class Customer {
 		this.joinDate = Calendar.getInstance().getTime();
 	}
 
-	
-	public ArrayList<Account> getAccounts() {
-		return accounts;
-	}
 
 	public String getAddress1() {
 		return address1;
@@ -135,11 +130,6 @@ public class Customer {
 
 	public String getZip5() {
 		return zip5;
-	}
-
-
-	public void setAccounts(ArrayList<Account> accounts) {
-		this.accounts = accounts;
 	}
 
 	public void setAddress1(String address1) {
@@ -202,12 +192,14 @@ public class Customer {
 		this.zip5 = zip5;
 	}
 
-	
 	@Override
 	public String toString() {
 		return "Customer [customerId=" + customerId + ", firstName=" + firstName + ", lastName=" + lastName
 				+ ", gender=" + gender + ", dob=" + dob + ", address1=" + address1 + ", address2=" + address2
 				+ ", city=" + city + ", state=" + state + ", zip5=" + zip5 + ", zip4=" + zip4 + ", phone1=" + phone1
-				+ ", phone2=" + phone2 + ", email=" + email + ", joinDate=" + joinDate + ", accounts=" + accounts + "]";
+				+ ", phone2=" + phone2 + ", email=" + email + ", joinDate=" + joinDate + "]";
 	}
+
+	
+	
 }

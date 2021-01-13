@@ -22,7 +22,7 @@ public class Username {
 
 	public Username(int usernameId, String username, Customer customer, Employee employee) {
 		super();
-		this.usernameId = usernameId;    //do constructor chaining???
+		this.usernameId = usernameId;    
 		this.username = username;
 		this.customer = customer;
 		this.employee = employee;

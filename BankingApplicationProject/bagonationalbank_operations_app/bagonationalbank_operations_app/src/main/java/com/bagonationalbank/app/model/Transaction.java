@@ -9,7 +9,7 @@ public class Transaction {
 	private double amount;
 	private double oldBalance;
 	private double newBalance;
-	private Date transactionDate;   //date and time of transaction
+	private Date transactionDate;   
 	private Account account;
 	private Customer customer;
 	private String status;

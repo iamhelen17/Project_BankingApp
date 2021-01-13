@@ -11426,3 +11426,1230 @@ Would you like to open a:
 INFO    | main | 11-Jan-2021 Monday MST 22:43:25 | (ConsoleMenu.java:39) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Checking account
 INFO    | main | 11-Jan-2021 Monday MST 22:43:25 | (ConsoleMenu.java:40) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Savings account
 INFO    | main | 11-Jan-2021 Monday MST 22:43:25 | (ConsoleMenu.java:41) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:27 | (ConsoleMenu.java:913) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:27 | (ConsoleMenu.java:914) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:27 | (ConsoleMenu.java:915) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:27 | (ConsoleMenu.java:916) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:27 | (ConsoleMenu.java:917) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:27 | (ConsoleMenu.java:918) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:27 | (ConsoleMenu.java:919) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:27 | (ConsoleMenu.java:920) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:27 | (ConsoleMenu.java:921) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:27 | (ConsoleMenu.java:922) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:27 | (ConsoleMenu.java:923) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:30 | (ConsoleMenu.java:80) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME TO BAGO NATIONAL BANK!
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:30 | (ConsoleMenu.java:81) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:30 | (ConsoleMenu.java:87) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your First Name: 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:33 | (ConsoleMenu.java:98) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your Last Name: 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:34 | (ConsoleMenu.java:111) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:48:58 | (ConsoleMenu.java:111) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:49:01 | (ConsoleMenu.java:111) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:49:08 | (ConsoleMenu.java:111) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:49:14 | (ConsoleMenu.java:128) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:52:35 | (ConsoleMenu.java:913) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:52:35 | (ConsoleMenu.java:914) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 01:52:35 | (ConsoleMenu.java:915) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:52:35 | (ConsoleMenu.java:916) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 01:52:35 | (ConsoleMenu.java:917) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 01:52:35 | (ConsoleMenu.java:918) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 01:52:35 | (ConsoleMenu.java:919) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 01:52:35 | (ConsoleMenu.java:920) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 01:52:35 | (ConsoleMenu.java:921) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 01:52:35 | (ConsoleMenu.java:922) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 01:52:35 | (ConsoleMenu.java:923) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 01:53:37 | (ConsoleMenu.java:913) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:53:37 | (ConsoleMenu.java:914) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 01:53:37 | (ConsoleMenu.java:915) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:53:37 | (ConsoleMenu.java:916) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 01:53:37 | (ConsoleMenu.java:917) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 01:53:37 | (ConsoleMenu.java:918) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 01:53:37 | (ConsoleMenu.java:919) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 01:53:37 | (ConsoleMenu.java:920) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 01:53:37 | (ConsoleMenu.java:921) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 01:53:37 | (ConsoleMenu.java:922) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 01:53:37 | (ConsoleMenu.java:923) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 01:53:54 | (ConsoleMenu.java:884) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:53:54 | (ConsoleMenu.java:885) | com.bagonationalbank.app.main.ConsoleMenuMain - RETURNING CUSTOMER
+INFO    | main | 12-Jan-2021 Tuesday MST 01:53:54 | (ConsoleMenu.java:886) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 01:53:54 | (ConsoleMenu.java:896) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Username
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:18 | (ConsoleMenu.java:913) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:18 | (ConsoleMenu.java:914) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:18 | (ConsoleMenu.java:915) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:18 | (ConsoleMenu.java:916) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:18 | (ConsoleMenu.java:917) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:18 | (ConsoleMenu.java:918) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:18 | (ConsoleMenu.java:919) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:18 | (ConsoleMenu.java:920) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:18 | (ConsoleMenu.java:921) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:18 | (ConsoleMenu.java:922) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:18 | (ConsoleMenu.java:923) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:23 | (ConsoleMenu.java:884) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:23 | (ConsoleMenu.java:885) | com.bagonationalbank.app.main.ConsoleMenuMain - RETURNING CUSTOMER
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:23 | (ConsoleMenu.java:886) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:23 | (ConsoleMenu.java:896) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Username
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:29 | (ConsoleMenu.java:899) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Pin
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:30 | (ConsoleMenu.java:592) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME Bob Dillon!
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:30 | (ConsoleMenu.java:593) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:30 | (ConsoleMenu.java:563) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:30 | (ConsoleMenu.java:564) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:30 | (ConsoleMenu.java:565) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:30 | (ConsoleMenu.java:566) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:30 | (ConsoleMenu.java:567) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:30 | (ConsoleMenu.java:568) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:30 | (ConsoleMenu.java:569) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:30 | (ConsoleMenu.java:570) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:30 | (ConsoleMenu.java:571) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:30 | (ConsoleMenu.java:572) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:30 | (ConsoleMenu.java:573) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:30 | (ConsoleMenu.java:574) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:37 | (ConsoleMenu.java:331) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter Account ID : 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:44 | (ConsoleMenu.java:342) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 01:54:44 | (ConsoleMenu.java:343) | com.bagonationalbank.app.main.ConsoleMenuMain - Please Enter Amount to Deposit: 
+INFO    | main | 12-Jan-2021 Tuesday MST 05:02:26 | (BankingOperationsServiceImplTest.java:95) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 05:02:26 | (BankingOperationsServiceImplTest.java:96) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 22600334
+INFO    | main | 12-Jan-2021 Tuesday MST 05:02:53 | (BankingOperationsServiceImplTest.java:95) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 05:02:53 | (BankingOperationsServiceImplTest.java:96) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1637290981
+INFO    | main | 12-Jan-2021 Tuesday MST 05:04:25 | (BankingOperationsServiceImplTest.java:95) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 05:04:25 | (BankingOperationsServiceImplTest.java:96) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 914356853
+INFO    | main | 12-Jan-2021 Tuesday MST 05:07:22 | (BankingOperationsServiceImplTest.java:80) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 05:07:22 | (BankingOperationsServiceImplTest.java:81) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 914356853
+INFO    | main | 12-Jan-2021 Tuesday MST 05:08:06 | (BankingOperationsServiceImplTest.java:80) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 05:08:06 | (BankingOperationsServiceImplTest.java:81) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1820383114
+INFO    | main | 12-Jan-2021 Tuesday MST 05:15:48 | (BankingOperationsServiceImplTest.java:92) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 05:15:48 | (BankingOperationsServiceImplTest.java:80) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 05:15:48 | (BankingOperationsServiceImplTest.java:81) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1712943792
+INFO    | main | 12-Jan-2021 Tuesday MST 05:17:11 | (BankingOperationsServiceImplTest.java:92) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 05:17:11 | (BankingOperationsServiceImplTest.java:80) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 05:17:11 | (BankingOperationsServiceImplTest.java:81) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1327006586
+INFO    | main | 12-Jan-2021 Tuesday MST 05:17:36 | (BankingOperationsServiceImplTest.java:92) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 05:17:36 | (BankingOperationsServiceImplTest.java:80) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 05:17:36 | (BankingOperationsServiceImplTest.java:81) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1327006586
+INFO    | main | 12-Jan-2021 Tuesday MST 05:18:38 | (BankingOperationsServiceImplTest.java:92) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 05:18:38 | (BankingOperationsServiceImplTest.java:102) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 05:18:38 | (BankingOperationsServiceImplTest.java:80) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 05:18:38 | (BankingOperationsServiceImplTest.java:81) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 771775563
+INFO    | main | 12-Jan-2021 Tuesday MST 05:20:12 | (BankingOperationsServiceImplTest.java:92) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 05:20:12 | (BankingOperationsServiceImplTest.java:102) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 05:20:12 | (BankingOperationsServiceImplTest.java:80) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 05:20:12 | (BankingOperationsServiceImplTest.java:81) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1666607455
+INFO    | main | 12-Jan-2021 Tuesday MST 05:21:13 | (BankingOperationsServiceImplTest.java:92) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 05:21:13 | (BankingOperationsServiceImplTest.java:102) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 05:21:13 | (BankingOperationsServiceImplTest.java:80) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 05:21:13 | (BankingOperationsServiceImplTest.java:81) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 842741472
+INFO    | main | 12-Jan-2021 Tuesday MST 10:30:29 | (BankingOperationsServiceImplTest.java:106) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 10:30:29 | (BankingOperationsServiceImplTest.java:81) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 10:30:29 | (BankingOperationsServiceImplTest.java:82) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1525919705
+INFO    | main | 12-Jan-2021 Tuesday MST 10:30:29 | (BankingOperationsServiceImplTest.java:116) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 10:30:29 | (BankingOperationsServiceImplTest.java:94) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 10:30:29 | (BankingOperationsServiceImplTest.java:95) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1164440413
+INFO    | main | 12-Jan-2021 Tuesday MST 10:37:18 | (BankingOperationsServiceImplTest.java:106) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 10:37:18 | (BankingOperationsServiceImplTest.java:81) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 10:37:18 | (BankingOperationsServiceImplTest.java:82) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 2087885397
+INFO    | main | 12-Jan-2021 Tuesday MST 10:37:18 | (BankingOperationsServiceImplTest.java:116) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 10:37:18 | (BankingOperationsServiceImplTest.java:94) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 10:37:18 | (BankingOperationsServiceImplTest.java:95) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1156304131
+INFO    | main | 12-Jan-2021 Tuesday MST 10:38:04 | (BankingOperationsServiceImplTest.java:106) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 10:38:04 | (BankingOperationsServiceImplTest.java:81) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 10:38:04 | (BankingOperationsServiceImplTest.java:82) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 2087885397
+INFO    | main | 12-Jan-2021 Tuesday MST 10:38:04 | (BankingOperationsServiceImplTest.java:116) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 10:38:04 | (BankingOperationsServiceImplTest.java:94) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 10:38:04 | (BankingOperationsServiceImplTest.java:95) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1156304131
+INFO    | main | 12-Jan-2021 Tuesday MST 10:38:53 | (BankingOperationsServiceImplTest.java:106) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 10:38:53 | (BankingOperationsServiceImplTest.java:81) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 10:38:53 | (BankingOperationsServiceImplTest.java:82) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 842741472
+INFO    | main | 12-Jan-2021 Tuesday MST 10:38:53 | (BankingOperationsServiceImplTest.java:116) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 10:38:53 | (BankingOperationsServiceImplTest.java:94) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 10:38:53 | (BankingOperationsServiceImplTest.java:95) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1610525991
+INFO    | main | 12-Jan-2021 Tuesday MST 10:39:21 | (BankingOperationsServiceImplTest.java:106) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 10:39:21 | (BankingOperationsServiceImplTest.java:81) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 10:39:21 | (BankingOperationsServiceImplTest.java:82) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1525919705
+INFO    | main | 12-Jan-2021 Tuesday MST 10:39:21 | (BankingOperationsServiceImplTest.java:116) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 10:39:21 | (BankingOperationsServiceImplTest.java:94) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 10:39:21 | (BankingOperationsServiceImplTest.java:95) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1164440413
+INFO    | main | 12-Jan-2021 Tuesday MST 10:39:34 | (BankingOperationsServiceImplTest.java:106) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 10:39:34 | (BankingOperationsServiceImplTest.java:81) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 10:39:34 | (BankingOperationsServiceImplTest.java:82) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 842741472
+INFO    | main | 12-Jan-2021 Tuesday MST 10:39:34 | (BankingOperationsServiceImplTest.java:116) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 10:39:34 | (BankingOperationsServiceImplTest.java:94) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 10:39:34 | (BankingOperationsServiceImplTest.java:95) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1610525991
+INFO    | main | 12-Jan-2021 Tuesday MST 10:49:14 | (BankingOperationsServiceImplTest.java:107) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 10:49:14 | (BankingOperationsServiceImplTest.java:82) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 10:49:14 | (BankingOperationsServiceImplTest.java:83) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1202683709
+INFO    | main | 12-Jan-2021 Tuesday MST 10:49:14 | (BankingOperationsServiceImplTest.java:117) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 10:49:14 | (BankingOperationsServiceImplTest.java:95) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 10:49:14 | (BankingOperationsServiceImplTest.java:96) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 842741472
+INFO    | main | 12-Jan-2021 Tuesday MST 10:51:08 | (BankingOperationsServiceImplTest.java:107) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 10:51:08 | (BankingOperationsServiceImplTest.java:82) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 10:51:08 | (BankingOperationsServiceImplTest.java:83) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1525919705
+INFO    | main | 12-Jan-2021 Tuesday MST 10:51:08 | (BankingOperationsServiceImplTest.java:117) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 10:51:08 | (BankingOperationsServiceImplTest.java:95) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 10:51:08 | (BankingOperationsServiceImplTest.java:96) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1164440413
+INFO    | main | 12-Jan-2021 Tuesday MST 10:51:56 | (BankingOperationsServiceImplTest.java:107) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 10:51:56 | (BankingOperationsServiceImplTest.java:82) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 10:51:56 | (BankingOperationsServiceImplTest.java:83) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1525919705
+INFO    | main | 12-Jan-2021 Tuesday MST 10:51:56 | (BankingOperationsServiceImplTest.java:117) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 10:51:56 | (BankingOperationsServiceImplTest.java:95) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 10:51:56 | (BankingOperationsServiceImplTest.java:96) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1164440413
+INFO    | main | 12-Jan-2021 Tuesday MST 10:52:17 | (BankingOperationsServiceImplTest.java:107) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 10:52:17 | (BankingOperationsServiceImplTest.java:82) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 10:52:17 | (BankingOperationsServiceImplTest.java:83) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1525919705
+INFO    | main | 12-Jan-2021 Tuesday MST 10:52:17 | (BankingOperationsServiceImplTest.java:117) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 10:52:17 | (BankingOperationsServiceImplTest.java:95) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 10:52:17 | (BankingOperationsServiceImplTest.java:96) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1164440413
+INFO    | main | 12-Jan-2021 Tuesday MST 10:55:44 | (BankingOperationsServiceImplTest.java:113) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 10:55:44 | (BankingOperationsServiceImplTest.java:88) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 10:55:44 | (BankingOperationsServiceImplTest.java:89) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1666607455
+INFO    | main | 12-Jan-2021 Tuesday MST 10:55:44 | (BankingOperationsServiceImplTest.java:123) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 10:55:44 | (BankingOperationsServiceImplTest.java:101) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 10:55:44 | (BankingOperationsServiceImplTest.java:102) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1147580192
+INFO    | main | 12-Jan-2021 Tuesday MST 10:56:30 | (BankingOperationsServiceImplTest.java:113) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 10:56:30 | (BankingOperationsServiceImplTest.java:88) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 10:56:30 | (BankingOperationsServiceImplTest.java:89) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1610525991
+INFO    | main | 12-Jan-2021 Tuesday MST 10:56:30 | (BankingOperationsServiceImplTest.java:123) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 10:56:30 | (BankingOperationsServiceImplTest.java:101) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 10:56:30 | (BankingOperationsServiceImplTest.java:102) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1332668132
+INFO    | main | 12-Jan-2021 Tuesday MST 10:59:32 | (BankingOperationsServiceImplTest.java:113) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 10:59:32 | (BankingOperationsServiceImplTest.java:88) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 10:59:32 | (BankingOperationsServiceImplTest.java:89) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1525919705
+INFO    | main | 12-Jan-2021 Tuesday MST 10:59:32 | (BankingOperationsServiceImplTest.java:123) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 10:59:32 | (BankingOperationsServiceImplTest.java:101) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 10:59:32 | (BankingOperationsServiceImplTest.java:102) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1164440413
+INFO    | main | 12-Jan-2021 Tuesday MST 11:05:18 | (BankingOperationsServiceImplTest.java:123) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 11:05:18 | (BankingOperationsServiceImplTest.java:98) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 11:05:18 | (BankingOperationsServiceImplTest.java:99) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 842741472
+INFO    | main | 12-Jan-2021 Tuesday MST 11:05:18 | (BankingOperationsServiceImplTest.java:133) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 11:05:18 | (BankingOperationsServiceImplTest.java:111) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 11:05:18 | (BankingOperationsServiceImplTest.java:112) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1610525991
+INFO    | main | 12-Jan-2021 Tuesday MST 11:06:03 | (BankingOperationsServiceImplTest.java:123) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 11:06:03 | (BankingOperationsServiceImplTest.java:98) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 11:06:03 | (BankingOperationsServiceImplTest.java:99) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 842741472
+INFO    | main | 12-Jan-2021 Tuesday MST 11:06:03 | (BankingOperationsServiceImplTest.java:133) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 11:06:03 | (BankingOperationsServiceImplTest.java:111) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 11:06:03 | (BankingOperationsServiceImplTest.java:112) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1610525991
+INFO    | main | 12-Jan-2021 Tuesday MST 11:06:57 | (BankingOperationsServiceImplTest.java:123) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 11:06:57 | (BankingOperationsServiceImplTest.java:98) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 11:06:57 | (BankingOperationsServiceImplTest.java:99) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1164440413
+INFO    | main | 12-Jan-2021 Tuesday MST 11:06:57 | (BankingOperationsServiceImplTest.java:133) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 11:06:57 | (BankingOperationsServiceImplTest.java:111) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 11:06:57 | (BankingOperationsServiceImplTest.java:112) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 530737374
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:31 | (BankingOperationsServiceImplTest.java:112) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:31 | (BankingOperationsServiceImplTest.java:87) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:31 | (BankingOperationsServiceImplTest.java:88) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1164440413
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:31 | (BankingOperationsServiceImplTest.java:122) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:31 | (BankingOperationsServiceImplTest.java:100) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:31 | (BankingOperationsServiceImplTest.java:101) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 530737374
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:38 | (ConsoleMenu.java:876) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:38 | (ConsoleMenu.java:877) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:38 | (ConsoleMenu.java:878) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:38 | (ConsoleMenu.java:879) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:38 | (ConsoleMenu.java:880) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:38 | (ConsoleMenu.java:881) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:38 | (ConsoleMenu.java:882) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:38 | (ConsoleMenu.java:883) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:38 | (ConsoleMenu.java:884) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:38 | (ConsoleMenu.java:885) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:38 | (ConsoleMenu.java:886) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:44 | (ConsoleMenu.java:663) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:44 | (ConsoleMenu.java:664) | com.bagonationalbank.app.main.ConsoleMenuMain - RETURNING CUSTOMER
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:44 | (ConsoleMenu.java:665) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:44 | (ConsoleMenu.java:675) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Username
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:45 | (ConsoleMenu.java:678) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Pin
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:46 | (ConsoleMenu.java:657) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME Bob Dillon!
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:46 | (ConsoleMenu.java:658) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:46 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:46 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:46 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:46 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:46 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:46 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:46 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:46 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:46 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:46 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:46 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:46 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:52 | (ConsoleMenu.java:1049) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:52 | (ConsoleMenu.java:1050) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+TRANSFER MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:52 | (ConsoleMenu.java:1051) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:52 | (ConsoleMenu.java:1052) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Transfer between your own accounts
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:52 | (ConsoleMenu.java:1053) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Transfer to an external account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:52 | (ConsoleMenu.java:1054) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:52 | (ConsoleMenu.java:1055) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-3
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:54 | (ConsoleMenu.java:429) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:54 | (ConsoleMenu.java:430) | com.bagonationalbank.app.main.ConsoleMenuMain - ACCOUNT DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:54 | (ConsoleMenu.java:431) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:54 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Account ID: 1 ** Account Type: savings ** Balance: $999.39
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:54 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Account ID: 2 ** Account Type: checking ** Balance: $1000.00
+INFO    | main | 12-Jan-2021 Tuesday MST 14:44:54 | (ConsoleMenu.java:920) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please select the account that you want to transfer from: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:45:01 | (ConsoleMenu.java:933) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the account ID that you want to transfer to: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:45:23 | (ConsoleMenu.java:954) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter Amount to Transfer: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:45:26 | (BankingOperationsServiceImpl.java:358) | com.bagonationalbank.app.service.impl.BankingOperationsServiceImpl - $200.00 will be transferred from account 1 to account 2 pending approval.
+INFO    | main | 12-Jan-2021 Tuesday MST 14:45:26 | (ConsoleMenu.java:1049) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:45:26 | (ConsoleMenu.java:1050) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+TRANSFER MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:45:26 | (ConsoleMenu.java:1051) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:45:26 | (ConsoleMenu.java:1052) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Transfer between your own accounts
+INFO    | main | 12-Jan-2021 Tuesday MST 14:45:26 | (ConsoleMenu.java:1053) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Transfer to an external account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:45:26 | (ConsoleMenu.java:1054) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:45:26 | (ConsoleMenu.java:1055) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-3
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:12 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:12 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:12 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:12 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:12 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:12 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:12 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:12 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:12 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:12 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:12 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:12 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:42 | (ConsoleMenu.java:792) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:42 | (ConsoleMenu.java:793) | com.bagonationalbank.app.main.ConsoleMenuMain - PENDING TRANSACTION DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:42 | (ConsoleMenu.java:794) | com.bagonationalbank.app.main.ConsoleMenuMain - ---------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:42 | (ConsoleMenu.java:646) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Date: 2021-01-12 ** Account ID: 2 ** Account Type: C ** credit ** Amount: $200.00 ** Sent By: Bob Dillon
+INFO    | main | 12-Jan-2021 Tuesday MST 14:46:42 | (ConsoleMenu.java:806) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Which transaction would you like to approve or reject? (0 for none): 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:10 | (ConsoleMenu.java:876) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:10 | (ConsoleMenu.java:877) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:10 | (ConsoleMenu.java:878) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:10 | (ConsoleMenu.java:879) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:10 | (ConsoleMenu.java:880) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:10 | (ConsoleMenu.java:881) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:10 | (ConsoleMenu.java:882) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:10 | (ConsoleMenu.java:883) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:10 | (ConsoleMenu.java:884) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:10 | (ConsoleMenu.java:885) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:10 | (ConsoleMenu.java:886) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:14 | (ConsoleMenu.java:663) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:14 | (ConsoleMenu.java:664) | com.bagonationalbank.app.main.ConsoleMenuMain - RETURNING CUSTOMER
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:14 | (ConsoleMenu.java:665) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:14 | (ConsoleMenu.java:675) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Username
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:16 | (ConsoleMenu.java:678) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Pin
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:16 | (ConsoleMenu.java:657) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME b c!
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:16 | (ConsoleMenu.java:658) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:16 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:16 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:16 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:16 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:16 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:16 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:16 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:16 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:16 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:16 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:16 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:16 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:20 | (ConsoleMenu.java:1049) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:20 | (ConsoleMenu.java:1050) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+TRANSFER MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:20 | (ConsoleMenu.java:1051) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:20 | (ConsoleMenu.java:1052) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Transfer between your own accounts
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:20 | (ConsoleMenu.java:1053) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Transfer to an external account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:20 | (ConsoleMenu.java:1054) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:20 | (ConsoleMenu.java:1055) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-3
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:31 | (ConsoleMenu.java:876) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:31 | (ConsoleMenu.java:877) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:31 | (ConsoleMenu.java:878) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:31 | (ConsoleMenu.java:879) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:31 | (ConsoleMenu.java:880) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:31 | (ConsoleMenu.java:881) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:31 | (ConsoleMenu.java:882) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:31 | (ConsoleMenu.java:883) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:31 | (ConsoleMenu.java:884) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:31 | (ConsoleMenu.java:885) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:31 | (ConsoleMenu.java:886) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:34 | (ConsoleMenu.java:663) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:34 | (ConsoleMenu.java:664) | com.bagonationalbank.app.main.ConsoleMenuMain - RETURNING CUSTOMER
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:34 | (ConsoleMenu.java:665) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:34 | (ConsoleMenu.java:675) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Username
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:34 | (ConsoleMenu.java:678) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Pin
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:35 | (ConsoleMenu.java:657) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME Bob Dillon!
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:35 | (ConsoleMenu.java:658) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:35 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:35 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:35 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:35 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:35 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:35 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:35 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:35 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:35 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:35 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:35 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:35 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:36 | (ConsoleMenu.java:1049) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:36 | (ConsoleMenu.java:1050) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+TRANSFER MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:36 | (ConsoleMenu.java:1051) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:36 | (ConsoleMenu.java:1052) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Transfer between your own accounts
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:36 | (ConsoleMenu.java:1053) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Transfer to an external account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:36 | (ConsoleMenu.java:1054) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:36 | (ConsoleMenu.java:1055) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-3
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:39 | (ConsoleMenu.java:429) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:39 | (ConsoleMenu.java:430) | com.bagonationalbank.app.main.ConsoleMenuMain - ACCOUNT DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:39 | (ConsoleMenu.java:431) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:39 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Account ID: 1 ** Account Type: savings ** Balance: $999.39
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:39 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Account ID: 2 ** Account Type: checking ** Balance: $1000.00
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:39 | (ConsoleMenu.java:920) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please select the account that you want to transfer from: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:44 | (ConsoleMenu.java:933) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the account ID that you want to transfer to: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:55 | (ConsoleMenu.java:1049) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:55 | (ConsoleMenu.java:1050) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+TRANSFER MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:55 | (ConsoleMenu.java:1051) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:55 | (ConsoleMenu.java:1052) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Transfer between your own accounts
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:55 | (ConsoleMenu.java:1053) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Transfer to an external account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:55 | (ConsoleMenu.java:1054) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:47:55 | (ConsoleMenu.java:1055) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-3
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:10 | (ConsoleMenu.java:429) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:10 | (ConsoleMenu.java:430) | com.bagonationalbank.app.main.ConsoleMenuMain - ACCOUNT DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:10 | (ConsoleMenu.java:431) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:10 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Account ID: 1 ** Account Type: savings ** Balance: $999.39
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:10 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Account ID: 2 ** Account Type: checking ** Balance: $1000.00
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:10 | (ConsoleMenu.java:920) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please select the account that you want to transfer from: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:16 | (ConsoleMenu.java:933) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the account ID that you want to transfer to: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:18 | (ConsoleMenu.java:1049) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:18 | (ConsoleMenu.java:1050) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+TRANSFER MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:18 | (ConsoleMenu.java:1051) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:18 | (ConsoleMenu.java:1052) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Transfer between your own accounts
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:18 | (ConsoleMenu.java:1053) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Transfer to an external account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:18 | (ConsoleMenu.java:1054) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:18 | (ConsoleMenu.java:1055) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-3
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:28 | (ConsoleMenu.java:429) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:28 | (ConsoleMenu.java:430) | com.bagonationalbank.app.main.ConsoleMenuMain - ACCOUNT DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:28 | (ConsoleMenu.java:431) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:28 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Account ID: 1 ** Account Type: savings ** Balance: $999.39
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:28 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Account ID: 2 ** Account Type: checking ** Balance: $1000.00
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:28 | (ConsoleMenu.java:920) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please select the account that you want to transfer from: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:31 | (ConsoleMenu.java:933) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the account ID that you want to transfer to: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:37 | (ConsoleMenu.java:1049) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:37 | (ConsoleMenu.java:1050) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+TRANSFER MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:37 | (ConsoleMenu.java:1051) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:37 | (ConsoleMenu.java:1052) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Transfer between your own accounts
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:37 | (ConsoleMenu.java:1053) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Transfer to an external account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:37 | (ConsoleMenu.java:1054) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:48:37 | (ConsoleMenu.java:1055) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-3
+INFO    | main | 12-Jan-2021 Tuesday MST 14:49:21 | (ConsoleMenu.java:429) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:49:21 | (ConsoleMenu.java:430) | com.bagonationalbank.app.main.ConsoleMenuMain - ACCOUNT DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 14:49:21 | (ConsoleMenu.java:431) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:49:21 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Account ID: 1 ** Account Type: savings ** Balance: $999.39
+INFO    | main | 12-Jan-2021 Tuesday MST 14:49:21 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Account ID: 2 ** Account Type: checking ** Balance: $1000.00
+INFO    | main | 12-Jan-2021 Tuesday MST 14:49:21 | (ConsoleMenu.java:920) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please select the account that you want to transfer from: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:49:23 | (ConsoleMenu.java:933) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the account ID that you want to transfer to: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:49:26 | (ConsoleMenu.java:1049) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:49:26 | (ConsoleMenu.java:1050) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+TRANSFER MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:49:26 | (ConsoleMenu.java:1051) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:49:26 | (ConsoleMenu.java:1052) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Transfer between your own accounts
+INFO    | main | 12-Jan-2021 Tuesday MST 14:49:26 | (ConsoleMenu.java:1053) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Transfer to an external account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:49:26 | (ConsoleMenu.java:1054) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:49:26 | (ConsoleMenu.java:1055) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-3
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:03 | (ConsoleMenu.java:876) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:04 | (ConsoleMenu.java:877) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:04 | (ConsoleMenu.java:878) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:04 | (ConsoleMenu.java:879) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:04 | (ConsoleMenu.java:880) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:04 | (ConsoleMenu.java:881) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:04 | (ConsoleMenu.java:882) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:04 | (ConsoleMenu.java:883) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:04 | (ConsoleMenu.java:884) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:04 | (ConsoleMenu.java:885) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:04 | (ConsoleMenu.java:886) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:10 | (ConsoleMenu.java:663) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:10 | (ConsoleMenu.java:664) | com.bagonationalbank.app.main.ConsoleMenuMain - RETURNING CUSTOMER
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:10 | (ConsoleMenu.java:665) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:10 | (ConsoleMenu.java:675) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Username
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:19 | (ConsoleMenu.java:678) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Pin
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:20 | (ConsoleMenu.java:657) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME b c!
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:20 | (ConsoleMenu.java:658) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:20 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:20 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:20 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:20 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:20 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:20 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:20 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:20 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:20 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:20 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:20 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:20 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:22 | (ConsoleMenu.java:1050) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:22 | (ConsoleMenu.java:1051) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+TRANSFER MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:22 | (ConsoleMenu.java:1052) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:22 | (ConsoleMenu.java:1053) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Transfer between your own accounts
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:22 | (ConsoleMenu.java:1054) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Transfer to an external account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:22 | (ConsoleMenu.java:1055) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:22 | (ConsoleMenu.java:1056) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-3
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:24 | (ConsoleMenu.java:429) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:24 | (ConsoleMenu.java:430) | com.bagonationalbank.app.main.ConsoleMenuMain - ACCOUNT DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:24 | (ConsoleMenu.java:431) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:24 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Account ID: 4 ** Account Type: checking ** Balance: $350.00
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:24 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Account ID: 5 ** Account Type: savings ** Balance: $200.00
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:24 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Account ID: 6 ** Account Type: checking ** Balance: $250.00
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:24 | (ConsoleMenu.java:920) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please select the account that you want to transfer from: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:30 | (ConsoleMenu.java:933) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the account ID that you want to transfer to: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:31 | (ConsoleMenu.java:946) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+I AM HERE
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:31 | (ConsoleMenu.java:1050) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:31 | (ConsoleMenu.java:1051) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+TRANSFER MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:31 | (ConsoleMenu.java:1052) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:31 | (ConsoleMenu.java:1053) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Transfer between your own accounts
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:31 | (ConsoleMenu.java:1054) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Transfer to an external account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:31 | (ConsoleMenu.java:1055) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:52:31 | (ConsoleMenu.java:1056) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-3
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:02 | (ConsoleMenu.java:876) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:02 | (ConsoleMenu.java:877) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:02 | (ConsoleMenu.java:878) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:02 | (ConsoleMenu.java:879) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:02 | (ConsoleMenu.java:880) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:02 | (ConsoleMenu.java:881) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:02 | (ConsoleMenu.java:882) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:02 | (ConsoleMenu.java:883) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:02 | (ConsoleMenu.java:884) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:02 | (ConsoleMenu.java:885) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:02 | (ConsoleMenu.java:886) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:04 | (ConsoleMenu.java:663) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:04 | (ConsoleMenu.java:664) | com.bagonationalbank.app.main.ConsoleMenuMain - RETURNING CUSTOMER
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:04 | (ConsoleMenu.java:665) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:04 | (ConsoleMenu.java:675) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Username
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:05 | (ConsoleMenu.java:678) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Pin
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:06 | (ConsoleMenu.java:657) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME Bob Dillon!
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:06 | (ConsoleMenu.java:658) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:06 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:06 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:06 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:06 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:06 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:06 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:06 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:06 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:06 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:06 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:06 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:06 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:10 | (ConsoleMenu.java:1050) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:10 | (ConsoleMenu.java:1051) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+TRANSFER MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:10 | (ConsoleMenu.java:1052) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:10 | (ConsoleMenu.java:1053) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Transfer between your own accounts
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:10 | (ConsoleMenu.java:1054) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Transfer to an external account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:10 | (ConsoleMenu.java:1055) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:10 | (ConsoleMenu.java:1056) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-3
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:14 | (ConsoleMenu.java:429) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:14 | (ConsoleMenu.java:430) | com.bagonationalbank.app.main.ConsoleMenuMain - ACCOUNT DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:14 | (ConsoleMenu.java:431) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:14 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Account ID: 1 ** Account Type: savings ** Balance: $999.39
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:14 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Account ID: 2 ** Account Type: checking ** Balance: $1000.00
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:14 | (ConsoleMenu.java:920) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please select the account that you want to transfer from: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:27 | (ConsoleMenu.java:933) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the account ID that you want to transfer to: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:29 | (ConsoleMenu.java:955) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter Amount to Transfer: 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:32 | (BankingOperationsServiceImpl.java:358) | com.bagonationalbank.app.service.impl.BankingOperationsServiceImpl - $200.00 will be transferred from account 1 to account 5 pending approval.
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:32 | (ConsoleMenu.java:1050) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:32 | (ConsoleMenu.java:1051) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+TRANSFER MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:32 | (ConsoleMenu.java:1052) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:32 | (ConsoleMenu.java:1053) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Transfer between your own accounts
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:32 | (ConsoleMenu.java:1054) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Transfer to an external account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:32 | (ConsoleMenu.java:1055) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:32 | (ConsoleMenu.java:1056) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-3
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:37 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:37 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:37 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:37 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:37 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:37 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:37 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:37 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:37 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:37 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:37 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:37 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:39 | (ConsoleMenuMain.java:80) | com.bagonationalbank.app.main.ConsoleMenuMain - Thank You for using our Banking App... Have a good one!!
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:39 | (ConsoleMenu.java:876) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:39 | (ConsoleMenu.java:877) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:39 | (ConsoleMenu.java:878) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:39 | (ConsoleMenu.java:879) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:39 | (ConsoleMenu.java:880) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:39 | (ConsoleMenu.java:881) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:39 | (ConsoleMenu.java:882) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:39 | (ConsoleMenu.java:883) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:39 | (ConsoleMenu.java:884) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:39 | (ConsoleMenu.java:885) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:39 | (ConsoleMenu.java:886) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:42 | (ConsoleMenu.java:663) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:42 | (ConsoleMenu.java:664) | com.bagonationalbank.app.main.ConsoleMenuMain - RETURNING CUSTOMER
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:42 | (ConsoleMenu.java:665) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:42 | (ConsoleMenu.java:675) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Username
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:43 | (ConsoleMenu.java:678) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Pin
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:45 | (ConsoleMenu.java:657) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME b c!
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:45 | (ConsoleMenu.java:658) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:45 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:45 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:45 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:45 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:45 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:45 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:45 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:45 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:45 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:45 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:45 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:45 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:54 | (ConsoleMenu.java:792) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:54 | (ConsoleMenu.java:793) | com.bagonationalbank.app.main.ConsoleMenuMain - PENDING TRANSACTION DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:54 | (ConsoleMenu.java:794) | com.bagonationalbank.app.main.ConsoleMenuMain - ---------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:54 | (ConsoleMenu.java:646) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Date: 2021-01-12 ** Account ID: 5 ** Account Type: S ** credit ** Amount: $200.00 ** Sent By: Bob Dillon
+INFO    | main | 12-Jan-2021 Tuesday MST 14:55:54 | (ConsoleMenu.java:806) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Which transaction would you like to approve or reject? (0 for none): 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:08 | (ConsoleMenu.java:815) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter a numeric value. You cannot enter special characters, symbols or white spaces.
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:08 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:08 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:08 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:08 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:08 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:08 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:08 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:08 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:08 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:08 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:08 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:08 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:18 | (ConsoleMenu.java:792) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:18 | (ConsoleMenu.java:793) | com.bagonationalbank.app.main.ConsoleMenuMain - PENDING TRANSACTION DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:18 | (ConsoleMenu.java:794) | com.bagonationalbank.app.main.ConsoleMenuMain - ---------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:19 | (ConsoleMenu.java:646) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Date: 2021-01-12 ** Account ID: 5 ** Account Type: S ** credit ** Amount: $200.00 ** Sent By: Bob Dillon
+INFO    | main | 12-Jan-2021 Tuesday MST 15:05:19 | (ConsoleMenu.java:806) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Which transaction would you like to approve or reject? (0 for none): 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:35 | (ConsoleMenu.java:646) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Date: 2021-01-12 ** Account ID: 5 ** Account Type: S ** credit ** Amount: $200.00 ** Sent By: Bob Dillon
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:35 | (ConsoleMenu.java:823) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+What would you like to do with this transaction? 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:35 | (ConsoleMenu.java:824) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+1) Approve 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:35 | (ConsoleMenu.java:825) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Reject 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:35 | (ConsoleMenu.java:826) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:38 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:38 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:38 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:38 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:38 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:38 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:38 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:38 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:38 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:38 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:38 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:38 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:40 | (ConsoleMenu.java:792) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:40 | (ConsoleMenu.java:793) | com.bagonationalbank.app.main.ConsoleMenuMain - PENDING TRANSACTION DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:40 | (ConsoleMenu.java:794) | com.bagonationalbank.app.main.ConsoleMenuMain - ---------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:40 | (ConsoleMenu.java:646) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Date: 2021-01-12 ** Account ID: 5 ** Account Type: S ** credit ** Amount: $200.00 ** Sent By: Bob Dillon
+INFO    | main | 12-Jan-2021 Tuesday MST 15:06:40 | (ConsoleMenu.java:806) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Which transaction would you like to approve or reject? (0 for none): 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:21 | (ConsoleMenu.java:876) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:21 | (ConsoleMenu.java:877) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:21 | (ConsoleMenu.java:878) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:21 | (ConsoleMenu.java:879) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:21 | (ConsoleMenu.java:880) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:21 | (ConsoleMenu.java:881) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:21 | (ConsoleMenu.java:882) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:21 | (ConsoleMenu.java:883) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:21 | (ConsoleMenu.java:884) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:21 | (ConsoleMenu.java:885) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:21 | (ConsoleMenu.java:886) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:25 | (ConsoleMenu.java:663) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:25 | (ConsoleMenu.java:664) | com.bagonationalbank.app.main.ConsoleMenuMain - RETURNING CUSTOMER
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:25 | (ConsoleMenu.java:665) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:25 | (ConsoleMenu.java:675) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Username
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:26 | (ConsoleMenu.java:678) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Pin
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:27 | (ConsoleMenu.java:657) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME b c!
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:27 | (ConsoleMenu.java:658) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:27 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:27 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:27 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:27 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:27 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:27 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:27 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:27 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:27 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:27 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:27 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:27 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:29 | (ConsoleMenu.java:792) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:29 | (ConsoleMenu.java:793) | com.bagonationalbank.app.main.ConsoleMenuMain - PENDING TRANSACTION DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:29 | (ConsoleMenu.java:794) | com.bagonationalbank.app.main.ConsoleMenuMain - ---------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:29 | (ConsoleMenu.java:646) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Date: 2021-01-12 ** Account ID: 5 ** Account Type: S ** credit ** Amount: $200.00 ** Sent By: Bob Dillon
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:29 | (ConsoleMenu.java:806) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Which transaction would you like to approve or reject? (0 for none): 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:32 | (ConsoleMenu.java:857) | com.bagonationalbank.app.main.ConsoleMenuMain - Invalid option.
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:32 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:32 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:32 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:32 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:32 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:32 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:32 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:32 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:32 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:32 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:32 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:32 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:36 | (ConsoleMenu.java:792) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:36 | (ConsoleMenu.java:793) | com.bagonationalbank.app.main.ConsoleMenuMain - PENDING TRANSACTION DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:36 | (ConsoleMenu.java:794) | com.bagonationalbank.app.main.ConsoleMenuMain - ---------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:36 | (ConsoleMenu.java:646) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Date: 2021-01-12 ** Account ID: 5 ** Account Type: S ** credit ** Amount: $200.00 ** Sent By: Bob Dillon
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:36 | (ConsoleMenu.java:806) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Which transaction would you like to approve or reject? (0 for none): 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:38 | (ConsoleMenu.java:857) | com.bagonationalbank.app.main.ConsoleMenuMain - Invalid option.
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:38 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:38 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:38 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:38 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:38 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:38 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:38 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:38 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:38 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:38 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:38 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:38 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:40 | (ConsoleMenu.java:792) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:40 | (ConsoleMenu.java:793) | com.bagonationalbank.app.main.ConsoleMenuMain - PENDING TRANSACTION DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:40 | (ConsoleMenu.java:794) | com.bagonationalbank.app.main.ConsoleMenuMain - ---------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:40 | (ConsoleMenu.java:646) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Date: 2021-01-12 ** Account ID: 5 ** Account Type: S ** credit ** Amount: $200.00 ** Sent By: Bob Dillon
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:40 | (ConsoleMenu.java:806) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Which transaction would you like to approve or reject? (0 for none): 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:42 | (ConsoleMenu.java:646) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Date: 2021-01-12 ** Account ID: 5 ** Account Type: S ** credit ** Amount: $200.00 ** Sent By: Bob Dillon
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:42 | (ConsoleMenu.java:823) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+What would you like to do with this transaction? 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:42 | (ConsoleMenu.java:824) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+1) Approve 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:42 | (ConsoleMenu.java:825) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Reject 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:08:42 | (ConsoleMenu.java:826) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:55 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:55 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:55 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:55 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:55 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:55 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:55 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:55 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:55 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:55 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:55 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:55 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:429) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:430) | com.bagonationalbank.app.main.ConsoleMenuMain - ACCOUNT DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:431) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Account ID: 4 ** Account Type: checking ** Balance: $350.00
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Account ID: 5 ** Account Type: savings ** Balance: $200.00
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:436) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Account ID: 6 ** Account Type: checking ** Balance: $250.00
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 15:28:57 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:06 | (ConsoleMenu.java:792) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:06 | (ConsoleMenu.java:793) | com.bagonationalbank.app.main.ConsoleMenuMain - PENDING TRANSACTION DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:06 | (ConsoleMenu.java:794) | com.bagonationalbank.app.main.ConsoleMenuMain - ---------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:06 | (ConsoleMenu.java:646) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Date: 2021-01-12 ** Account ID: 5 ** Account Type: S ** credit ** Amount: $200.00 ** Sent By: Bob Dillon
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:06 | (ConsoleMenu.java:806) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Which transaction would you like to approve or reject? (0 for none): 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:17 | (ConsoleMenu.java:646) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Date: 2021-01-12 ** Account ID: 5 ** Account Type: S ** credit ** Amount: $200.00 ** Sent By: Bob Dillon
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:17 | (ConsoleMenu.java:823) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+What would you like to do with this transaction? 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:17 | (ConsoleMenu.java:824) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+1) Approve 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:17 | (ConsoleMenu.java:825) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Reject 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:17 | (ConsoleMenu.java:826) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:19 | (ConsoleMenu.java:849) | com.bagonationalbank.app.main.ConsoleMenuMain - Transaction approved! Account 5 now has a balance of $400.00.
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:19 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:19 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:19 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:19 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:19 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:19 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:19 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:19 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:19 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:19 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:19 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 15:29:19 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:25 | (ConsoleMenuMain.java:80) | com.bagonationalbank.app.main.ConsoleMenuMain - Thank You for using our Banking App... Have a good one!!
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:25 | (ConsoleMenu.java:876) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:25 | (ConsoleMenu.java:877) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:25 | (ConsoleMenu.java:878) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:25 | (ConsoleMenu.java:879) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:25 | (ConsoleMenu.java:880) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:25 | (ConsoleMenu.java:881) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:25 | (ConsoleMenu.java:882) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:25 | (ConsoleMenu.java:883) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:25 | (ConsoleMenu.java:884) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:25 | (ConsoleMenu.java:885) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:25 | (ConsoleMenu.java:886) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:27 | (ConsoleMenu.java:663) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:27 | (ConsoleMenu.java:664) | com.bagonationalbank.app.main.ConsoleMenuMain - RETURNING CUSTOMER
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:27 | (ConsoleMenu.java:665) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:27 | (ConsoleMenu.java:675) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Username
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:32 | (ConsoleMenu.java:678) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Pin
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:33 | (ConsoleMenu.java:657) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME b c!
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:33 | (ConsoleMenu.java:658) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:33 | (ConsoleMenu.java:535) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:33 | (ConsoleMenu.java:536) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:33 | (ConsoleMenu.java:537) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:33 | (ConsoleMenu.java:538) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Account Balance
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:33 | (ConsoleMenu.java:539) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Previous Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:33 | (ConsoleMenu.java:540) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Pending Transactions
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:33 | (ConsoleMenu.java:541) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Deposit Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:33 | (ConsoleMenu.java:542) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Withdraw Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:33 | (ConsoleMenu.java:543) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Transfer Funds
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:33 | (ConsoleMenu.java:544) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Open a New Account
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:33 | (ConsoleMenu.java:545) | com.bagonationalbank.app.main.ConsoleMenuMain - 8) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:33 | (ConsoleMenu.java:546) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-8
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:37 | (ConsoleMenuMain.java:80) | com.bagonationalbank.app.main.ConsoleMenuMain - Thank You for using our Banking App... Have a good one!!
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:37 | (ConsoleMenu.java:876) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:37 | (ConsoleMenu.java:877) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:37 | (ConsoleMenu.java:878) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:37 | (ConsoleMenu.java:879) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:37 | (ConsoleMenu.java:880) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:37 | (ConsoleMenu.java:881) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:37 | (ConsoleMenu.java:882) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:37 | (ConsoleMenu.java:883) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:37 | (ConsoleMenu.java:884) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:37 | (ConsoleMenu.java:885) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 18:56:37 | (ConsoleMenu.java:886) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:39 | (ConsoleMenu.java:668) | com.bagonationalbank.app.main.ConsoleMenuMain - EMPLOYEE LOGIN PORTAL
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:39 | (ConsoleMenu.java:669) | com.bagonationalbank.app.main.ConsoleMenuMain - ---------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:39 | (ConsoleMenu.java:675) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Username
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:42 | (ConsoleMenu.java:678) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Pin
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:43 | (ConsoleMenu.java:657) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME Jan Roberts!
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:43 | (ConsoleMenu.java:658) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:43 | (ConsoleMenu.java:567) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:43 | (ConsoleMenu.java:568) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:43 | (ConsoleMenu.java:569) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:43 | (ConsoleMenu.java:570) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Accounts Pending Approval
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:43 | (ConsoleMenu.java:571) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Account by Account ID
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:43 | (ConsoleMenu.java:572) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Account by Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:43 | (ConsoleMenu.java:573) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:43 | (ConsoleMenu.java:574) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:54 | (ConsoleMenu.java:706) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:54 | (ConsoleMenu.java:707) | com.bagonationalbank.app.main.ConsoleMenuMain - ACCOUNT DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:54 | (ConsoleMenu.java:708) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:54 | (ConsoleMenu.java:719) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Account ID: 7 ** Type: S ** Balance: $300.00 ** Opened On: 2021-01-09 ** Opened By: b c
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:54 | (ConsoleMenu.java:719) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Account ID: 9 ** Type: S ** Balance: $1000.00 ** Opened On: 2021-01-09 ** Opened By: b c
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:54 | (ConsoleMenu.java:719) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Account ID: 10 ** Type: S ** Balance: $1200.00 ** Opened On: 2021-01-09 ** Opened By: b c
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:54 | (ConsoleMenu.java:719) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Account ID: 11 ** Type: S ** Balance: $2000.00 ** Opened On: 2021-01-09 ** Opened By: b c
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:54 | (ConsoleMenu.java:719) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Account ID: 12 ** Type: C ** Balance: $100.00 ** Opened On: 2021-01-09 ** Opened By: Bob Dillon
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:54 | (ConsoleMenu.java:719) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Account ID: 14 ** Type: C ** Balance: $300.00 ** Opened On: 2021-01-09 ** Opened By: d 2
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:54 | (ConsoleMenu.java:719) | com.bagonationalbank.app.main.ConsoleMenuMain - 7) Account ID: 15 ** Type: S ** Balance: $1000.00 ** Opened On: 2021-01-09 ** Opened By: x y
+INFO    | main | 12-Jan-2021 Tuesday MST 18:57:54 | (ConsoleMenu.java:723) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please select an account that you'd like to approve or reject (0 for none): 
+INFO    | main | 12-Jan-2021 Tuesday MST 18:58:55 | (ConsoleMenu.java:379) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 18:58:55 | (ConsoleMenu.java:380) | com.bagonationalbank.app.main.ConsoleMenuMain - ACCOUNT DETAILS FOR BOB DILLON; DOB: 1988-12-23
+INFO    | main | 12-Jan-2021 Tuesday MST 18:58:55 | (ConsoleMenu.java:381) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 18:58:55 | (ConsoleMenu.java:389) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Account ID: 12 ** Type: C ** Balance: $100.00 ** Opened On: 2021-01-09
+INFO    | main | 12-Jan-2021 Tuesday MST 18:58:55 | (ConsoleMenu.java:737) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+What would you like to do with this account? 
+INFO    | main | 12-Jan-2021 Tuesday MST 18:58:55 | (ConsoleMenu.java:738) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+1) Approve 
+INFO    | main | 12-Jan-2021 Tuesday MST 18:58:55 | (ConsoleMenu.java:739) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Reject 
+INFO    | main | 12-Jan-2021 Tuesday MST 18:58:55 | (ConsoleMenu.java:740) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT 
+INFO    | main | 12-Jan-2021 Tuesday MST 19:02:06 | (ConsoleMenu.java:761) | com.bagonationalbank.app.main.ConsoleMenuMain - Account 12 for Bob Dillon has been successfully APPROVED!
+INFO    | main | 12-Jan-2021 Tuesday MST 19:02:06 | (ConsoleMenu.java:567) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 19:02:06 | (ConsoleMenu.java:568) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 19:02:06 | (ConsoleMenu.java:569) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 19:02:06 | (ConsoleMenu.java:570) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Accounts Pending Approval
+INFO    | main | 12-Jan-2021 Tuesday MST 19:02:06 | (ConsoleMenu.java:571) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Account by Account ID
+INFO    | main | 12-Jan-2021 Tuesday MST 19:02:06 | (ConsoleMenu.java:572) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Account by Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 19:02:06 | (ConsoleMenu.java:573) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 19:02:06 | (ConsoleMenu.java:574) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 20:35:08 | (BankingOperationsServiceImplTest.java:122) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 20:35:08 | (BankingOperationsServiceImplTest.java:97) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 20:35:08 | (BankingOperationsServiceImplTest.java:98) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 842741472
+INFO    | main | 12-Jan-2021 Tuesday MST 20:35:08 | (BankingOperationsServiceImplTest.java:134) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 20:35:08 | (BankingOperationsServiceImplTest.java:110) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 20:35:08 | (BankingOperationsServiceImplTest.java:111) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1337335626
+INFO    | main | 12-Jan-2021 Tuesday MST 21:03:16 | (BankingOperationsServiceImplTest.java:120) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 21:03:16 | (BankingOperationsServiceImplTest.java:95) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 21:03:16 | (BankingOperationsServiceImplTest.java:96) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 369049246
+INFO    | main | 12-Jan-2021 Tuesday MST 21:03:16 | (BankingOperationsServiceImplTest.java:132) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:03:16 | (BankingOperationsServiceImplTest.java:108) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 21:03:16 | (BankingOperationsServiceImplTest.java:109) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1608297024
+INFO    | main | 12-Jan-2021 Tuesday MST 21:13:55 | (BankingOperationsServiceImplTest.java:117) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 21:13:55 | (BankingOperationsServiceImplTest.java:92) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 21:13:55 | (BankingOperationsServiceImplTest.java:93) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 2141817446
+INFO    | main | 12-Jan-2021 Tuesday MST 21:13:55 | (BankingOperationsServiceImplTest.java:128) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:13:55 | (BankingOperationsServiceImplTest.java:105) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 21:13:55 | (BankingOperationsServiceImplTest.java:106) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 369049246
+INFO    | main | 12-Jan-2021 Tuesday MST 21:14:34 | (BankingOperationsServiceImplTest.java:107) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 21:14:34 | (BankingOperationsServiceImplTest.java:82) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 21:14:34 | (BankingOperationsServiceImplTest.java:83) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 71399214
+INFO    | main | 12-Jan-2021 Tuesday MST 21:14:34 | (BankingOperationsServiceImplTest.java:118) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:14:34 | (BankingOperationsServiceImplTest.java:95) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 21:14:34 | (BankingOperationsServiceImplTest.java:96) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 1932831450
+INFO    | main | 12-Jan-2021 Tuesday MST 21:30:47 | (BankingOperationsServiceImplTest.java:110) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 100
+INFO    | main | 12-Jan-2021 Tuesday MST 21:30:47 | (BankingOperationsServiceImplTest.java:85) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 1
+INFO    | main | 12-Jan-2021 Tuesday MST 21:30:47 | (BankingOperationsServiceImplTest.java:86) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 210506412
+INFO    | main | 12-Jan-2021 Tuesday MST 21:30:47 | (BankingOperationsServiceImplTest.java:121) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:30:47 | (BankingOperationsServiceImplTest.java:98) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - 3
+INFO    | main | 12-Jan-2021 Tuesday MST 21:30:47 | (BankingOperationsServiceImplTest.java:99) | com.bagonationalbank.app.service.test.BankingOperationsServiceImplTest - Mock for List, hashCode: 112049309
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:16 | (ConsoleMenu.java:877) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:16 | (ConsoleMenu.java:878) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:16 | (ConsoleMenu.java:879) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:16 | (ConsoleMenu.java:880) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:16 | (ConsoleMenu.java:881) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:16 | (ConsoleMenu.java:882) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:16 | (ConsoleMenu.java:883) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:16 | (ConsoleMenu.java:884) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:16 | (ConsoleMenu.java:885) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:16 | (ConsoleMenu.java:886) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:16 | (ConsoleMenu.java:887) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:28 | (ConsoleMenu.java:89) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME TO BAGO NATIONAL BANK!
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:28 | (ConsoleMenu.java:90) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:28 | (ConsoleMenu.java:94) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your First Name: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:40 | (ConsoleMenu.java:98) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid First Name! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:40 | (ConsoleMenu.java:94) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your First Name: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:49 | (ConsoleMenu.java:98) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid First Name! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:32:49 | (ConsoleMenu.java:94) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your First Name: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:33:24 | (ConsoleMenu.java:98) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid First Name! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:33:24 | (ConsoleMenu.java:94) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your First Name: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:33:27 | (ConsoleMenu.java:98) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid First Name! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:33:27 | (ConsoleMenu.java:94) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your First Name: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:33:30 | (ConsoleMenu.java:105) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your Last Name: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:33:32 | (ConsoleMenu.java:118) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:33:34 | (ConsoleMenu.java:118) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:33:36 | (ConsoleMenu.java:118) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:33:36 | (ConsoleMenu.java:118) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:33:38 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:33:57 | (ConsoleMenu.java:141) | com.bagonationalbank.app.main.ConsoleMenuMain - Invalid date... Please try again!
+INFO    | main | 12-Jan-2021 Tuesday MST 21:33:57 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:34:13 | (ConsoleMenu.java:149) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:34:17 | (ConsoleMenu.java:156) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Address1! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:34:17 | (ConsoleMenu.java:149) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:34:22 | (ConsoleMenu.java:156) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Address1! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:34:22 | (ConsoleMenu.java:149) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:34:27 | (ConsoleMenu.java:165) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 2: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:35:14 | (ConsoleMenu.java:172) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Address2! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:35:14 | (ConsoleMenu.java:165) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 2: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:35:22 | (ConsoleMenu.java:180) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your city: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:35:36 | (ConsoleMenu.java:194) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your state (Use abbreviated State Name e.g. use AZ for Arizona): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:35:38 | (ConsoleMenu.java:199) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid State! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:35:38 | (ConsoleMenu.java:194) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your state (Use abbreviated State Name e.g. use AZ for Arizona): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:35:45 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:35:48 | (ConsoleMenu.java:213) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:35:48 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:35:50 | (ConsoleMenu.java:213) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:35:50 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:35:53 | (ConsoleMenu.java:213) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:35:53 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:35:56 | (ConsoleMenu.java:213) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:35:56 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:00 | (ConsoleMenu.java:213) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:00 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:03 | (ConsoleMenu.java:213) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:03 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:05 | (ConsoleMenu.java:213) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip5! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:05 | (ConsoleMenu.java:208) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 5: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:09 | (ConsoleMenu.java:222) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 4 (press enter if you don't have zip4): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:12 | (ConsoleMenu.java:227) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip4! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:12 | (ConsoleMenu.java:222) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 4 (press enter if you don't have zip4): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:14 | (ConsoleMenu.java:227) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip4! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:14 | (ConsoleMenu.java:222) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 4 (press enter if you don't have zip4): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:28 | (ConsoleMenu.java:227) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip4! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:28 | (ConsoleMenu.java:222) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 4 (press enter if you don't have zip4): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:30 | (ConsoleMenu.java:227) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip4! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:30 | (ConsoleMenu.java:222) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 4 (press enter if you don't have zip4): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:30 | (ConsoleMenu.java:227) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip4! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:30 | (ConsoleMenu.java:222) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 4 (press enter if you don't have zip4): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:33 | (ConsoleMenu.java:227) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Zip4! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:33 | (ConsoleMenu.java:222) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your zip 4 (press enter if you don't have zip4): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:36 | (ConsoleMenu.java:234) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your primary phone number (10 digits, no dashes): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:40 | (ConsoleMenu.java:239) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Phone1! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:40 | (ConsoleMenu.java:234) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your primary phone number (10 digits, no dashes): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:43 | (ConsoleMenu.java:239) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Phone1! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:43 | (ConsoleMenu.java:234) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your primary phone number (10 digits, no dashes): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:46 | (ConsoleMenu.java:239) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Phone1! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:46 | (ConsoleMenu.java:234) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your primary phone number (10 digits, no dashes): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:57 | (ConsoleMenu.java:239) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Phone1! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:36:57 | (ConsoleMenu.java:234) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your primary phone number (10 digits, no dashes): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:37:02 | (ConsoleMenu.java:248) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your secondary phone number (10 digits, no dashes. Press enter if you don't have Phone2): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:37:08 | (ConsoleMenu.java:253) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Phone2! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:37:08 | (ConsoleMenu.java:248) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your secondary phone number (10 digits, no dashes. Press enter if you don't have Phone2): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:37:09 | (ConsoleMenu.java:253) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Phone2! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:37:09 | (ConsoleMenu.java:248) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your secondary phone number (10 digits, no dashes. Press enter if you don't have Phone2): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:37:12 | (ConsoleMenu.java:253) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Phone2! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:37:12 | (ConsoleMenu.java:248) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your secondary phone number (10 digits, no dashes. Press enter if you don't have Phone2): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:37:13 | (ConsoleMenu.java:253) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Phone2! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:37:13 | (ConsoleMenu.java:248) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your secondary phone number (10 digits, no dashes. Press enter if you don't have Phone2): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:37:44 | (ConsoleMenu.java:253) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Phone2! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:37:44 | (ConsoleMenu.java:248) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your secondary phone number (10 digits, no dashes. Press enter if you don't have Phone2): 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:37:50 | (ConsoleMenu.java:261) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your email address: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:38:05 | (ConsoleMenu.java:266) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid email! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:38:05 | (ConsoleMenu.java:261) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your email address: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:38:08 | (ConsoleMenu.java:266) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid email! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:38:08 | (ConsoleMenu.java:261) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your email address: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:38:17 | (ConsoleMenu.java:276) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Username Requirements
+INFO    | main | 12-Jan-2021 Tuesday MST 21:38:17 | (ConsoleMenu.java:277) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Must start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20
+INFO    | main | 12-Jan-2021 Tuesday MST 21:38:17 | (ConsoleMenu.java:278) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the username you'd like to use: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:38:44 | (ConsoleMenu.java:283) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Username not valid. Please follow the username requirements.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:38:45 | (ConsoleMenu.java:276) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Username Requirements
+INFO    | main | 12-Jan-2021 Tuesday MST 21:38:45 | (ConsoleMenu.java:277) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Must start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20
+INFO    | main | 12-Jan-2021 Tuesday MST 21:38:45 | (ConsoleMenu.java:278) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the username you'd like to use: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:38:58 | (ConsoleMenu.java:283) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Username not valid. Please follow the username requirements.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:38:58 | (ConsoleMenu.java:276) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Username Requirements
+INFO    | main | 12-Jan-2021 Tuesday MST 21:38:58 | (ConsoleMenu.java:277) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Must start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20
+INFO    | main | 12-Jan-2021 Tuesday MST 21:38:58 | (ConsoleMenu.java:278) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the username you'd like to use: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:39:01 | (ConsoleMenu.java:283) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Username not valid. Please follow the username requirements.
+INFO    | main | 12-Jan-2021 Tuesday MST 21:39:01 | (ConsoleMenu.java:276) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Username Requirements
+INFO    | main | 12-Jan-2021 Tuesday MST 21:39:01 | (ConsoleMenu.java:277) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Must start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20
+INFO    | main | 12-Jan-2021 Tuesday MST 21:39:01 | (ConsoleMenu.java:278) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the username you'd like to use: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:39:51 | (ConsoleMenu.java:300) | com.bagonationalbank.app.main.ConsoleMenuMain - Pin Requirements
+INFO    | main | 12-Jan-2021 Tuesday MST 21:39:51 | (ConsoleMenu.java:301) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Must start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20
+INFO    | main | 12-Jan-2021 Tuesday MST 21:39:51 | (ConsoleMenu.java:302) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter the pin you'd like to use: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:40:00 | (ConsoleMenu.java:313) | com.bagonationalbank.app.main.ConsoleMenuMain - Registration successful!
+INFO    | main | 12-Jan-2021 Tuesday MST 21:40:00 | (ConsoleMenu.java:35) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Let's get an account set up for you!
+INFO    | main | 12-Jan-2021 Tuesday MST 21:40:00 | (ConsoleMenu.java:36) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 21:40:00 | (ConsoleMenu.java:38) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Would you like to open a: 
+INFO    | main | 12-Jan-2021 Tuesday MST 21:40:00 | (ConsoleMenu.java:39) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Checking account
+INFO    | main | 12-Jan-2021 Tuesday MST 21:40:00 | (ConsoleMenu.java:40) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Savings account
+INFO    | main | 12-Jan-2021 Tuesday MST 21:40:00 | (ConsoleMenu.java:41) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:09 | (ConsoleMenu.java:877) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:09 | (ConsoleMenu.java:878) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:09 | (ConsoleMenu.java:879) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:09 | (ConsoleMenu.java:880) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:09 | (ConsoleMenu.java:881) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:09 | (ConsoleMenu.java:882) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:09 | (ConsoleMenu.java:883) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:09 | (ConsoleMenu.java:884) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:09 | (ConsoleMenu.java:885) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:09 | (ConsoleMenu.java:886) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:09 | (ConsoleMenu.java:887) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:11 | (ConsoleMenu.java:89) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME TO BAGO NATIONAL BANK!
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:11 | (ConsoleMenu.java:90) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:11 | (ConsoleMenu.java:94) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your First Name: 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:12 | (ConsoleMenu.java:105) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your Last Name: 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:12 | (ConsoleMenu.java:118) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:14 | (ConsoleMenu.java:118) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:15 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:19 | (ConsoleMenu.java:149) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:22 | (ConsoleMenu.java:156) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Address1! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:22 | (ConsoleMenu.java:149) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:25 | (ConsoleMenu.java:156) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Address1! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:25 | (ConsoleMenu.java:149) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:26 | (ConsoleMenu.java:156) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Address1! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:26 | (ConsoleMenu.java:149) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:28 | (ConsoleMenu.java:156) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Address1! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:28 | (ConsoleMenu.java:149) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:06:30 | (ConsoleMenu.java:165) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 2: 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:25 | (ConsoleMenu.java:877) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:25 | (ConsoleMenu.java:878) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:25 | (ConsoleMenu.java:879) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:25 | (ConsoleMenu.java:880) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:25 | (ConsoleMenu.java:881) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:25 | (ConsoleMenu.java:882) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:25 | (ConsoleMenu.java:883) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:25 | (ConsoleMenu.java:884) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:25 | (ConsoleMenu.java:885) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:25 | (ConsoleMenu.java:886) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:25 | (ConsoleMenu.java:887) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:28 | (ConsoleMenu.java:89) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME TO BAGO NATIONAL BANK!
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:28 | (ConsoleMenu.java:90) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:28 | (ConsoleMenu.java:94) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your First Name: 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:29 | (ConsoleMenu.java:105) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please enter your Last Name: 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:29 | (ConsoleMenu.java:118) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your Gender (M/F): 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:30 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:32 | (ConsoleMenu.java:134) | com.bagonationalbank.app.main.ConsoleMenuMain - Bad date format
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:32 | (ConsoleMenu.java:141) | com.bagonationalbank.app.main.ConsoleMenuMain - Invalid date... Please try again!
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:32 | (ConsoleMenu.java:129) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your date of birth (MM/DD/YYYY): 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:36 | (ConsoleMenu.java:149) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:41 | (ConsoleMenu.java:156) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Invalid Address1! Please Retry.
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:41 | (ConsoleMenu.java:149) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 1: 
+INFO    | main | 12-Jan-2021 Tuesday MST 22:08:43 | (ConsoleMenu.java:165) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter your address 2: 
+INFO    | main | 12-Jan-2021 Tuesday MST 23:28:34 | (ConsoleMenu.java:885) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 23:28:34 | (ConsoleMenu.java:886) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 23:28:34 | (ConsoleMenu.java:887) | com.bagonationalbank.app.main.ConsoleMenuMain -  Welcome To Bago National Bank's Online Banking App 
+INFO    | main | 12-Jan-2021 Tuesday MST 23:28:34 | (ConsoleMenu.java:888) | com.bagonationalbank.app.main.ConsoleMenuMain - ****************************************************
+INFO    | main | 12-Jan-2021 Tuesday MST 23:28:34 | (ConsoleMenu.java:889) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+BANKING MENU
+INFO    | main | 12-Jan-2021 Tuesday MST 23:28:34 | (ConsoleMenu.java:890) | com.bagonationalbank.app.main.ConsoleMenuMain - -----------------
+INFO    | main | 12-Jan-2021 Tuesday MST 23:28:34 | (ConsoleMenu.java:891) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Returning Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 23:28:34 | (ConsoleMenu.java:892) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) New Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 23:28:34 | (ConsoleMenu.java:893) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Employee
+INFO    | main | 12-Jan-2021 Tuesday MST 23:28:34 | (ConsoleMenu.java:894) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 23:28:34 | (ConsoleMenu.java:895) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 23:28:38 | (ConsoleMenu.java:670) | com.bagonationalbank.app.main.ConsoleMenuMain - EMPLOYEE LOGIN PORTAL
+INFO    | main | 12-Jan-2021 Tuesday MST 23:28:38 | (ConsoleMenu.java:671) | com.bagonationalbank.app.main.ConsoleMenuMain - ---------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 23:28:38 | (ConsoleMenu.java:677) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Username
+INFO    | main | 12-Jan-2021 Tuesday MST 23:28:59 | (ConsoleMenu.java:680) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please Enter your Pin
+INFO    | main | 12-Jan-2021 Tuesday MST 23:29:54 | (ConsoleMenu.java:659) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+WELCOME Jan Roberts!
+INFO    | main | 12-Jan-2021 Tuesday MST 23:29:54 | (ConsoleMenu.java:660) | com.bagonationalbank.app.main.ConsoleMenuMain - =*=*=*=*=*=*=*=*=*=*=*=*
+INFO    | main | 12-Jan-2021 Tuesday MST 23:29:54 | (ConsoleMenu.java:569) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 23:29:54 | (ConsoleMenu.java:570) | com.bagonationalbank.app.main.ConsoleMenuMain - What would you like to do today?
+INFO    | main | 12-Jan-2021 Tuesday MST 23:29:54 | (ConsoleMenu.java:571) | com.bagonationalbank.app.main.ConsoleMenuMain - --------------------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 23:29:54 | (ConsoleMenu.java:572) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) View Accounts Pending Approval
+INFO    | main | 12-Jan-2021 Tuesday MST 23:29:54 | (ConsoleMenu.java:573) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) View Account by Account ID
+INFO    | main | 12-Jan-2021 Tuesday MST 23:29:54 | (ConsoleMenu.java:574) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) View Account by Customer
+INFO    | main | 12-Jan-2021 Tuesday MST 23:29:54 | (ConsoleMenu.java:575) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) EXIT
+INFO    | main | 12-Jan-2021 Tuesday MST 23:29:54 | (ConsoleMenu.java:576) | com.bagonationalbank.app.main.ConsoleMenuMain - Please enter an appropriate choice between 1-4
+INFO    | main | 12-Jan-2021 Tuesday MST 23:30:03 | (ConsoleMenu.java:709) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+INFO    | main | 12-Jan-2021 Tuesday MST 23:30:03 | (ConsoleMenu.java:710) | com.bagonationalbank.app.main.ConsoleMenuMain - ACCOUNT DETAILS
+INFO    | main | 12-Jan-2021 Tuesday MST 23:30:03 | (ConsoleMenu.java:711) | com.bagonationalbank.app.main.ConsoleMenuMain - ------------------
+INFO    | main | 12-Jan-2021 Tuesday MST 23:30:03 | (ConsoleMenu.java:722) | com.bagonationalbank.app.main.ConsoleMenuMain - 1) Account ID: 7 ** Type: S ** Balance: $300.00 ** Opened On: 2021-01-09 ** Opened By: b c
+INFO    | main | 12-Jan-2021 Tuesday MST 23:30:03 | (ConsoleMenu.java:722) | com.bagonationalbank.app.main.ConsoleMenuMain - 2) Account ID: 9 ** Type: S ** Balance: $1000.00 ** Opened On: 2021-01-09 ** Opened By: b c
+INFO    | main | 12-Jan-2021 Tuesday MST 23:30:03 | (ConsoleMenu.java:722) | com.bagonationalbank.app.main.ConsoleMenuMain - 3) Account ID: 10 ** Type: S ** Balance: $1200.00 ** Opened On: 2021-01-09 ** Opened By: b c
+INFO    | main | 12-Jan-2021 Tuesday MST 23:30:03 | (ConsoleMenu.java:722) | com.bagonationalbank.app.main.ConsoleMenuMain - 4) Account ID: 11 ** Type: S ** Balance: $2000.00 ** Opened On: 2021-01-09 ** Opened By: b c
+INFO    | main | 12-Jan-2021 Tuesday MST 23:30:03 | (ConsoleMenu.java:722) | com.bagonationalbank.app.main.ConsoleMenuMain - 5) Account ID: 14 ** Type: C ** Balance: $300.00 ** Opened On: 2021-01-09 ** Opened By: d 2
+INFO    | main | 12-Jan-2021 Tuesday MST 23:30:03 | (ConsoleMenu.java:722) | com.bagonationalbank.app.main.ConsoleMenuMain - 6) Account ID: 15 ** Type: S ** Balance: $1000.00 ** Opened On: 2021-01-09 ** Opened By: x y
+INFO    | main | 12-Jan-2021 Tuesday MST 23:30:03 | (ConsoleMenu.java:726) | com.bagonationalbank.app.main.ConsoleMenuMain - 
+Please select an account that you'd like to approve or reject (0 for none): 

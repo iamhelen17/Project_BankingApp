@@ -1,14 +1,11 @@
 package com.bagonationalbank.app.main;
 
 import java.text.SimpleDateFormat;
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collectors;
-
 import org.apache.log4j.Logger;
 
 import com.bagonationalbank.app.exception.BusinessException;
@@ -21,7 +18,7 @@ import com.bagonationalbank.app.model.Username;
 import com.bagonationalbank.app.service.BankingOperationsService;
 import com.bagonationalbank.app.service.impl.BankingOperationsServiceImpl;
 
-import jdk.internal.org.jline.utils.Log;
+
 
 public class ConsoleMenu {
 
@@ -30,7 +27,10 @@ public class ConsoleMenu {
 	private BankingOperationsService bankingOperationsService = new BankingOperationsServiceImpl();
 	
 	public Account createNewAccount (Customer customer) {
+		double deposit = 0;
+		int accountTypeChoice = 0;
 		Account account = null;
+		String accountType = null;
 
 		log.info("\nLet's get an account set up for you!");
 		log.info("=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*");		
@@ -39,9 +39,6 @@ public class ConsoleMenu {
 		log.info("1) Checking account");
 		log.info("2) Savings account");
 		log.info("3) EXIT");
-
-		int accountTypeChoice = 0;
-		String accountType = null;
 		
 		try {
 			accountTypeChoice = Integer.parseInt(sc.nextLine());
@@ -63,7 +60,13 @@ public class ConsoleMenu {
 		
 		log.info("How much would you like to initially deposit?");
 		String depositStr = sc.nextLine();
-		double deposit = Double.parseDouble(depositStr);
+		
+		try {
+			deposit = Double.parseDouble(depositStr);
+		} catch (NumberFormatException e) {
+			log.info("Please enter a numeric value. You cannot enter special characters, symbols or white spaces.");
+			return null;
+		}
 		
 		try {
 			account = bankingOperationsService.createNewAccount(customer, deposit, accountType);
@@ -80,12 +83,34 @@ public class ConsoleMenu {
 	}
 
 	public Customer createNewCustomer () {
+		boolean fail = false;
+		boolean success = true;
+		Customer customer = null;
+		Date dob2 = null;
+		Pin pin = null;
+		SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+		String address1 = null;
+		String address2 = null;
+		String city = null;
+		String dob = null;	
+		String email = null;
+		String firstName = null;
+		String gender = null;
+		String lastName = null;
+		String phone1 = null;
+		String phone2 = null;
+		String pinStr = null;
+		String state = null;
+		String usernameStr = null;
+		String zip4 = null;
+		String zip5 = null;
+		Username username = null;
+
+		dateFormat.setLenient(false);
+
 		log.info("\nWELCOME TO BAGO NATIONAL BANK!");
 		log.info("=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*");
-		boolean success = true;
-		boolean fail = false;
 	
-		String firstName;
 		do {
 			log.info("\nPlease enter your First Name: ");
 			firstName = sc.nextLine();
@@ -95,7 +120,6 @@ public class ConsoleMenu {
 			}
 		} while (!success);
 
-		String lastName;
 		success = true;
 		do {
 			log.info("\nPlease enter your Last Name: ");
@@ -104,29 +128,22 @@ public class ConsoleMenu {
 			
 			if (!success) {
 				log.info("\nInvalid Last Name! Please Retry.");
-			}
-			
+			}		
 		} while (!success);
 
 		
-		String gender;
-			do {
-				log.info("Please enter your Gender (M/F): ");  
-				gender = sc.nextLine().toUpperCase();
-			} while (bankingOperationsService.isValidGender(gender) == false);
-		  
-
-		//log.info("Please enter your date of birth (MM/DD/YYYY): ");
-		//String dob = sc.nextLine();
-		//SimpleDateFormat dateFormat = new SimpleDateFormat("mm/dd/yyyy");
-		//dateFormat.setLenient(false);
-			
-		String dob;	
-		Date dob2 = null;
-		SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
-		dateFormat.setLenient(false);
 		success = true;
-		
+		do {
+			log.info("Please enter your Gender (M/F): ");  
+			gender = sc.nextLine().toUpperCase();
+			success = bankingOperationsService.isValidGender(gender);
+					
+			if (!success) {
+				log.info("\nInvalid Gender! Please Retry.");
+			}
+		} while (!success);
+			
+		success = true;
 		do {
 			log.info("Please enter your date of birth (MM/DD/YYYY): ");
 			dob = sc.nextLine();
@@ -140,20 +157,13 @@ public class ConsoleMenu {
 				dob2 = dateFormat.parse(dob);
 			} catch (ParseException e) {
 				success = false;
-				log.info("Invalid date... Please try again!");              //is this correct   
+				log.info("Invalid date... Please try again!");               
 			}
-
 		} while (!success);
-			
 
-
-		
-		
-
-		String address1;
 		success = true;
 		do {
-			log.info("Please enter your address 1: ");  //alphanumeric
+			log.info("Please enter your address 1: ");  
 			address1 = sc.nextLine();
 			success = bankingOperationsService.isValidString(address1, 5, 45, true, false);
 			fail = bankingOperationsService.isValidNumber(address1, 5, 45, true);
@@ -162,12 +172,10 @@ public class ConsoleMenu {
 				success = false;
 				log.info("\nInvalid Address1! Please Retry.");
 			}
-			
 		} while (!success);
 
 		success = true;
 		fail = false;
-		String address2;
 		do {
 			log.info("Please enter your address 2: ");
 			address2 = sc.nextLine();
@@ -178,10 +186,8 @@ public class ConsoleMenu {
 				success = false;
 				log.info("\nInvalid Address2! Please Retry.");
 			}
-			
 		} while (!success);
 
-		String city;
 		success = true;
 		do {
 			log.info("Please enter your city: ");
@@ -191,25 +197,19 @@ public class ConsoleMenu {
 			if (!success) {
 				log.info("\nInvalid City! Please Retry.");
 			}
-			
 		} while (!success);
-
 		
-		String state;
 		success = true;
 		do {
-			log.info("Please enter your state (Use abbreviated State Name e.g. use AZ for Arizona): ");
+			log.info("Please enter your state (Use abbreviated state name e.g. use AZ for Arizona): ");
 			state = sc.nextLine().toUpperCase();
 			success = bankingOperationsService.isValidString(state, 2, 2, true, true);
 			
 			if (!success) {
 				log.info("\nInvalid State! Please Retry.");
 			}
-			
 		} while (!success);
 
-		
-		String zip5;
 		success = true;
 		do {
 			log.info("Please enter your zip 5: ");
@@ -219,11 +219,8 @@ public class ConsoleMenu {
 			if (!success) {
 				log.info("\nInvalid Zip5! Please Retry.");
 			}
-			
 		} while (!success);
-
 		
-		String zip4;
 		success = true;
 		do {
 			log.info("Please enter your zip 4 (press enter if you don't have zip4): ");      
@@ -235,7 +232,6 @@ public class ConsoleMenu {
 			}
 		} while (!success);
 
-		String phone1;
 		success = true;
 		do {
 			log.info("Please enter your primary phone number (10 digits, no dashes): ");           
@@ -247,9 +243,7 @@ public class ConsoleMenu {
 			}
 			
 		} while (!success);
-
 		
-		String phone2;
 		success = true;
 		do {
 			log.info("Please enter your secondary phone number (10 digits, no dashes. Press enter if you don't have Phone2): "); 
@@ -262,7 +256,6 @@ public class ConsoleMenu {
 		} while (!success);
 	
 		
-		String email;
 		success = true;
 		do {
 			log.info("Please enter your email address: ");
@@ -272,10 +265,8 @@ public class ConsoleMenu {
 			if (!success) {
 				log.info("\nInvalid email! Please Retry.");
 			}
-			
 		} while (!success);
 		
-		String usernameStr;
 		success = true;
 		do {
 			success = true;
@@ -301,18 +292,22 @@ public class ConsoleMenu {
 			}
 		} while (!success);
 
-		String pinStr;
 		success = true;
 		do {
 			log.info("Pin Requirements");
 			log.info("\nMust start with an alphanumeric character, only underscore and hyphen allowed, min length = 7, max length = 20");
 			log.info("\nPlease enter the pin you'd like to use: ");                              
 			pinStr = sc.nextLine();
-		} while (bankingOperationsService.isValidCredentials(pinStr, 7, 20, true) == false);
+			success = bankingOperationsService.isValidCredentials(pinStr, 7, 20, true);
 
-		Customer customer = new Customer (firstName, lastName, gender, dob2, address1, address2, city, state, zip5, zip4, phone1, phone2, email);
-		Username username = new Username (usernameStr, customer); 
-		Pin pin = new Pin (pinStr, username);
+			if (!success) {
+				log.info("\nSorry that pin does not meet the requirements. Please try again.");
+			}
+		} while (!success);
+
+		customer = new Customer (firstName, lastName, gender, dob2, address1, address2, city, state, zip5, zip4, phone1, phone2, email);
+		username = new Username (usernameStr, customer); 
+		pin = new Pin (pinStr, username);
 		
 		try {
 			customer = bankingOperationsService.createNewCustomer(pin);
@@ -358,36 +353,10 @@ public class ConsoleMenu {
 			log.info(e.getMessage());
 		}
 	}
-	
-	public int getAccountType() {
-		int choice = 0;
-		
-		do {
-			log.info("PLEASE SELECT ACCOUNT TYPE");
-			log.info("------------------------------");
-			log.info("1) Checking");
-			log.info("2) Saving");
-			log.info("3) EXIT");
-			log.info("Please enter an appropriate choice between 1-3");
 			
-			try {
-				choice = Integer.parseInt(sc.nextLine());
-			} catch (NumberFormatException e) {
-				log.info("Please enter a numeric value. You cannot enter special characters, symbols or white spaces.");
-				return -1;
-			}
-			
-			if (choice >= 1 && choice < 4) {
-				return choice;
-			} else {
-				log.info("INVALID MENU OPTION.... Kindly retry!!!!!");
-			}	
-		} while (true);
-	}
-		
 	public Account getAccountByAccountIdEmployee (Account account) throws BusinessException {
-		Account retrievedAccount = account;
 		int accountId = 0;
+		Account retrievedAccount = account;
 		String accountType = null;
 		
 		if (account == null) { 
@@ -464,16 +433,19 @@ public class ConsoleMenu {
 				log.info("ACCOUNT DETAILS");
 				log.info("------------------");
 				
-				for (int i = 0, j = 1; i < accounts.size(); i++, j++) {
+				for (int i = 0, j = 1; i < accounts.size(); i++) {
 					account = accounts.get(i);
 					if (status.equals("active")) { 
-						log.info(j + ") Account ID: " + account.getAccountId() + " ** Account Type: " + account.getAccountType() + " ** Balance: $" + String.format("%.2f", account.getBalance()));
+						log.info(j++ + ") Account ID: " + account.getAccountId() + " ** Account Type: " + account.getAccountType() + " ** Balance: $" + String.format("%.2f", account.getBalance()));
 					} else if (status.equals("pending")) {
-						log.info(j + ") Account ID: " + account.getAccountId() + " ** Account Type: " + account.getAccountType() + " ** Balance: $" + String.format("%.2f", account.getBalance()) + " ** Opened on: " + account.getOpenedDate());
-					}   // else
+						log.info(j++ + ") Account ID: " + account.getAccountId() + " ** Account Type: " + account.getAccountType() + " ** Balance: $" + String.format("%.2f", account.getBalance()) + " ** Opened on: " + account.getOpenedDate());
+					} else if (status.equals("closed")) {
+						log.info(j++ + ") Account ID: " + account.getAccountId() + " ** Account Type: " + account.getAccountType() + " ** Balance: $" + String.format("%.2f", account.getBalance()) + " ** Opened on: " + account.getOpenedDate() + " ** Closed on: " + account.getClosedDate());
+					} else if (status.equals("rejected")) {
+						log.info(j++ + ") Account ID: " + account.getAccountId() + " ** Account Type: " + account.getAccountType() + " ** Balance: $" + String.format("%.2f", account.getBalance()) + " ** Rejected By: " + account.getApprovedBy());
+					} 
 				}
 			}
-			
 		} catch (BusinessException e) {
 			log.info(e.getMessage());
 		}
@@ -520,9 +492,9 @@ public class ConsoleMenu {
 
 	public void getAccountsByCustomerNameEmployee () throws BusinessException {
 		List<Account> accounts = null;
-		String status = "active";
 		String firstName = null;
 		String lastName = null;
+		String status = "active";
 		
 		log.info("Please enter the customer's First Name: ");
 		firstName = sc.nextLine();
@@ -552,7 +524,6 @@ public class ConsoleMenu {
 			} else {
 				log.info("\n" + firstName + " " + lastName + " not found.");
 			}
-			
 		} catch (BusinessException e) {
 			log.info(e.getMessage());
 		}
@@ -591,11 +562,6 @@ public class ConsoleMenu {
 		} while (true);		
 	}
 
-	public void getWelcomeMessageCustomer (Customer customer) {
-		log.info("\nWELCOME " + customer.getFirstName()+ " " + customer.getLastName() +"!");
-		log.info("=*=*=*=*=*=*=*=*=*=*=*=*");
-	}
-
 	public int getMenuEmployee (Employee employee) {
 		int choice = 0;
 		
@@ -624,20 +590,113 @@ public class ConsoleMenu {
 		} while (true);		
 	}
 
-	public void getWelcomeMessageEmployee (Employee employee) {
-		log.info("\nWELCOME "+ employee.getFirstName() + " " + employee.getLastName() +"!");
+	// Returns all transactions for this customer, for a given status.
+	public void getTransactionsByCustomerId(Customer customer, String status) {
+		int i = 0;
+		int j = 1;
+		
+		try {  
+			List<Transaction> transactions = bankingOperationsService.getTransactionsByCustomerId(customer, status);
+			
+			log.info("");
+			log.info("TRANSACTION DETAILS");
+			log.info("------------------");
+			
+			// Go through the list of transactions, and print all of them.
+			if (transactions != null && transactions.size() > 0) {
+				for (i = 0, j = 1; i < transactions.size(); i++, j++) {
+					getTransactionByTransactionId(transactions.get(i), status, j);
+				}
+			} else {
+				log.info("There are no transactions to list.");
+			}
+		} catch (BusinessException e) {
+			log.info(e.getMessage());
+		}
+	}
+	
+	public void getTransactionByTransactionId(Transaction transaction, String status, int count) {	
+		Customer sendingCustomer = null;
+		String accountType = null;
+		String countStr = "";
+
+		if (transaction.getAccount().getAccountType().equals("savings")) {
+			accountType = "S";
+		} else if (transaction.getAccount().getAccountType().equals("checking")) {
+			accountType = "C";
+		}
+		
+		if (count > 0) {
+			countStr = count + ") ";
+		}
+		//prints each confirmed transaction 
+		if (status.equals("confirmed")) {
+			log.info(countStr + 
+						"Date: " + transaction.getTransactionDate() +
+						" ** Account: " + transaction.getAccount().getAccountId() +
+						" ** Account Type: " + accountType +
+						" ** "+ transaction.getTransactionType() +
+						" ** Amount: $" + String.format("%.2f", Math.abs(transaction.getAmount())) +
+						" ** Balance: $" + String.format("%.2f", transaction.getNewBalance()));
+		} else if (status.equals("pending")) {
+			try { //look up linked transaction ID
+				sendingCustomer = bankingOperationsService.getCustomerByTransactionId(new Transaction(transaction.getLinkedTransactionId()));
+			} catch (BusinessException e) {
+				log.info(e.getMessage());
+			}
+			
+			log.info(countStr + 
+					"Date: " + transaction.getTransactionDate() +
+					" ** Account ID: " + transaction.getAccount().getAccountId() +
+					" ** Account Type: " + accountType +
+					" ** "+ transaction.getTransactionType() +
+					" ** Amount: $" + String.format("%.2f", Math.abs(transaction.getAmount())) +
+					" ** Sent By: " + sendingCustomer.getFirstName() + " " + sendingCustomer.getLastName());
+		}
+	}
+
+	public void getWelcomeMessage (String firstName, String lastName) {
+		log.info("\nWELCOME " + firstName+ " " + lastName +"!");
 		log.info("=*=*=*=*=*=*=*=*=*=*=*=*");
 	}
 
-	public void managePendingAccountsEmployee () throws BusinessException {
-		List<Account> accounts = null;
+	public Pin loginMenu(int user) {
+		if (user == 1) {
+			log.info("");
+			log.info("RETURNING CUSTOMER");
+			log.info("------------------");
+		} 
+		else if (user == 2) {
+			log.info("EMPLOYEE LOGIN PORTAL");
+			log.info("---------------------");
+		}
+		
+		String usernameInput = null;
+		String pinInput = null;
+		
+		log.info("\nPlease Enter your Username");
+		usernameInput = sc.nextLine();
+		
+		log.info("\nPlease Enter your Pin");
+		pinInput = sc.nextLine();
+		
+		Username username = new Username(usernameInput);
+		Pin pin = new Pin(pinInput, username);
+		
+		return pin;
+		
+	}
+	
+	public void managePendingAccountsEmployee (Employee employee) throws BusinessException {
 		int accountChoice = 0;
 		int approveRejectChoice = 0;
-		Account account = null;
-		String accountType = null;
-		String result = null;
 		int i = 0;
 		int j = 1;
+		Account account = null;
+		List<Account> accounts = null;
+		String accountType = null;
+		String approveRejectStr = null;
+		String result = null;
 		
 		try {
 			accounts = bankingOperationsService.getAllAccounts("pending");
@@ -674,7 +733,7 @@ public class ConsoleMenu {
 		}
 		
 		
-		if (accountChoice >= 1 && accountChoice <= j) {
+		if (accountChoice >= 1 && accountChoice < j) {
 			account = accounts.get(accountChoice - 1);
 			getAccountByAccountIdEmployee(account);
 	
@@ -691,9 +750,11 @@ public class ConsoleMenu {
 			}
 
 			if (approveRejectChoice == 1) {
-				result = bankingOperationsService.updatePendingAccount(account, "active");
+				approveRejectStr = "APPROVED";
+				result = bankingOperationsService.updatePendingAccount(account, "active", employee);
 			} else if (approveRejectChoice == 2) {
-				result = bankingOperationsService.updatePendingAccount(account, "rejected");
+				approveRejectStr = "REJECTED";
+				result = bankingOperationsService.updatePendingAccount(account, "rejected", employee);
 			} else if (approveRejectChoice == 3) {
 				return;
 			} else {
@@ -701,10 +762,8 @@ public class ConsoleMenu {
 				return;
 			}
 			
-			if (result.equals("active")) {
-				log.info("Account " + account.getAccountId() + " for " + account.getCustomer().getFirstName() + " " + account.getCustomer().getLastName() + " has been successfully APPROVED!");
-			} else if (result.equals("rejected")) {
-				log.info("Account " + account.getAccountId() + " for " + account.getCustomer().getFirstName() + " " + account.getCustomer().getLastName() + " has been successfully REJECTED!");
+			if (result.equals("active") || result.equals("rejected")) {
+				log.info("Account " + account.getAccountId() + " for " + account.getCustomer().getFirstName() + " " + account.getCustomer().getLastName() + " has been successfully " + approveRejectStr + "!");
 			} else {
 				log.info("Approval process failed.");
 				return;
@@ -719,16 +778,16 @@ public class ConsoleMenu {
 	}
 
 	public List<Transaction> managePendingTransactions(Customer customer) {
-		List<Transaction> transactions = null;
-		List<Transaction> pendingTransactions = new ArrayList<>();
-		Transaction transaction = null;
-		String status = "pending";
-		int transactionChoice = 0;
 		int approveRejectChoice = 0;
-		String approveRejectStr = null;
+		int transactionChoice = 0;
 		int i = 0;
 		int j = 1;
 		Account account = null;
+		List<Transaction> pendingTransactions = new ArrayList<>();
+		List<Transaction> transactions = null;
+		String status = "pending";
+		String approveRejectStr = null;
+		Transaction transaction = null;
 		
 		try {
 			transactions = bankingOperationsService.getTransactionsByCustomerId(customer, status);
@@ -746,8 +805,6 @@ public class ConsoleMenu {
 					}
 				}
 				
-				//transactionsListByCustomerId.stream().filter(t -> t !=null).forEach(t -> log.info(t));  //collect(Collectors.toList());
-				
 				if (j > 1) {
 					log.info("\nWhich transaction would you like to approve or reject? (0 for none): ");
 				} else {
@@ -762,7 +819,7 @@ public class ConsoleMenu {
 					return null;
 				}
 				
-				if (transactionChoice >= 1 && transactionChoice <= j) {
+				if (transactionChoice >= 1 && transactionChoice < j) {
 					transaction = transactions.get(transactionChoice - 1);
 					getTransactionByTransactionId(transaction, "pending", 1);
 							
@@ -815,100 +872,6 @@ public class ConsoleMenu {
 		return transactions;
 	}
 
-	public void getTransactionsByCustomerId(Customer customer, String status) {
-		int i = 0;
-		int j = 1;
-		
-		try {
-			List<Transaction> transactions = bankingOperationsService.getTransactionsByCustomerId(customer, status);
-			
-			log.info("");
-			log.info("TRANSACTION DETAILS");
-			log.info("------------------");
-
-			if (transactions != null && transactions.size() > 0) {
-			
-				for (i = 0, j = 1; i < transactions.size(); i++, j++) {
-					getTransactionByTransactionId(transactions.get(i), status, j);
-				}
-				
-				//transactionsListByCustomerId.stream().filter(t -> t !=null).forEach(t -> log.info(t));  //collect(Collectors.toList());
-			} else {
-				log.info("There are no transactions to list.");
-			}
-			
-		} catch (BusinessException e) {
-			log.info(e.getMessage());
-		}
-	}
-	
-	public void getTransactionByTransactionId(Transaction transaction, String status, int count) {	
-		String accountType = null;
-		Customer sendingCustomer = null;
-		String countStr = "";
-
-		if (transaction.getAccount().getAccountType().equals("savings")) {
-			accountType = "S";
-		} else if (transaction.getAccount().getAccountType().equals("checking")) {
-			accountType = "C";
-		}
-		
-		if (count > 0) {
-			countStr = count + ") ";
-		}
-		
-		if (status.equals("confirmed")) {
-			log.info(countStr + 
-						"Date: " + transaction.getTransactionDate() +
-						" ** Account: " + transaction.getAccount().getAccountId() +
-						" ** Account Type: " + accountType +
-						" ** "+ transaction.getTransactionType() +
-						" ** Amount: $" + String.format("%.2f", Math.abs(transaction.getAmount())) +
-						" ** Balance: $" + String.format("%.2f", transaction.getNewBalance()));
-		} else if (status.equals("pending")) {
-			try {
-				sendingCustomer = bankingOperationsService.getCustomerByTransactionId(new Transaction(transaction.getLinkedTransactionId()));
-			} catch (BusinessException e) {
-				log.info(e.getMessage());
-			}
-			
-			log.info(countStr + 
-					"Date: " + transaction.getTransactionDate() +
-					" ** Account ID: " + transaction.getAccount().getAccountId() +
-					" ** Account Type: " + accountType +
-					" ** "+ transaction.getTransactionType() +
-					" ** Amount: $" + String.format("%.2f", Math.abs(transaction.getAmount())) +
-					" ** Sent By: " + sendingCustomer.getFirstName() + " " + sendingCustomer.getLastName());
-		}
-	}
-
-	public Pin logInMenu(int user) {
-		if (user == 1) {
-			log.info("");
-			log.info("RETURNING CUSTOMER");
-			log.info("------------------");
-		} 
-		else if (user == 2) {
-			log.info("EMPLOYEE LOGIN PORTAL");
-			log.info("---------------------");
-		}
-		
-		String usernameInput = null;
-		String pinInput = null;
-		
-		log.info("\nPlease Enter your Username");
-		usernameInput = sc.nextLine();
-		
-		log.info("\nPlease Enter your Pin");
-		pinInput = sc.nextLine();
-		
-		Username username = new Username(usernameInput);
-		Pin pin = new Pin(pinInput, username);
-		
-		return pin;
-		
-	}
-	
 	public int startMenu() {		
 		int choice = 0;
 		
@@ -941,12 +904,12 @@ public class ConsoleMenu {
 	}
 
 	public void transferFundsExternal(Customer customer) {
-		List<Account> accounts = null;
+		double amount = 0;
 		int fromChoice = 0;
 		int toChoice = 0;
 		Account fromAccount = null;
 		Account toAccount = null;
-		double amount = 0;
+		List<Account> accounts = null;
 		String status = "pending";
 		
 		try {
@@ -964,8 +927,9 @@ public class ConsoleMenu {
 			return;
 		}
 		
-		// validate that the account they choose is actually a choice you gave them
+		// Validate that the account they choose is actually a choice you gave them.
 		if (fromChoice < 1 || fromChoice > accounts.size()) {
+			log.info("Invalid option.");
 			return;
 		}
 
@@ -978,16 +942,22 @@ public class ConsoleMenu {
 		}
 
 		fromAccount = accounts.get(fromChoice - 1);
-		toAccount = new Account(toChoice);
+
+		if (fromAccount.getAccountId() == toChoice) {
+			log.info("Can't transfer from one account to itself.");
+			return;
+		}
 		
-		// validate that toChoice is an actual account
 		try {
-			if (bankingOperationsService.isAccount(toAccount) == false) {
-				return;
-			}
-		} catch (BusinessException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();                               //change print statement
+			toAccount = bankingOperationsService.getAccountByAccountId(new Account(toChoice));
+		} catch (BusinessException e) {
+			log.info(e.getMessage());
+			return;
+		}
+
+		if (toAccount == null) {
+			log.info("\nSorry, that is not a valid account.");
+			return;
 		}
 		
 		try {
@@ -999,12 +969,6 @@ public class ConsoleMenu {
 		}
 
 		try {
-			toAccount.setCustomer(bankingOperationsService.getCustomerByAccountId(toAccount));
-		} catch (BusinessException e) {
-			log.info(e.getMessage());
-		}
-		
-		try {
 			bankingOperationsService.transferFunds(fromAccount, toAccount, amount, status);
 		} catch (BusinessException e) {
 			log.info(e.getMessage());
@@ -1012,23 +976,24 @@ public class ConsoleMenu {
 	}
 
 	public void transferFundsInternal(Customer customer) {
-		List<Account> accounts = null;
+		double amount = 0;
 		int fromChoice = 0;
 		int toChoice = 0;
 		Account fromAccount = null;
 		Account toAccount = null;
-		double amount = 0;
+		List<Account> accounts = null;
 		String status = "confirmed";
 		
-		try {
+		try {  // Get all active accounts for this customer.
 			accounts = getAccountsByCustomerId(customer, "active");
 		} catch (BusinessException e) {
 			log.info(e.getMessage());
 			return;
 		}
 		
-		if (accounts.size() < 2) {
+		if (accounts.size() < 2) {  // Can't transfer between 2 internal accounts if you have less than 2 accounts.
 			log.info("You need to have at least 2 accounts in order to use this option.");
+			return;
 		}
 
 		try {
@@ -1039,7 +1004,7 @@ public class ConsoleMenu {
 			return;
 		}
 		
-		// validate that the account they choose is actually a choice you gave them
+		// Validate that the account they choose is actually a choice you gave them.
 		if (fromChoice < 1 || fromChoice > accounts.size()) {
 			log.info("Invalid option.");
 			return;
@@ -1053,13 +1018,17 @@ public class ConsoleMenu {
 			return;
 		}
 
-		// validate that the account they choose is actually a choice you gave them
-		
+		// Validate that the account they choose is actually a choice you gave them.
 		if (toChoice < 1 || toChoice > accounts.size()) {
 			log.info("Invalid option.");
 			return;
 		}
-
+		
+		if (fromChoice == toChoice) {
+			log.info("Can't transfer from one account to itself.");
+			return;
+		}
+		
 		try {
 			log.info("\nPlease Enter Amount to Transfer: ");
 			amount = Double.parseDouble(sc.nextLine());
@@ -1071,14 +1040,10 @@ public class ConsoleMenu {
 		fromAccount = accounts.get(fromChoice - 1);
 		toAccount = accounts.get(toChoice - 1);
 		
-		if (fromAccount.getAccountId() != toAccount.getAccountId()) {
-			try {
-				bankingOperationsService.transferFunds(fromAccount, toAccount, amount, status);
-			} catch (BusinessException e) {
-				log.info(e.getMessage());
-			}
-		} else {
-			log.info("You cannot transfer funds from the same account to the same account.");
+		try {
+			bankingOperationsService.transferFunds(fromAccount, toAccount, amount, status);
+		} catch (BusinessException e) {
+			log.info(e.getMessage());
 		}
 	}
 

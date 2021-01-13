@@ -24,16 +24,18 @@ public class ConsoleMenuMain {
 		int transferMenuChoice = 0;
 		int viewAccountByCustomerChoice = 0;
 
+		
 		do {
 			startMenuChoice = console.startMenu();
+			
 			if (startMenuChoice == 1) {
-				Pin customerCredentials = console.logInMenu(1);
+				Pin customerCredentials = console.loginMenu(1);
 				
 				try {
-					Customer customer = bankingOperationsService.logIn(customerCredentials);
+					Customer customer = bankingOperationsService.customerLogin(customerCredentials);
 					if (customer != null) {
-						console.getWelcomeMessageCustomer(customer);
-						//console.getAccountsByCustomerId(logIn);
+						console.getWelcomeMessage(customer.getFirstName(), customer.getLastName());
+						//console.getAccountsByCustomerId(login);
 						do {
 							customerMenuChoice = console.getMenuCustomer(customer);
 							switch (customerMenuChoice) {
@@ -82,7 +84,7 @@ public class ConsoleMenuMain {
 							}
 						} while (customerMenuChoice != 8);				
 					} else {
-						log.info("Invalid Credentials... Please try again");  // if not successful
+						log.info("Invalid Credentials... Please try again");  
 					}
 				} catch (BusinessException e) {
 					log.info(e.getMessage());
@@ -92,19 +94,19 @@ public class ConsoleMenuMain {
 				Customer customer = console.createNewCustomer();
 				console.createNewAccount(customer);
 			} else if (startMenuChoice == 3) {
-				Pin employeeCredentials = console.logInMenu(2);
+				Pin employeeCredentials = console.loginMenu(2);
 				Employee employee = null;
 				
 				try {
-					employee = bankingOperationsService.employeeLogIn(employeeCredentials);
+					employee = bankingOperationsService.employeeLogin(employeeCredentials);
 				
 					if (employee != null) {
-						console.getWelcomeMessageEmployee(employee);
+						console.getWelcomeMessage(employee.getFirstName(), employee.getLastName());
 						do {
 							employeeMenuChoice = console.getMenuEmployee(employee);
 							switch (employeeMenuChoice) {
 							case 1:
-								console.managePendingAccountsEmployee();
+								console.managePendingAccountsEmployee(employee);
 								break;
 							case 2:
 								console.getAccountByAccountIdEmployee(null);
@@ -134,8 +136,7 @@ public class ConsoleMenuMain {
 						} while (employeeMenuChoice != 4);				
 					}
 				} catch (BusinessException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
+					log.info(e.getMessage());
 				}
 			} else if (startMenuChoice == 4) {
 				log.info("Thanks for banking with Bago National Bank. Have a great day!");
