@@ -1,7 +1,8 @@
 package com.bagonationalbank.app.service.test;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -12,9 +13,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
+import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.mockito.runners.MockitoJUnitRunner;
 
+import com.bagonationalbank.app.dao.impl.BankingOperationsDAOImpl;
 import com.bagonationalbank.app.service.impl.BankingOperationsServiceImpl;
 
 
@@ -25,6 +28,8 @@ import com.bagonationalbank.app.service.impl.BankingOperationsServiceImpl;
 class BankingOperationsServiceImplTest {
 	private static Logger log = Logger.getLogger(BankingOperationsServiceImplTest.class);
 	
+	@Mock
+	private BankingOperationsDAOImpl bankDAO;
 	
 	@InjectMocks 
 	private BankingOperationsServiceImpl bankService = new BankingOperationsServiceImpl();
@@ -32,6 +37,12 @@ class BankingOperationsServiceImplTest {
 	@BeforeEach
 	public void setup() {
 		MockitoAnnotations.initMocks(this);
+	}
+	
+	@Test
+	public void testGenericFirst() {
+		assertEquals(true, true);
+		assertEquals(false, false);
 	}
 	
 	@Test
@@ -44,6 +55,12 @@ class BankingOperationsServiceImplTest {
 	public void testIsValidGenderForTrue() {
 		boolean saved = bankService.isValidGender("F");  
 		assertTrue(saved);
+	}
+	
+	@Test
+	public void testIsValidGenderForFalse() {
+		boolean saved = bankService.isValidGender("o");  
+		assertFalse(saved);
 	}
 	
 	@Test
@@ -60,6 +77,12 @@ class BankingOperationsServiceImplTest {
 	}
 	
 	@Test
+	public void testIsValidEmailForFalse() {
+		boolean saved = bankService.isValidEmail("1il.com");
+		assertFalse(saved);
+	}
+	
+	@Test
 	public void testIsValidDateForSave() {
 		boolean saved = bankService.isValidDate("12/02/1999");
 		assertEquals(true, saved);
@@ -72,28 +95,12 @@ class BankingOperationsServiceImplTest {
 		assertTrue(saved);
 	}
 	
-	
 	@Test
 	public void testDepositFundsReturnsSingleValues() {
 		List mocklist = mock(List.class);
 		when(mocklist.size()).thenReturn(1);
 		
 		assertEquals(1, mocklist.size());
-		assertEquals(1, mocklist.size());
-		
-		
-		log.info(mocklist.size());
-		log.info(mocklist);
-	}
-	
-	@Test
-	public void testDepositFundsReturnsaMultipleValues() {
-		List mocklist = mock(List.class);
-		when(mocklist.size()).thenReturn(1).thenReturn(2).thenReturn(3);
-		
-		assertEquals(1, mocklist.size());
-		assertEquals(2, mocklist.size());
-		assertEquals(3, mocklist.size());
 		
 		log.info(mocklist.size());
 		log.info(mocklist);
@@ -120,5 +127,8 @@ class BankingOperationsServiceImplTest {
 		
 		log.info(mocklist.get(1));
 	}
+	
+	
+	
 	
 }

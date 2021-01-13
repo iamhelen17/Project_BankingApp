@@ -57,6 +57,9 @@ insert into bago_national_bank.account (account_type, balance, opened_date, clos
 values ('checking', 0, '2009-12-01', '2015-05-07', 'closed', 1, 2)
 ;
 
+insert into bago_national_bank.account (account_type, balance, opened_date, closed_date, status, approved_by, customer_id)
+values ('savings', 500, '2007-10-01', null, 'active', 1, 1)
+;
 
 create table bago_national_bank.username (
 	username_id			serial			not null,
@@ -103,7 +106,7 @@ create table bago_national_bank.transactions (
 	account_id				int				not null,
 	customer_id				int				not null,
 	status					varchar(15)		not null,
-	linked_transaction_id	int				not null,
+	linked_transaction_id	int				    null,
 	primary key (transaction_id),
 	constraint transactions_fk
 	foreign key (account_id)
