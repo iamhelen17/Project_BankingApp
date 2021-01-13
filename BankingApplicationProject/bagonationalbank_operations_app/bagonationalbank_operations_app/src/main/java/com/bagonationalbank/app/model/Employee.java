@@ -1,6 +1,5 @@
 package com.bagonationalbank.app.model;
 
-import java.util.ArrayList;
 import java.util.Date;
 
 public class Employee {
