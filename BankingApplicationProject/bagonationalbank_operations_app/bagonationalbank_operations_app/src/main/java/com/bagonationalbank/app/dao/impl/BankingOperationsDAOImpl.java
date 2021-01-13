@@ -371,7 +371,7 @@ private Account account;
 			}
 			
 			if (accounts.size() == 0) {
-				throw new BusinessException("No Accounts found with Account ID: " + resultSet.getInt("account_id"));  
+				throw new BusinessException("No " + status + " accounts found.");  
 			}	
 		} catch (ClassNotFoundException | SQLException e) {
 			throw new BusinessException("Internal error. Contact SYSADMIN!");
