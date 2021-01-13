@@ -112,7 +112,7 @@ public class ConsoleMenu {
 		log.info("=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*");
 	
 		do {
-			log.info("\nPlease enter your First Name: ");
+			log.info("\nPlease enter your First Name (min length:1, max legth:15): ");
 			firstName = sc.nextLine();
 			success = bankingOperationsService.isValidString(firstName, 1, 15, true, true);
 			if (!success) {
@@ -122,7 +122,7 @@ public class ConsoleMenu {
 
 		success = true;
 		do {
-			log.info("\nPlease enter your Last Name: ");
+			log.info("\nPlease enter your Last Name (min length:1, max legth:15): ");
 			lastName = sc.nextLine();
 			success = bankingOperationsService.isValidString(lastName, 1, 15, true, true);
 			
@@ -163,7 +163,7 @@ public class ConsoleMenu {
 
 		success = true;
 		do {
-			log.info("Please enter your address 1: ");  
+			log.info("Please enter your address 1 (min length:5, max legth:45): ");  
 			address1 = sc.nextLine();
 			success = bankingOperationsService.isValidString(address1, 5, 45, true, false);
 			fail = bankingOperationsService.isValidNumber(address1, 5, 45, true);
@@ -193,7 +193,7 @@ public class ConsoleMenu {
 
 		success = true;
 		do {
-			log.info("Please enter your city: ");
+			log.info("Please enter your city (min length:3, max legth:20): ");
 			city = sc.nextLine();
 			success = bankingOperationsService.isValidString(city, 3, 20, true, true);
 			
